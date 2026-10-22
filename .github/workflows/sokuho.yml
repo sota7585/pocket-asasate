@@ -1,0 +1,60 @@
+# 平日の決まった時間に値上がり上位10社を取得して Discord に送る。
+# 時刻は世界標準時（日本時間 −9時間）で書く。株価が約20分遅れなので、区切りの20分あとに動かす。
+# GitHub の混み具合で、実際に動くのが数分〜十数分遅れることがある。
+name: 値上がり速報
+
+on:
+  schedule:
+    - cron: "25 0 * * 1-5"   # 日本時間  9:25 朝の寄り付き後
+    - cron: "50 2 * * 1-5"   # 日本時間 11:50 前場の終わり
+    - cron: "55 3 * * 1-5"   # 日本時間 12:55 後場の寄り付き
+    - cron: "55 6 * * 1-5"   # 日本時間 15:55 後場の終わり
+  workflow_dispatch:          # GitHub の画面から手動で動かすとき
+    inputs:
+      timing:
+        description: "区切り"
+        type: choice
+        default: manual
+        options: [manual, open_am, close_am, open_pm, close_pm]
+
+permissions:
+  contents: write             # 取得した記録を保存するため
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: どの区切りかを決める
+        id: timing
+        run: |
+          case "${{ github.event.schedule }}" in
+            "25 0 * * 1-5") t=open_am ;;
+            "50 2 * * 1-5") t=close_am ;;
+            "55 3 * * 1-5") t=open_pm ;;
+            "55 6 * * 1-5") t=close_pm ;;
+            *) t="${{ inputs.timing }}" ;;
+          esac
+          echo "value=${t:-manual}" >> "$GITHUB_OUTPUT"
+
+      - name: 取得してお知らせ
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scheduled_run.py ${{ steps.timing.outputs.value }}
+
+      - name: 記録を保存
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "記録 ${{ steps.timing.outputs.value }}"
+          git push
