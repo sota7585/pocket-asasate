@@ -11,6 +11,9 @@ import requests
 
 import company_info
 
+# メインのアプリ（GitHub Pages）。お知らせのタイトルを押すと開く
+APP_URL = "https://sota7585.github.io/pocket-asasate/"
+
 
 def short_sector(sector: str) -> str:
     """業種の札に使う短い名前。「情報・通信業」→「情報・通信」。「鉱業」のような2文字はそのまま。"""
@@ -43,9 +46,10 @@ def build_message(df: pd.DataFrame, title: str, metrics: dict[str, dict] | None 
     return {
         "embeds": [{
             "title": title,
+            "url": APP_URL,
             "description": "\n".join(lines),
             "color": 0x57F287,
-            "footer": {"text": "株価は約20分遅れ｜会社名を押すと株探が開きます"},
+            "footer": {"text": "株価は約20分遅れ｜タイトルを押すとアプリ、会社名を押すと株探が開きます"},
         }]
     }
 
@@ -75,6 +79,7 @@ def build_news_message(df: pd.DataFrame, news: dict[str, list[dict]]) -> dict | 
     return {
         "embeds": [{
             "title": "上位10社の最新ニュース",
+            "url": APP_URL,
             "description": "\n".join(kept),
             "color": 0x777777,
         }]

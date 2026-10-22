@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1e1f22">
+<title>ポケット朝サテ</title>
+<style>
+  /* デザイン案B：ダークで集中できる */
+  :root {
+    --bg: #1e1f22;
+    --panel: #2b2d31;
+    --panel-2: #313338;
+    --line: #3f4147;
+    --text: #e6e7ea;
+    --sub: #a9adb5;
+    --green: #57f287;
+    --green-2: #3ba55d;
+    --red: #f87171;
+    --tag-bg: #404249;
+    --tag-text: #c4c8cf;
+    --link: #4db5ff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: "Hiragino Sans", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+    font-size: 17px; line-height: 1.6;
+  }
+  a { color: var(--link); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 12px calc(48px + env(safe-area-inset-bottom)); }
+
+  /* 上の切り替え（朝のまとめ／値上がり上位） */
+  .top {
+    position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: calc(10px + env(safe-area-inset-top)) 0 10px; border-bottom: 1px solid var(--line);
+  }
+  .brand { font-weight: 700; font-size: 18px; margin: 0 0 8px; }
+  .tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; background: var(--panel); padding: 4px; border-radius: 12px; }
+  .tabs button {
+    min-height: 48px; border: 0; border-radius: 9px; font: inherit; font-weight: 700;
+    color: var(--sub); background: transparent; cursor: pointer; touch-action: manipulation;
+  }
+  .tabs button[aria-selected="true"] { background: var(--tag-bg); color: #fff; }
+
+  h2 { font-size: 19px; margin: 24px 0 10px; padding-left: 10px; border-left: 4px solid var(--green); }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+  .sub { color: var(--sub); font-size: 16px; }
+  .empty { color: var(--sub); padding: 12px 0; }
+
+  /* 回の選択・絞り込み */
+  label.field { display: block; font-size: 16px; color: var(--sub); margin: 14px 0 6px; }
+  select {
+    width: 100%; min-height: 52px; font: inherit; font-size: 17px; color: var(--text);
+    background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 0 12px;
+  }
+  .chips { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+  .chips button {
+    min-height: 48px; font: inherit; font-size: 16px; color: var(--text); background: var(--panel-2);
+    border: 1px solid var(--line); border-radius: 10px; cursor: pointer; touch-action: manipulation; padding: 0 4px;
+  }
+  .chips button[aria-pressed="true"] { border-color: var(--green); color: var(--green); font-weight: 700; }
+
+  /* 業種のグラフ */
+  .bars { display: grid; gap: 8px; }
+  .bar-row { display: grid; grid-template-columns: 7.5em 1fr 2em; gap: 8px; align-items: center; font-size: 16px; }
+  .bar-row .lab { overflow-wrap: anywhere; line-height: 1.3; }
+  .bar-row .track { display: block; height: 14px; background: var(--panel-2); border-radius: 999px; overflow: hidden; }
+  .bar-row .fill { display: block; height: 100%; background: var(--green-2); border-radius: 999px; }
+  .bar-row.most .fill { background: var(--green); }
+  .bar-row.most .lab { font-weight: 700; }
+  .bar-row .num { text-align: right; font-weight: 700; }
+
+  /* 上位10社の一覧（1社＝押せる1行） */
+  .list { display: grid; gap: 0; }
+  .co {
+    display: grid; grid-template-columns: 1.6em 4.4em minmax(0, 1fr); column-gap: 8px; align-items: baseline;
+    width: 100%; text-align: left; font: inherit; color: var(--text); background: transparent;
+    border: 0; border-bottom: 1px solid var(--line); padding: 12px 4px; min-height: 56px; cursor: pointer;
+    touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+  }
+  .co:last-child { border-bottom: 0; }
+  .co:active { background: var(--panel-2); }
+  .co .rank { text-align: right; color: var(--sub); }
+  .co .pct { font-weight: 700; color: var(--green-2); }
+  .co .name { color: var(--link); overflow-wrap: anywhere; }
+  .co .meta { grid-column: 3; display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; margin-top: 4px; color: var(--sub); font-size: 16px; }
+  .co.first .pct { color: var(--green); }
+  .co.first .name { color: #fff; font-weight: 700; }
+  .tag { font-size: 15px; padding: 1px 8px; border-radius: 4px; background: var(--tag-bg); color: var(--tag-text); white-space: nowrap; }
+
+  /* 朝のまとめ */
+  .outlook { font-size: 18px; }
+  .outlook b { color: var(--green); }
+  .quotes { display: grid; gap: 0; }
+  .q { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 10px; padding: 10px 2px; border-bottom: 1px solid var(--line); }
+  .q:last-child { border-bottom: 0; }
+  .q .v { font-weight: 700; text-align: right; }
+  .q .d { grid-column: 2; text-align: right; font-size: 16px; }
+  .up { color: var(--green-2); } .down { color: var(--red); }
+  .news { display: grid; gap: 0; }
+  .news a { display: block; padding: 10px 2px; border-bottom: 1px solid var(--line); text-decoration: none; min-height: 48px; }
+  .news a:last-child { border-bottom: 0; }
+  .news .src { display: block; color: var(--sub); font-size: 15px; margin-top: 2px; }
+  .group-title { font-weight: 700; margin: 4px 0 2px; }
+
+  /* 会社の詳しい情報（下から出る画面） */
+  dialog {
+    width: min(100%, 680px); max-height: 92vh; margin: auto auto 0; padding: 0;
+    border: 1px solid var(--line); border-radius: 16px 16px 0 0; background: var(--panel); color: var(--text);
+  }
+  @media (min-width: 700px) { dialog { margin: auto; border-radius: 16px; } }
+  dialog::backdrop { background: rgba(0, 0, 0, .6); }
+  .sheet { padding: 16px 14px calc(16px + env(safe-area-inset-bottom)); }
+  .sheet h3 { font-size: 20px; margin: 0; }
+  .sheet .sub { margin: 2px 0 12px; }
+  .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .m { background: var(--panel-2); border-radius: 10px; padding: 10px; }
+  .m .k { font-size: 15px; color: var(--sub); line-height: 1.35; }
+  .m .val { font-size: 20px; font-weight: 700; margin-top: 2px; }
+  .btn {
+    display: flex; align-items: center; justify-content: center; min-height: 52px; width: 100%;
+    font: inherit; font-weight: 700; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--tag-bg); color: var(--text); text-decoration: none; cursor: pointer; margin-top: 12px;
+    touch-action: manipulation;
+  }
+  .btn.primary { background: var(--green-2); border-color: var(--green-2); color: #0b2415; }
+
+  footer { color: var(--sub); font-size: 16px; margin-top: 28px; }
+
+  @media (max-width: 360px) {
+    body { font-size: 16px; }
+    .co { grid-template-columns: 1.4em 4.1em minmax(0, 1fr); column-gap: 6px; }
+    .bar-row { grid-template-columns: 6.5em 1fr 1.8em; }
+    .chips button { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <p class="brand">ポケット朝サテ＋速報便</p>
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-rank" aria-selected="true">値上がり上位</button>
+      <button type="button" role="tab" id="tab-morning" aria-selected="false">朝のまとめ</button>
+    </div>
+  </div>
+
+  <main id="view"><p class="empty">読み込んでいます…</p></main>
+
+  <h2>最新の情報を取りに行く</h2>
+  <div class="panel">
+    <p class="sub" style="margin:0">ふだんは決まった時間に自動で新しくなります。今すぐ新しくしたいときは、GitHub の「Run workflow」を押してください（GitHub にログインしている必要があります）。押してから5〜10分ほどで、このページと Discord が新しくなります。</p>
+    <a class="btn" id="run-link" href="https://github.com/sota7585/pocket-asasate/actions/workflows/sokuho.yml" target="_blank" rel="noopener">GitHub の「Run workflow」を開く</a>
+  </div>
+
+  <footer>
+    株価は約20分遅れ（Yahoo Finance）。ニュースは Google ニュースから。<br>
+    <span id="updated"></span>
+  </footer>
+</div>
+
+<dialog id="detail" aria-labelledby="detail-title"><div class="sheet" id="detail-body"></div></dialog>
+
+<script>
+  // ---- 小さな道具 ----
+  // 要素を作る。文字は必ず textContent で入れる（記事の見出しなどをそのまま HTML として扱わない）
+  function h(tag, attrs, ...kids) {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      // aria-○○ は「true」「false」を文字で入れる（選ばれているかを画面と読み上げに伝えるため）
+      if (k.startsWith("aria-")) { el.setAttribute(k, String(v)); continue; }
+      if (v === null || v === undefined || v === false) continue;
+      if (k === "class") el.className = v;
+      else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+      else el.setAttribute(k, v === true ? "" : v);
+    }
+    for (const kid of kids.flat()) {
+      if (kid === null || kid === undefined || kid === false) continue;
+      el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+    }
+    return el;
+  }
+  const remember = {
+    get(k, d) { try { const v = localStorage.getItem("pocket-" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem("pocket-" + k, JSON.stringify(v)); } catch (e) {} },
+  };
+  async function getJSON(path) {
+    const r = await fetch(path, { cache: "no-store" });
+    if (!r.ok) throw new Error(path);
+    return r.json();
+  }
+  const two = n => String(n).padStart(2, "0");
+  function when(iso) { const d = new Date(iso); return `${two(d.getMonth() + 1)}/${two(d.getDate())} ${two(d.getHours())}:${two(d.getMinutes())}`; }
+  const num = (v, digits = 0) => v.toLocaleString("ja-JP", { minimumFractionDigits: digits, maximumFractionDigits: digits });
+  const signed = (v, digits = 0) => (v >= 0 ? "+" : "") + num(v, digits);
+  function yen(v) {
+    if (v === null || v === undefined) return "—";
+    if (v === 0) return "0円";
+    const oku = v / 1e8;
+    if (Math.abs(oku) >= 10000) return num(oku / 10000, 2) + "兆円";
+    if (Math.abs(oku) >= 10) return num(oku) + "億円";
+    return num(oku, 1) + "億円";
+  }
+  const times = v => v === null || v === undefined ? "—" : num(v, 1) + "倍";
+  const pct = v => v === null || v === undefined ? "—" : num(v, 1) + "%";
+  const ratio = v => v === null || v === undefined ? "—" : num(v, 2);
+  const shortSector = s => s.endsWith("業") && s.length > 2 ? s.slice(0, -1) : s;
+  const kabutan = code => `https://kabutan.jp/stock/?code=${encodeURIComponent(code)}`;
+
+  const TIMING = {
+    open_am: "朝の寄り付き後", close_am: "前場の終わり", open_pm: "後場の寄り付き",
+    close_pm: "後場の終わり", manual: "手動で取得",
+  };
+  const FILTERS = [
+    { v: 0, label: "除かない" }, { v: 1e7, label: "1千万円" }, { v: 1e8, label: "1億円" }, { v: 1e9, label: "10億円" },
+  ];
+
+  // ---- 状態 ----
+  let manifest = null;
+  const cache = {};
+  const view = document.getElementById("view");
+  const nowHour = new Date().getHours();
+  let tab = remember.get("tab", null) || (nowHour < 9 ? "morning" : "rank");
+  // 朝の9時より前は、前回の選択に関係なく朝のまとめから見せる
+  if (nowHour < 9 && nowHour >= 5) tab = "morning";
+  let snapIndex = 0, morningIndex = 0;
+  let filter = remember.get("filter", 0);
+
+  async function load(file) {
+    if (!cache[file]) cache[file] = await getJSON(file);
+    return cache[file];
+  }
+
+  function setTab(t) {
+    tab = t;
+    remember.set("tab", t);
+    document.getElementById("tab-rank").setAttribute("aria-selected", t === "rank");
+    document.getElementById("tab-morning").setAttribute("aria-selected", t === "morning");
+    render();
+    window.scrollTo({ top: 0 });
+  }
+  document.getElementById("tab-rank").addEventListener("click", () => setTab("rank"));
+  document.getElementById("tab-morning").addEventListener("click", () => setTab("morning"));
+
+  async function render() {
+    try {
+      view.replaceChildren(tab === "rank" ? await renderRank() : await renderMorning());
+    } catch (e) {
+      view.replaceChildren(h("p", { class: "empty" }, "読み込めませんでした。少し待ってから、ページを開き直してください。"));
+    }
+  }
+
+  // ---- 値上がり上位 ----
+  async function renderRank() {
+    const frag = document.createDocumentFragment();
+    if (!manifest.snapshots.length) { frag.append(h("p", { class: "empty" }, "まだ記録がありません。")); return frag; }
+    const item = manifest.snapshots[snapIndex];
+    const snap = await load(item.file);
+
+    const sel = h("select", { id: "snap", onchange: e => { snapIndex = +e.target.value; render(); } },
+      manifest.snapshots.map((s, i) => h("option", { value: i, selected: i === snapIndex },
+        `${when(s.taken_at)}　${TIMING[s.timing] || s.timing}`)));
+    frag.append(h("label", { class: "field", for: "snap" }, "どの回を見るか"), sel);
+
+    frag.append(h("div", { class: "field", style: "margin-bottom:6px" }, "売買代金がこれより少ない会社は除く"));
+    frag.append(h("div", { class: "chips", role: "group", "aria-label": "売買代金で絞る" },
+      FILTERS.map(f => h("button", { type: "button", "aria-pressed": f.v === filter,
+        onclick: () => { filter = f.v; remember.set("filter", f.v); render(); } }, f.label))));
+
+    const rows = snap.rows.filter(r => (r.trading_value ?? 0) >= filter).slice(0, 10);
+    if (!rows.length) { frag.append(h("p", { class: "empty" }, "この条件に当てはまる会社がありません。")); return frag; }
+
+    const title = `${TIMING[snap.timing] || snap.timing}　上位${rows.length}社　${when(snap.taken_at)}`;
+    frag.append(h("h2", {}, title));
+    if (rows.length < 10) frag.append(h("p", { class: "sub" }, "この回の記録では、条件に当てはまる会社が10社に足りませんでした。"));
+
+    // 業種の内訳（多い順）
+    const counts = {};
+    rows.forEach(r => counts[r.sector] = (counts[r.sector] || 0) + 1);
+    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    const max = sorted[0][1];
+    frag.append(h("div", { class: "panel" },
+      h("div", { class: "bars", role: "img", "aria-label": "業種ごとの社数：" + sorted.map(([s, n]) => `${shortSector(s)} ${n}社`).join("、") },
+        sorted.map(([s, n], i) => h("div", { class: "bar-row" + (i === 0 ? " most" : "") },
+          h("span", { class: "lab" }, shortSector(s)),
+          h("span", { class: "track" }, h("span", { class: "fill", style: `width:${(n / max) * 100}%` })),
+          h("span", { class: "num" }, n))))));
+
+    frag.append(h("p", { class: "sub", style: "margin:14px 0 4px" }, "会社名を押すと、詳しい情報とニュースが出ます。"));
+    frag.append(h("div", { class: "panel list" }, rows.map((r, i) =>
+      h("button", { type: "button", class: "co" + (i === 0 ? " first" : ""), onclick: () => openDetail(r, snap) },
+        h("span", { class: "rank" }, i + 1),
+        h("span", { class: "pct" }, "+" + num(r.change_pct, 1) + "%"),
+        h("span", { class: "name" }, r.name),
+        h("span", { class: "meta" },
+          h("span", { class: "tag" }, shortSector(r.sector)),
+          `${num(r.price)}円（${signed(r.change)}円）`)))));
+    return frag;
+  }
+
+  // ---- 会社の詳しい情報 ----
+  const dlg = document.getElementById("detail");
+  function openDetail(r, snap) {
+    const d = (snap.details || {})[r.code];
+    const body = document.getElementById("detail-body");
+    const parts = [
+      h("h3", { id: "detail-title" }, r.name),
+      h("p", { class: "sub" }, `${r.code}・${r.market}・${num(r.price)}円（+${num(r.change_pct, 1)}%）`),
+    ];
+    if (d && d.metrics) {
+      const m = d.metrics;
+      const cell = (k, v) => h("div", { class: "m" }, h("div", { class: "k" }, k), h("div", { class: "val" }, v));
+      parts.push(h("div", { class: "metrics" },
+        cell("PER（株価が利益の何倍か）", times(m.per)),
+        cell("PBR（株価が純資産の何倍か）", times(m.pbr)),
+        cell("時価総額", yen(m.market_cap)),
+        cell("ROE（自己資本でどれだけ稼いだか）", pct(m.roe)),
+        cell("有利子負債（借金）", yen(m.debt)),
+        cell("ネットキャッシュ比率", ratio(m.net_cash_ratio))));
+      parts.push(h("p", { class: "sub" }, "ネットキャッシュ比率＝（流動資産＋投資有価証券×0.7−負債合計）÷時価総額。1を超えると、時価総額より実質的なお金が多い。銀行などでは出ません。"));
+    } else {
+      parts.push(h("p", { class: "sub" }, "この回は、詳しい情報が記録されていません。株探で見てください。"));
+    }
+    parts.push(h("div", { class: "group-title", style: "margin-top:14px" }, "ニュース"));
+    const news = (d && d.news) || [];
+    parts.push(news.length
+      ? h("div", { class: "news" }, news.map(n => h("a", { href: n.link, target: "_blank", rel: "noopener" },
+          n.title, h("span", { class: "src" }, `${n.published ? when(n.published) : ""}・${n.source || ""}`))))
+      : h("p", { class: "sub" }, "ニュースが見つかりませんでした。"));
+    parts.push(h("a", { class: "btn primary", href: kabutan(r.code), target: "_blank", rel: "noopener" }, "株探で見る"));
+    parts.push(h("button", { type: "button", class: "btn", onclick: () => dlg.close() }, "閉じる"));
+    body.replaceChildren(...parts);
+    dlg.showModal();
+    body.scrollTop = 0;
+  }
+  // 画面の外（暗い所）を押しても閉じる
+  dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+
+  // ---- 朝のまとめ ----
+  function outlookText(o) {
+    if (!o) return [h("span", {}, "先物の値が取れませんでした")];
+    const mood = o.diff_pct >= 0.3 ? "高く始まりそう" : o.diff_pct <= -0.3 ? "安く始まりそう" : "前日と同じくらいで始まりそう";
+    return [
+      h("b", {}, mood), h("br"),
+      `日経平均先物 ${num(o.futures)}円（前日の日経平均 ${num(o.nikkei_close)}円より ${signed(o.diff)}円、${signed(o.diff_pct, 1)}%）`,
+    ];
+  }
+  function quoteList(list) {
+    return h("div", { class: "panel quotes" }, list.map(r => h("div", { class: "q" },
+      h("span", {}, r.label),
+      h("span", { class: "v" }, num(r.value, r.digits) + r.unit),
+      h("span", { class: "d " + (r.change >= 0 ? "up" : "down") }, `${signed(r.change, r.digits)}（${signed(r.change_pct, 1)}%）`))));
+  }
+  async function renderMorning() {
+    const frag = document.createDocumentFragment();
+    if (!manifest.mornings.length) { frag.append(h("p", { class: "empty" }, "まだ朝のまとめがありません。")); return frag; }
+    const s = await load(manifest.mornings[morningIndex].file);
+
+    frag.append(h("label", { class: "field", for: "mday" }, "どの日を見るか"),
+      h("select", { id: "mday", onchange: e => { morningIndex = +e.target.value; render(); } },
+        manifest.mornings.map((m, i) => h("option", { value: i, selected: i === morningIndex }, when(m.created_at) + " 時点"))));
+
+    frag.append(h("h2", {}, "今日の始まりの目安"),
+      h("div", { class: "panel" }, h("div", { class: "outlook" }, outlookText(s.outlook)),
+        h("p", { class: "sub", style: "margin:6px 0 0" }, "日経平均先物（シカゴ・円建て）と、前の日の日経平均の差から出した目安です。")));
+    frag.append(h("h2", {}, "アメリカの市場（前日の終値）"), quoteList(s.us_market));
+    frag.append(h("h2", {}, "為替・原油・金・金利"), quoteList(s.others));
+
+    frag.append(h("h2", {}, "前日の値上がり上位10社"));
+    const prev = s.previous_top;
+    frag.append(prev && prev.rows.length
+      ? h("div", { class: "panel list" }, prev.rows.slice(0, 10).map((r, i) =>
+          h("a", { class: "co" + (i === 0 ? " first" : ""), href: kabutan(r.code), target: "_blank", rel: "noopener", style: "text-decoration:none" },
+            h("span", { class: "rank" }, i + 1),
+            h("span", { class: "pct" }, "+" + num(r.change_pct, 1) + "%"),
+            h("span", { class: "name" }, r.name),
+            h("span", { class: "meta" }, h("span", { class: "tag" }, shortSector(r.sector)), `${num(r.price)}円`))))
+      : h("p", { class: "empty" }, "前日の「後場の終わり」の記録がありません。"));
+
+    frag.append(h("h2", {}, "ニュース"));
+    s.news.forEach(g => {
+      frag.append(h("div", { class: "panel", style: "margin-bottom:10px" },
+        h("div", { class: "group-title" }, g.label),
+        g.items.length
+          ? h("div", { class: "news" }, g.items.map(n => h("a", { href: n.link, target: "_blank", rel: "noopener" },
+              n.title, h("span", { class: "src" }, `${n.published ? when(n.published) : ""}・${n.source || ""}`))))
+          : h("p", { class: "sub" }, "ニュースが見つかりませんでした。")));
+    });
+    return frag;
+  }
+
+  // ---- はじめ ----
+  (async () => {
+    try {
+      manifest = await getJSON("manifest.json");
+      document.getElementById("updated").textContent = "このページを作った時刻：" + when(manifest.generated_at);
+    } catch (e) {
+      view.replaceChildren(h("p", { class: "empty" }, "読み込めませんでした。少し待ってから、ページを開き直してください。"));
+      return;
+    }
+    setTab(tab);
+  })();
+</script>
+</body>
+</html>

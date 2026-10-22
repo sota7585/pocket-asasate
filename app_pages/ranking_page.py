@@ -29,8 +29,8 @@ def load_metrics(code: str) -> dict:
 
 
 @st.cache_data(ttl=900, max_entries=200, show_spinner=False)
-def load_news(name: str) -> list[dict]:
-    return company_info.fetch_news(name)
+def load_news(name: str, code: str) -> list[dict]:
+    return company_info.fetch_news(name, code=code)
 
 
 @st.dialog("会社の詳しい情報", width="medium")
@@ -38,7 +38,7 @@ def show_details(code: str, name: str) -> None:
     st.subheader(f"{name}　:gray[{code}]")
     with st.spinner("情報を集めています…"):
         m = load_metrics(code)
-        news = load_news(name)
+        news = load_news(name, code)
 
     with st.container(horizontal=True):
         st.metric("PER（株価が利益の何倍か）", company_info.fmt_times(m["per"]), border=True)
@@ -95,7 +95,8 @@ chosen = st.selectbox(
     range(len(snapshots)),
     format_func=lambda i: snapshot_label(snapshots[i]),
 )
-df = pd.DataFrame(snapshots[chosen]["rows"])
+# 記録には上位50社まで入っているので、先頭の10社だけを使う
+df = pd.DataFrame(snapshots[chosen]["rows"]).head(10)
 df.insert(0, "rank", range(1, len(df) + 1))
 
 # 業種ごとのまとめ（上位に多い業種が分かるように）

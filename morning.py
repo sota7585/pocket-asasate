@@ -13,6 +13,7 @@ import pandas as pd
 import yfinance as yf
 
 import company_info
+import notify
 import ranking
 
 MORNING_DIR = ranking.DATA_DIR / "morning"
@@ -64,7 +65,8 @@ def _previous_top() -> dict | None:
     """一番新しい「後場の終わり」の記録（＝前の取引日の値上がり上位）。"""
     for s in ranking.list_snapshots():
         if s["timing"] == "close_pm":
-            return s
+            # 記録には上位50社まで入っているので、先頭の10社だけを使う。詳しい情報は朝のまとめには要らない
+            return {**s, "rows": s["rows"][:10], "details": {}}
     return None
 
 
@@ -184,7 +186,7 @@ def build_messages(s: dict) -> list[dict]:
     created = datetime.fromisoformat(s["created_at"])
     return [
         {"embeds": [
-            {"title": f"🌅 朝のまとめ　{created:%m/%d}", "color": 0xF2A33A,
+            {"title": f"🌅 朝のまとめ　{created:%m/%d}", "url": notify.APP_URL, "color": 0xF2A33A,
              "description": "**今日の始まりの目安**\n" + outlook_text(s["outlook"])},
             {"title": "🇺🇸 アメリカの市場（前日の終値）", "color": 0x3B6FD8, "description": us},
             {"title": "💱 為替・原油・金・金利", "color": 0x8A63D2, "description": others},
@@ -197,8 +199,6 @@ def build_messages(s: dict) -> list[dict]:
 
 
 if __name__ == "__main__":
-    import notify
-
     summary = build_summary()
     save_summary(summary)
     for payload in build_messages(summary):

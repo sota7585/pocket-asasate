@@ -24,6 +24,10 @@ SNAPSHOT_DIR = DATA_DIR / "snapshots"
 JPX_PAGE = "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html"
 JST = ZoneInfo("Asia/Tokyo")
 
+KEEP_ROWS = 50   # 記録に残す社数（ページで売買代金で絞っても10社そろうように多めに残す）
+# ページの「売買代金で絞る」の選択肢（円）。0 は「除かない」
+TRADING_VALUE_STEPS = [0, 10_000_000, 100_000_000, 1_000_000_000]
+
 # 取引所が決めた区切り
 TIMINGS = {
     "open_am": "朝の寄り付き後（9:00すぎ）",
@@ -128,8 +132,18 @@ def _download_prices(tickers: list[str], chunk: int = 300, retries: int = 4) -> 
     return result
 
 
-def save_snapshot(df: pd.DataFrame, timing: str) -> Path:
-    """取得した結果を、あとから見返せるように保存する。"""
+def detail_targets(df: pd.DataFrame) -> pd.DataFrame:
+    """詳しい情報を集める会社：絞り方（売買代金）ごとの上位10社を合わせたもの。"""
+    picked = [df[df["trading_value"] >= v].head(10) for v in TRADING_VALUE_STEPS]
+    return pd.concat(picked).drop_duplicates("code")
+
+
+def save_snapshot(df: pd.DataFrame, timing: str, details: dict | None = None) -> Path:
+    """取得した結果を、あとから見返せるように保存する。
+
+    rows は値上がり率の高い順（最大 KEEP_ROWS 社）。上位10社は rows の先頭10件。
+    details は会社コードごとの指標とニュース（あれば）。
+    """
     SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
     now = datetime.now(JST)
     path = SNAPSHOT_DIR / f"{now:%Y-%m-%d_%H%M}_{timing}.json"
@@ -137,6 +151,7 @@ def save_snapshot(df: pd.DataFrame, timing: str) -> Path:
         "taken_at": now.isoformat(timespec="minutes"),
         "timing": timing,
         "rows": df.to_dict(orient="records"),
+        "details": details or {},
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
     return path
