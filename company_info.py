@@ -78,10 +78,17 @@ def fetch_metrics(code: str) -> dict:
     }
 
 
-def fetch_news(name: str, limit: int = 5) -> list[dict]:
+def fetch_news(name: str, limit: int = 5, code: str | None = None) -> list[dict]:
     """会社名で株のニュースを検索して、新しい順に返す。"""
     # JPX の会社名は全角英数字（ＧＭＯ など）なので、検索しやすい半角にそろえる
-    return search_news(f'"{unicodedata.normalize("NFKC", name)}" 株', limit)
+    plain = unicodedata.normalize("NFKC", name)
+    if len(plain) > 4:
+        return search_news(f'"{plain}" 株', limit)
+    # 「UEX」のような短い名前は別の言葉にも引っかかるので、見出しに名前かコードがある記事だけ残す
+    items = search_news(f'"{plain}" 株', 20)
+    keep = [n for n in items
+            if plain in unicodedata.normalize("NFKC", n["title"]) or (code and code in n["title"])]
+    return keep[:limit]
 
 
 def search_news(query: str, limit: int = 5) -> list[dict]:

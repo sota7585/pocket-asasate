@@ -45,6 +45,37 @@ def build_message(df: pd.DataFrame, title: str, metrics: dict[str, dict] | None 
     }
 
 
+def build_news_message(df: pd.DataFrame, news: dict[str, list[dict]]) -> dict | None:
+    """上位10社それぞれの最新ニュースを1件ずつ載せた、2通目の中身を作る。
+
+    ニュースのリンクは長いので、1通目に入れると文字数の上限を超える。そのため分けて送る。
+    """
+    lines = []
+    for i, r in enumerate(df.itertuples(), 1):
+        items = news.get(r.code) or []
+        if not items:
+            lines.append(f"{i}. **{r.name}**\n　（ニュースなし）")
+            continue
+        n = items[0]
+        lines.append(f"{i}. **{r.name}**\n　[{n['title'][:50]}]({n['link']})")
+    if not lines:
+        return None
+    # 文字数の上限（4096字）を超えないところまで載せる。リンクの途中では切らない
+    kept, total = [], 0
+    for line in lines:
+        if total + len(line) + 1 > 4000:
+            break
+        kept.append(line)
+        total += len(line) + 1
+    return {
+        "embeds": [{
+            "title": "📰 上位10社の最新ニュース",
+            "description": "\n".join(kept),
+            "color": 0x777777,
+        }]
+    }
+
+
 def send(payload: dict) -> bool:
     """送れたら True。送り先が設定されていなければ中身を表示して False。"""
     url = os.environ.get("DISCORD_WEBHOOK_URL")

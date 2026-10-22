@@ -42,15 +42,19 @@ def main(timing: str) -> None:
         return
 
     ranking.save_snapshot(top, timing)
-    metrics = {}
-    for code in top["code"]:
+    metrics, news = {}, {}
+    for r in top.itertuples():
         try:
-            metrics[code] = company_info.fetch_metrics(code)
+            metrics[r.code] = company_info.fetch_metrics(r.code)
         except Exception as e:  # 1社取れなくても、お知らせ自体は送る
-            print(f"{code} の指標が取れませんでした: {e}")
+            print(f"{r.code} の指標が取れませんでした: {e}")
+        news[r.code] = company_info.fetch_news(r.name, limit=1, code=r.code)
     title = f"【{ranking.TIMINGS[timing]}】値上がり上位10社　{now:%m/%d %H:%M}"
     if notify.send(notify.build_message(top, title, metrics)):
         print("Discord に送りました")
+    news_payload = notify.build_news_message(top, news)
+    if news_payload:
+        notify.send(news_payload)
 
 
 if __name__ == "__main__":
