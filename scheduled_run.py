@@ -49,7 +49,9 @@ def main(timing: str) -> None:
         except Exception as e:  # 1社取れなくても、お知らせ自体は送る
             print(f"{r.code} の指標が取れませんでした: {e}")
         news[r.code] = company_info.fetch_news(r.name, limit=1, code=r.code)
-    title = f"【{ranking.TIMINGS[timing]}】値上がり上位10社　{now:%m/%d %H:%M}"
+    # 「前場の終わり（11:30）」→「前場の終わり」。時刻はタイトルの最後に付く
+    label = ranking.TIMINGS[timing].split("（")[0]
+    title = f"{label}　上位10社　{now:%m/%d %H:%M}"
     if notify.send(notify.build_message(top, title, metrics)):
         print("Discord に送りました")
     news_payload = notify.build_news_message(top, news)

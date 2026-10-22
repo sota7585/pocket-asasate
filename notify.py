@@ -12,35 +12,40 @@ import requests
 import company_info
 
 
-def build_message(df: pd.DataFrame, title: str, metrics: dict[str, dict] | None = None) -> dict:
-    """上位10社を業種ごとにまとめた、Discord に送る中身を作る。
+def short_sector(sector: str) -> str:
+    """業種の札に使う短い名前。「情報・通信業」→「情報・通信」。「鉱業」のような2文字はそのまま。"""
+    return sector[:-1] if sector.endswith("業") and len(sector) > 2 else sector
 
-    metrics: 会社コードごとの指標（company_info.fetch_metrics の結果）。あれば2行目に載せる。
+
+def sector_summary(df: pd.DataFrame) -> str:
+    """「業種：**情報・通信 8**｜卸売 1｜サービス 1」の1行。一番多い業種を太字にする。"""
+    counts = df["sector"].value_counts()   # 多い順
+    parts = [f"{short_sector(s)} {n}" for s, n in counts.items()]
+    parts[0] = f"**{parts[0]}**"
+    return "業種：" + "｜".join(parts)
+
+
+def build_message(df: pd.DataFrame, title: str, metrics: dict[str, dict] | None = None) -> dict:
+    """上位10社のお知らせ（デザイン案B：数字が先・順位どおり・業種は札）を作る。
+
+    metrics: 会社コードごとの指標（company_info.fetch_metrics の結果）。あれば各社の2行目に載せる。
     """
     metrics = metrics or {}
-    df = df.copy()
-    df["rank"] = range(1, len(df) + 1)
-    lines = []
-    # 一番順位の高い会社がいる業種から順に並べる
-    order = df.groupby("sector")["rank"].min().sort_values().index
-    for sector in order:
-        part = df[df["sector"] == sector]
-        lines.append(f"**■ {sector}（{len(part)}社）**")
-        for r in part.itertuples():
-            # 会社名を押すと株探のページ（ニュースや詳しい情報）が開く
-            lines.append(
-                f"{r.rank}. [{r.name}（{r.code}）]({company_info.kabutan_url(r.code)})"
-                f" **+{r.change_pct:.1f}%**　{r.price:,.0f}円"
-            )
-            if r.code in metrics:
-                lines.append(f"　{company_info.summary_line(metrics[r.code])}")
-        lines.append("")
+    lines = [sector_summary(df), ""]
+    for rank, r in enumerate(df.itertuples(), 1):
+        # 会社名を押すと株探のページ（ニュースや詳しい情報）が開く。1位だけ会社名を太字にする
+        name = f"[{r.name}]({company_info.kabutan_url(r.code)})"
+        if rank == 1:
+            name = f"**{name}**"
+        lines.append(f"{rank}　**+{r.change_pct:.1f}%**　{name}　`{short_sector(r.sector)}`")
+        if r.code in metrics:
+            lines.append(f"　　{company_info.summary_line(metrics[r.code])}")
     return {
         "embeds": [{
             "title": title,
-            "description": "\n".join(lines).strip(),
-            "color": 0x2E9E5B,
-            "footer": {"text": "株価は約20分遅れ（Yahoo Finance）"},
+            "description": "\n".join(lines),
+            "color": 0x57F287,
+            "footer": {"text": "株価は約20分遅れ｜会社名を押すと株探が開きます"},
         }]
     }
 
@@ -69,7 +74,7 @@ def build_news_message(df: pd.DataFrame, news: dict[str, list[dict]]) -> dict | 
         total += len(line) + 1
     return {
         "embeds": [{
-            "title": "📰 上位10社の最新ニュース",
+            "title": "上位10社の最新ニュース",
             "description": "\n".join(kept),
             "color": 0x777777,
         }]
