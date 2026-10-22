@@ -9,9 +9,15 @@ import os
 import pandas as pd
 import requests
 
+import company_info
 
-def build_message(df: pd.DataFrame, title: str) -> dict:
-    """上位10社を業種ごとにまとめた、Discord に送る中身を作る。"""
+
+def build_message(df: pd.DataFrame, title: str, metrics: dict[str, dict] | None = None) -> dict:
+    """上位10社を業種ごとにまとめた、Discord に送る中身を作る。
+
+    metrics: 会社コードごとの指標（company_info.fetch_metrics の結果）。あれば2行目に載せる。
+    """
+    metrics = metrics or {}
     df = df.copy()
     df["rank"] = range(1, len(df) + 1)
     lines = []
@@ -21,9 +27,13 @@ def build_message(df: pd.DataFrame, title: str) -> dict:
         part = df[df["sector"] == sector]
         lines.append(f"**■ {sector}（{len(part)}社）**")
         for r in part.itertuples():
+            # 会社名を押すと株探のページ（ニュースや詳しい情報）が開く
             lines.append(
-                f"{r.rank}. {r.name}（{r.code}） **+{r.change_pct:.1f}%**　{r.price:,.0f}円"
+                f"{r.rank}. [{r.name}（{r.code}）]({company_info.kabutan_url(r.code)})"
+                f" **+{r.change_pct:.1f}%**　{r.price:,.0f}円"
             )
+            if r.code in metrics:
+                lines.append(f"　{company_info.summary_line(metrics[r.code])}")
         lines.append("")
     return {
         "embeds": [{

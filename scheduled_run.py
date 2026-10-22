@@ -7,6 +7,7 @@
 import sys
 from datetime import datetime
 
+import company_info
 import notify
 import ranking
 
@@ -28,8 +29,14 @@ def main(timing: str) -> None:
         return
 
     ranking.save_snapshot(top, timing)
+    metrics = {}
+    for code in top["code"]:
+        try:
+            metrics[code] = company_info.fetch_metrics(code)
+        except Exception as e:  # 1社取れなくても、お知らせ自体は送る
+            print(f"{code} の指標が取れませんでした: {e}")
     title = f"【{ranking.TIMINGS[timing]}】値上がり上位10社　{now:%m/%d %H:%M}"
-    if notify.send(notify.build_message(top, title)):
+    if notify.send(notify.build_message(top, title, metrics)):
         print("Discord に送りました")
 
 
