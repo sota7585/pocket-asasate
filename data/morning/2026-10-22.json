@@ -1,0 +1,193 @@
+{
+ "created_at": "2026-10-22T16:24+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 52856.08984375,
+   "change": 360.2109375,
+   "change_pct": 0.6861699337261884,
+   "date": "2026-10-21"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7757.169921875,
+   "change": 44.60009765625,
+   "change_pct": 0.5782780405591659,
+   "date": "2026-10-21"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 26702.859375,
+   "change": 278.0390625,
+   "change_pct": 1.0521890374727505,
+   "date": "2026-10-21"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 11505.5595703125,
+   "change": 221.75,
+   "change_pct": 1.9652050898077977,
+   "date": "2026-10-21"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 158.26800537109375,
+   "change": -0.2549896240234375,
+   "change_pct": -0.1608533979762905,
+   "date": "2026-10-21"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 99.48999786376953,
+   "change": 2.339996337890625,
+   "change_pct": 2.408642615684675,
+   "date": "2026-10-22"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 4115.60009765625,
+   "change": -34.39990234375,
+   "change_pct": -0.8289133094879553,
+   "date": "2026-10-22"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 5.145999908447266,
+   "change": 0.028999805450439453,
+   "change_pct": 0.5667345098049781,
+   "date": "2026-10-21"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 16.68000030517578,
+   "change": -0.6299991607666016,
+   "change_pct": -3.639509995399659,
+   "date": "2026-10-21"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 62907.83984375,
+  "futures": 63095.0,
+  "diff": 187.16015625,
+  "diff_pct": 0.29751483553539515
+ },
+ "previous_top": null,
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "NYダウの指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T13:44+09:00"
+    },
+    {
+     "title": "米国株見通し：伸び悩みか、ハイテク買い継続に期待(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOURCU1NWSHh5aFFJVkNzRENGYjZCTkp4WnpXb2VIUTQ0VjhVOWhZZ1dSaG1YZU5UX2hJZG56RXVYNWwxajhubUtQNjd3Y1QtRDd0cHFxT2NmR29rdTlrWEh0ZVpmSHItRjhOQzBrY2ZkdEQ0WUF1LVQ5SFRjQ1BoWmh0TGpYYTQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T13:38+09:00"
+    },
+    {
+     "title": "【注目トピックス 市況・概況】米国株見通し：伸び悩みか、ハイテク買い継続に期待",
+     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBBaUh2VTRQXzhqOEhBazRBUGw4RzNzWW5DT1pvLW9PWEFVVE9EWDNZN0hPdENRdnA5VVIza3o0OG56NmY4alNz?oc=5",
+     "source": "マネーポストWEB",
+     "published": "2026-10-22T13:38+09:00"
+    },
+    {
+     "title": "22日のインド市場見通し：買い先行か、米株高や経済指標の改善で(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQXzJMMXlKcU5CWFV6d2VKb1pTYzl3T2JvbTM1SGE3U3NFQ2x0eWk2RDNyODRMSHl0RUZBOHRNaEg1NjJ1MThLOUNISENmRWtDdm4yMWppei1XVy1Vdml4VVpkNFJLRVhrUHc1d2R4dWVrS3FzTGM5bFhXeG1lelhWZEdnaFpzR3M?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T11:05+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "日経平均は急反落、ＡＩ・半導体株売られ6万3000円割れ",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY3V4blV4U09uV0xWUVZTZmV5MXk0VHNUbTM1STRFcHFPdmNQX0IwbTgzQVl5eHljSmVWRV9udkdaOUc5ajFYREdnbUxUbkZ1ZGNSeFlBbG1HTEVuS3QwWFp1a0xTVVFBcE9rMU83ejE3bUE5SkV4UEFQX3ppU2JQQnl0Umsxdw?oc=5",
+     "source": "Reuters",
+     "published": "2026-10-22T16:15+09:00"
+    },
+    {
+     "title": "【これからの見通し】リスク警戒の円買いがどこまで進むか",
+     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1rd2tJaGJtSWI0UkpWSTk1UDZfX0dIMy1tRGtJdDFvdUxXTUtmVUZWM3ljUzQwVWluS2p2cDI0OHc1M1hxSnZCNg?oc=5",
+     "source": "みんかぶ FX/為替",
+     "published": "2026-10-22T16:08+09:00"
+    },
+    {
+     "title": "中国電信（チャイナ・テレコム）",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5dUQzREZma0w0dkMxZjRBNnJVMFJxSy1sN3FSVTh4OFNGUFpOLWptRmNRUFV5X0lmZUlpMDFtMXhXa0tFNTNyb3dFUE15Wk1RSmZ0QkRCWTRHUQ?oc=5",
+     "source": "トウシル",
+     "published": "2026-10-22T16:00+09:00"
+    },
+    {
+     "title": "豪サントス、ピッカ油田の影響で生産見通しを下方修正　株価下落",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZ0l3VldvbExld0dQczhtanB2eVJ1WWhWUlVjX3NsY0lKa3FIN1VJQU5kc2dXU1VqV1lvTGtRVEpnX1IxQm1QcGNCY1RobFYyLVpObWpUVlRWb1lQRTdhZWo0dnVhck1weWI3cC1XUnd6WFNVVURMdnN3X3ZmZmFvSHJB0gGHAUFVX3lxTFBiZXNXWS1uWGdiblhCQ2ZKa0dIX2lCb2I2Mm9QQ2RyQ096YmhHUHJoX2R5TEJkVk14NTktY1NTZ1Rtdk0tbnQwRUw2ckl0M1Z1bGVhdzMteUVwSVFwQ0d6bjNTc0xHSGtIMWViTTlSdVBrdGhEMnFaWlhHaVl6Y2JmeVJjTDlmRQ?oc=5",
+     "source": "ｄメニューニュース",
+     "published": "2026-10-22T15:53+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "【決算速報】ディスコ、中間経常114,437百万。アナリスト予想を上回る(アイフィス株予報)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR3l2OUdydElSNHVxTTJaREFDSVpPV1NaQ3N0RkR6eEVkMWkwckJZTjlsVUljczFfcmJHcEVJbi1FeXFsczF3eFZaTFpLNkN4RFVCcmQyRlM0ZGtsYURhYU8yMzU4SFVwNHAtVG92NVFLOER1d3hZS3B0T3I3LWRMbTl1YVdlZzA?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T16:00+09:00"
+    },
+    {
+     "title": "決算マイナス・インパクト銘柄・引け後 … 令和ＡＨ、ＯＢシステム、アジュバン (10月21日発表分)(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSHNWYXIyQ21VRTBvZzg5WGRlUmtIbDNRcktXZGpUS09qbnllUm1HU0wwZ0dMMWVDckEzdzlYT3NaM3JNSkVvRVkxSWZ4VEpZOXZmNkNMTm1SdlN3TmhBUF8yMG1YanluekhDZGJPRTdYQ2hHLXpDY3lDMmVEdmkwelhhQXJYcDg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T15:48+09:00"
+    },
+    {
+     "title": "〔ブル＆ベア〕大幅反落＝AI株が重し、決算発表前に買い手控え(時事通信)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLU5EYkdYajRvLVVoUWY1aE5lbF9qaGthMnRXbGFyUUxHNEFQMW5lWkczWFVCRVU2S1RxdmxPaVZna1lGM3l0YnkzS1h6R3I1NHJ4QW8yTmZ1SDFBcjBKb29IaUtYOWVPZDN4TDk5UkItN0dwTWJIUEhQVkR1UVVocmFHXzF5UTQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T15:48+09:00"
+    },
+    {
+     "title": "東証大幅反落、終値1713円安 半導体関連株が値下がり",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnNmpFbW5udjMxdDJQRXkzUW5paW90aG9RdDBiLTVhM2RmZkh2UXg5OEtXYldpbGdhOWZVWlRvNWVqNTlhYTRwT25qaGdrazljLTZoT29vV2xvbXhENVl0cXhXaWJNNGJoM19mUjVPZWw?oc=5",
+     "source": "Excite エキサイト",
+     "published": "2026-10-22T15:43+09:00"
+    }
+   ]
+  }
+ ]
+}
