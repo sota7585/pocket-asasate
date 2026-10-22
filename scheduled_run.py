@@ -1,18 +1,31 @@
 """決まった時間に自動で動かすための入口。
 
 使い方: python scheduled_run.py <区切り>
-  区切り: open_am / close_am / open_pm / close_pm / manual
+  区切り: morning（朝のまとめ） / open_am / close_am / open_pm / close_pm / manual
 """
 
 import sys
 from datetime import datetime
 
 import company_info
+import morning
 import notify
 import ranking
 
 
+def run_morning() -> None:
+    summary = morning.build_summary()
+    morning.save_summary(summary)
+    sent = [notify.send(p) for p in morning.build_messages(summary)]
+    if all(sent):
+        print("Discord に朝のまとめを送りました")
+
+
 def main(timing: str) -> None:
+    if timing == "morning":
+        run_morning()
+        return
+
     now = datetime.now(ranking.JST)
     # 月が変わったら会社の一覧を取り直す（新しく上場した会社を入れるため）
     if not ranking.LIST_FILE.exists() or now.day <= 7:

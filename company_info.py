@@ -81,8 +81,12 @@ def fetch_metrics(code: str) -> dict:
 def fetch_news(name: str, limit: int = 5) -> list[dict]:
     """会社名で株のニュースを検索して、新しい順に返す。"""
     # JPX の会社名は全角英数字（ＧＭＯ など）なので、検索しやすい半角にそろえる
-    q = quote(f'"{unicodedata.normalize("NFKC", name)}" 株')
-    url = f"https://news.google.com/rss/search?q={q}&hl=ja&gl=JP&ceid=JP:ja"
+    return search_news(f'"{unicodedata.normalize("NFKC", name)}" 株', limit)
+
+
+def search_news(query: str, limit: int = 5) -> list[dict]:
+    """Google ニュースを検索して、新しい順に返す。"""
+    url = f"https://news.google.com/rss/search?q={quote(query)}&hl=ja&gl=JP&ceid=JP:ja"
     try:
         r = requests.get(url, timeout=20)
         r.raise_for_status()
