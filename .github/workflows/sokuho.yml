@@ -1,4 +1,4 @@
-# 平日の決まった時間に値上がり上位10社を取得して Discord に送る。
+# 平日の決まった時間に値上がり上位を取得して記録し、アプリ（GitHub Pages）を作り直す。Discord にも送る。
 # 時刻は世界標準時（日本時間 −9時間）で書く。株価が約20分遅れなので、区切りの20分あとに動かす。
 # GitHub の混み具合で、実際に動くのが数分〜十数分遅れることがある。
 name: 値上がり速報
@@ -16,15 +16,26 @@ on:
         description: "区切り"
         type: choice
         default: manual
-        options: [manual, morning, open_am, close_am, open_pm, close_pm]
+        # site は株価を取りに行かず、アプリだけを作り直す（アプリの見た目を直したとき用）
+        options: [manual, morning, open_am, close_am, open_pm, close_pm, site]
 
 permissions:
   contents: write             # 取得した記録を保存するため
+  pages: write                # アプリを公開するため
+  id-token: write
+
+# 2つが同時に動いて記録がぶつからないよう、1つずつ順番に動かす
+concurrency:
+  group: sokuho
+  cancel-in-progress: false
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -49,11 +60,13 @@ jobs:
           echo "value=${t:-manual}" >> "$GITHUB_OUTPUT"
 
       - name: 取得してお知らせ
+        if: steps.timing.outputs.value != 'site'
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python scheduled_run.py ${{ steps.timing.outputs.value }}
 
       - name: 記録を保存
+        if: steps.timing.outputs.value != 'site'
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
@@ -61,3 +74,16 @@ jobs:
           git diff --cached --quiet || git commit -m "記録 ${{ steps.timing.outputs.value }}"
           git pull --rebase
           git push
+
+      - name: アプリを組み立てる
+        run: python build_site.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: アプリを公開する
+        id: deploy
+        uses: actions/deploy-pages@v4
