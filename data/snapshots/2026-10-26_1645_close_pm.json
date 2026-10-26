@@ -1,0 +1,1146 @@
+{
+ "taken_at": "2026-10-26T16:45+09:00",
+ "timing": "close_pm",
+ "rows": [
+  {
+   "code": "5029",
+   "price": 1400.0,
+   "change": 300.0,
+   "change_pct": 27.27272727272727,
+   "trading_value": 5040000.0,
+   "date": "2026-10-26",
+   "name": "サークレイス",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "3042",
+   "price": 1403.0,
+   "change": 300.0,
+   "change_pct": 27.198549410698103,
+   "trading_value": 18511602900.0,
+   "date": "2026-10-26",
+   "name": "セキュアヴェイル",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "3929",
+   "price": 383.0,
+   "change": 80.0,
+   "change_pct": 26.40264026402641,
+   "trading_value": 1101699500.0,
+   "date": "2026-10-26",
+   "name": "ソーシャルワイヤー",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "3905",
+   "price": 1930.0,
+   "change": 400.0,
+   "change_pct": 26.1437908496732,
+   "trading_value": 51359809000.0,
+   "date": "2026-10-26",
+   "name": "データセクション",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "5250",
+   "price": 2099.0,
+   "change": 400.0,
+   "change_pct": 23.543260741612706,
+   "trading_value": 1206085400.0,
+   "date": "2026-10-26",
+   "name": "ＧＭＯプライム・ストラテジー",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "6203",
+   "price": 2279.0,
+   "change": 400.0,
+   "change_pct": 21.287919105907392,
+   "trading_value": 9292622500.0,
+   "date": "2026-10-26",
+   "name": "豊和工業",
+   "market": "スタンダード",
+   "sector": "機械"
+  },
+  {
+   "code": "7477",
+   "price": 1758.0,
+   "change": 300.0,
+   "change_pct": 20.576131687242793,
+   "trading_value": 19338000.0,
+   "date": "2026-10-26",
+   "name": "ムラキ",
+   "market": "スタンダード",
+   "sector": "卸売業"
+  },
+  {
+   "code": "4073",
+   "price": 880.0,
+   "change": 150.0,
+   "change_pct": 20.547945205479444,
+   "trading_value": 811360000.0,
+   "date": "2026-10-26",
+   "name": "ジィ・シィ企画",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "3909",
+   "price": 953.0,
+   "change": 150.0,
+   "change_pct": 18.67995018679951,
+   "trading_value": 7902085400.0,
+   "date": "2026-10-26",
+   "name": "ショーケース",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "338A",
+   "price": 4900.0,
+   "change": 700.0,
+   "change_pct": 16.666666666666675,
+   "trading_value": 5876570000.0,
+   "date": "2026-10-26",
+   "name": "ＺｅｎｍｕＴｅｃｈ",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "3753",
+   "price": 299.0,
+   "change": 38.0,
+   "change_pct": 14.559386973180066,
+   "trading_value": 974500800.0,
+   "date": "2026-10-26",
+   "name": "フライトソリューションズ",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "4960",
+   "price": 509.0,
+   "change": 60.0,
+   "change_pct": 13.363028953229406,
+   "trading_value": 98033400.0,
+   "date": "2026-10-26",
+   "name": "ケミプロ化成",
+   "market": "スタンダード",
+   "sector": "化学"
+  },
+  {
+   "code": "3444",
+   "price": 985.0,
+   "change": 103.0,
+   "change_pct": 11.678004535147402,
+   "trading_value": 1244252000.0,
+   "date": "2026-10-26",
+   "name": "菊池製作所",
+   "market": "スタンダード",
+   "sector": "金属製品"
+  },
+  {
+   "code": "6999",
+   "price": 2101.0,
+   "change": 212.0,
+   "change_pct": 11.2228692429857,
+   "trading_value": 10729176700.0,
+   "date": "2026-10-26",
+   "name": "ＫＯＡ",
+   "market": "プライム",
+   "sector": "電気機器"
+  },
+  {
+   "code": "278A",
+   "price": 6180.0,
+   "change": 600.0,
+   "change_pct": 10.752688172043001,
+   "trading_value": 16640886000.0,
+   "date": "2026-10-26",
+   "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ",
+   "market": "グロース",
+   "sector": "精密機器"
+  },
+  {
+   "code": "3747",
+   "price": 499.0,
+   "change": 46.0,
+   "change_pct": 10.154525386313473,
+   "trading_value": 656284800.0,
+   "date": "2026-10-26",
+   "name": "インタートレード",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "4436",
+   "price": 575.0,
+   "change": 49.0,
+   "change_pct": 9.315589353612165,
+   "trading_value": 122820000.0,
+   "date": "2026-10-26",
+   "name": "ミンカブ・ジ・インフォノイド",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "593A",
+   "price": 2190.0,
+   "change": 179.0,
+   "change_pct": 8.901044256588753,
+   "trading_value": 7596453000.0,
+   "date": "2026-10-26",
+   "name": "ティアフォー",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "6659",
+   "price": 39.0,
+   "change": 3.0,
+   "change_pct": 8.333333333333325,
+   "trading_value": 489297900.0,
+   "date": "2026-10-26",
+   "name": "メディアリンクス",
+   "market": "スタンダード",
+   "sector": "電気機器"
+  },
+  {
+   "code": "7986",
+   "price": 2250.0,
+   "change": 172.0,
+   "change_pct": 8.27718960538979,
+   "trading_value": 170775000.0,
+   "date": "2026-10-26",
+   "name": "日本アイ・エス・ケイ",
+   "market": "スタンダード",
+   "sector": "その他製品"
+  },
+  {
+   "code": "7376",
+   "price": 587.0,
+   "change": 44.0,
+   "change_pct": 8.10313075506446,
+   "trading_value": 60284900.0,
+   "date": "2026-10-26",
+   "name": "ＢＣＣ",
+   "market": "グロース",
+   "sector": "サービス業"
+  },
+  {
+   "code": "3851",
+   "price": 1418.0,
+   "change": 103.0,
+   "change_pct": 7.832699619771866,
+   "trading_value": 163637200.0,
+   "date": "2026-10-26",
+   "name": "日本一ソフトウェア",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "7072",
+   "price": 1116.0,
+   "change": 78.0,
+   "change_pct": 7.514450867052025,
+   "trading_value": 58813200.0,
+   "date": "2026-10-26",
+   "name": "インティメート・マージャー",
+   "market": "グロース",
+   "sector": "サービス業"
+  },
+  {
+   "code": "3997",
+   "price": 350.0,
+   "change": 24.0,
+   "change_pct": 7.361963190184051,
+   "trading_value": 193970000.0,
+   "date": "2026-10-26",
+   "name": "トレードワークス",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "5962",
+   "price": 2307.0,
+   "change": 157.0,
+   "change_pct": 7.302325581395341,
+   "trading_value": 15456900.0,
+   "date": "2026-10-26",
+   "name": "浅香工業",
+   "market": "スタンダード",
+   "sector": "その他製品"
+  },
+  {
+   "code": "8070",
+   "price": 1145.0,
+   "change": 76.0,
+   "change_pct": 7.109448082319925,
+   "trading_value": 501052000.0,
+   "date": "2026-10-26",
+   "name": "東京産業",
+   "market": "プライム",
+   "sector": "卸売業"
+  },
+  {
+   "code": "4274",
+   "price": 1146.0,
+   "change": 76.0,
+   "change_pct": 7.102803738317753,
+   "trading_value": 262319400.0,
+   "date": "2026-10-26",
+   "name": "細谷火工",
+   "market": "スタンダード",
+   "sector": "化学"
+  },
+  {
+   "code": "6337",
+   "price": 3250.0,
+   "change": 210.0,
+   "change_pct": 6.907894736842102,
+   "trading_value": 599300000.0,
+   "date": "2026-10-26",
+   "name": "テセック",
+   "market": "スタンダード",
+   "sector": "機械"
+  },
+  {
+   "code": "4440",
+   "price": 1817.0,
+   "change": 117.0,
+   "change_pct": 6.882352941176473,
+   "trading_value": 296534400.0,
+   "date": "2026-10-26",
+   "name": "ヴィッツ",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "584A",
+   "price": 2283.0,
+   "change": 146.0,
+   "change_pct": 6.832007487131486,
+   "trading_value": 255011100.0,
+   "date": "2026-10-26",
+   "name": "ＬｉＮＫＸ",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "3858",
+   "price": 610.0,
+   "change": 39.0,
+   "change_pct": 6.8301225919439545,
+   "trading_value": 4392183000.0,
+   "date": "2026-10-26",
+   "name": "ユビキタスＡＩ",
+   "market": "スタンダード",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "4629",
+   "price": 2348.0,
+   "change": 148.0,
+   "change_pct": 6.727272727272737,
+   "trading_value": 10566000.0,
+   "date": "2026-10-26",
+   "name": "大伸化学",
+   "market": "スタンダード",
+   "sector": "化学"
+  },
+  {
+   "code": "5242",
+   "price": 2997.0,
+   "change": 187.0,
+   "change_pct": 6.654804270462633,
+   "trading_value": 68631300.0,
+   "date": "2026-10-26",
+   "name": "アイズ",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "280A",
+   "price": 982.0,
+   "change": 60.0,
+   "change_pct": 6.507592190889366,
+   "trading_value": 41342200.0,
+   "date": "2026-10-26",
+   "name": "ＴＭＨ",
+   "market": "グロース",
+   "sector": "卸売業"
+  },
+  {
+   "code": "589A",
+   "price": 967.0,
+   "change": 57.0,
+   "change_pct": 6.263736263736264,
+   "trading_value": 67109800.0,
+   "date": "2026-10-26",
+   "name": "ネイス",
+   "market": "グロース",
+   "sector": "サービス業"
+  },
+  {
+   "code": "6721",
+   "price": 170.0,
+   "change": 10.0,
+   "change_pct": 6.25,
+   "trading_value": 3336437000.0,
+   "date": "2026-10-26",
+   "name": "ウインテスト",
+   "market": "スタンダード",
+   "sector": "電気機器"
+  },
+  {
+   "code": "4588",
+   "price": 6300.0,
+   "change": 370.0,
+   "change_pct": 6.2394603709949426,
+   "trading_value": 9926280000.0,
+   "date": "2026-10-26",
+   "name": "オンコリスバイオファーマ",
+   "market": "グロース",
+   "sector": "医薬品"
+  },
+  {
+   "code": "520A",
+   "price": 432.0,
+   "change": 25.0,
+   "change_pct": 6.142506142506132,
+   "trading_value": 130291200.0,
+   "date": "2026-10-26",
+   "name": "ジェイファーマ",
+   "market": "グロース",
+   "sector": "医薬品"
+  },
+  {
+   "code": "3911",
+   "price": 214.0,
+   "change": 12.0,
+   "change_pct": 5.940594059405946,
+   "trading_value": 162896800.0,
+   "date": "2026-10-26",
+   "name": "Ａｉｍｉｎｇ",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "7459",
+   "price": 3396.0,
+   "change": 190.0,
+   "change_pct": 5.926388022457885,
+   "trading_value": 2621372400.0,
+   "date": "2026-10-26",
+   "name": "メディパルホールディングス",
+   "market": "プライム",
+   "sector": "卸売業"
+  },
+  {
+   "code": "5597",
+   "price": 1101.0,
+   "change": 61.0,
+   "change_pct": 5.865384615384617,
+   "trading_value": 766516200.0,
+   "date": "2026-10-26",
+   "name": "ブルーイノベーション",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "4344",
+   "price": 109.0,
+   "change": 6.0,
+   "change_pct": 5.825242718446599,
+   "trading_value": 265763800.0,
+   "date": "2026-10-26",
+   "name": "ソースネクスト",
+   "market": "プライム",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "1434",
+   "price": 1582.0,
+   "change": 87.0,
+   "change_pct": 5.819397993311037,
+   "trading_value": 245842800.0,
+   "date": "2026-10-26",
+   "name": "ＪＥＳＣＯホールディングス",
+   "market": "スタンダード",
+   "sector": "建設業"
+  },
+  {
+   "code": "3692",
+   "price": 8750.0,
+   "change": 480.0,
+   "change_pct": 5.8041112454655375,
+   "trading_value": 9073750000.0,
+   "date": "2026-10-26",
+   "name": "ＦＦＲＩセキュリティ",
+   "market": "グロース",
+   "sector": "情報・通信業"
+  },
+  {
+   "code": "2160",
+   "price": 2846.0,
+   "change": 156.0,
+   "change_pct": 5.7992565055762,
+   "trading_value": 5361864000.0,
+   "date": "2026-10-26",
+   "name": "ジーエヌアイグループ",
+   "market": "グロース",
+   "sector": "医薬品"
+  },
+  {
+   "code": "6330",
+   "price": 2222.0,
+   "change": 121.0,
+   "change_pct": 5.759162303664911,
+   "trading_value": 5442122400.0,
+   "date": "2026-10-26",
+   "name": "東洋エンジニアリング",
+   "market": "プライム",
+   "sector": "建設業"
+  },
+  {
+   "code": "2158",
+   "price": 739.0,
+   "change": 39.0,
+   "change_pct": 5.5714285714285605,
+   "trading_value": 685348600.0,
+   "date": "2026-10-26",
+   "name": "ＦＲＯＮＴＥＯ",
+   "market": "グロース",
+   "sector": "サービス業"
+  },
+  {
+   "code": "6269",
+   "price": 8130.0,
+   "change": 429.0,
+   "change_pct": 5.570705103233342,
+   "trading_value": 7118628000.0,
+   "date": "2026-10-26",
+   "name": "三井海洋開発",
+   "market": "プライム",
+   "sector": "機械"
+  },
+  {
+   "code": "5381",
+   "price": 907.0,
+   "change": 47.0,
+   "change_pct": 5.465116279069759,
+   "trading_value": 274095400.0,
+   "date": "2026-10-26",
+   "name": "マイポックス",
+   "market": "スタンダード",
+   "sector": "ガラス・土石製品"
+  },
+  {
+   "code": "2805",
+   "price": 6850.0,
+   "change": 350.0,
+   "change_pct": 5.384615384615388,
+   "trading_value": 1380275000.0,
+   "date": "2026-10-26",
+   "name": "ヱスビー食品",
+   "market": "スタンダード",
+   "sector": "食料品"
+  }
+ ],
+ "details": {
+  "5029": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 459935000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "動いた株・出来た株（後場）：ヒガシHD、サークレイスなど6社(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON0FLYU8xSUhITTlUTE1FdFl3a1laSEJrSTJEYlFENXRRZ2xrMjY1Q3pndHc5T2U1LWl4NHBUdUJzcXBKYXlLTDJNMVZqR1JUWS1CN2MzeUotRVpTUHFXY2FRUUNNWTR1NVIxcTY5b3JETkRoZEhFQk1QWmhRdGl2Z19FNXppRk0?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T16:34+09:00"
+    },
+    {
+     "title": "寄前【板状況】注文ランキング 【買いトップ】サークレイス 【売りトップ】リクルート [08:53](株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObmRteDV1UVJWLVh3X1MyX2VDd29EaVQwbXpMc2NmRHg1TEFpRFctOEExdVlxU056XzFyY0RDenNHSWdWSFlDNnZlYm9CVUZIV0dJY1dJNkxJMzhBLWlCYlZDWVVLWlAtTGd4QXNfMVNqN3hrVEpYUkV5RWdyLTFKbjQ0SVhKVTQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T09:08+09:00"
+    },
+    {
+     "title": "特別気配＞ サークレイス、ファナック、サイバーセキが買い気配(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdTZBWm40YjZPU2lKZjVzNGJIM3dmU3dhR0gtWE96SDNVSjNCT0hwcUJTQUdTUm9HT3dxRl9JMUZlc3Q4emxnX0lKYlNLbElOd3c2SEV6SkRwc0FOVjdiWFUtbHc2SWVUSXNPd0R0N3Q0cUpiakxQQThIeFFnQzg3RU9SMzdjNWs?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T09:04+09:00"
+    },
+    {
+     "title": "話題株先取り【特別気配】速報 ＜買いトップ サークレイス、売りトップ ＳＢＧ＞",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03QnR6S0xDa3Z1eE1zbXRaVzZBTGFrWkZZNmk0VDFxUWdJMTZCbWYzbGJqQ3l0SXJibVhaRlZtNlR3LWZvUUNvVVd4QjQtcGxseDJSbWdVSzM0WDJjdElteg?oc=5",
+     "source": "株探",
+     "published": "2026-10-26T09:03+09:00"
+    },
+    {
+     "title": "寄前【成行注文】買い越しランキング サークレイス、大和ハウス、ファナック [08:36](株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd1pDRFhlcUNQaTFjMkRYSXRaelZvX2J0Q3UxdkNDZlpTX2N1Wk51V1cyQ000cHQ3blFTVlprRHBuNVhsV1FqcDR6dkt4blA5MmpXWEEtemo2TlhHYm04azJGUWdLM21XVzJXN01ldHdWM3JjMUphLVI0ckVsMmtmWENjU2NfMnM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T08:51+09:00"
+    }
+   ]
+  },
+  "3042": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 7231000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "動いた株・出来た株（前場）part3：セキュアヴェイル、豊和工業など17社(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMjB5RzlPcnBDUTFaeWFIVHJaZEoyR0tROFhXR2JvYnhnMVV4aU0wd2dDb1VZcG9rcG9uc1hQWjFBOExHUnlFZzNRUi1rSVpoY3REQW1SUUQ1YmxWMUJQVDlXTDMyWDlMYy1oUUJ2Sm5VWFVKb2NaVVZWZ1pzanFTWDhCSUhFVGc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T13:55+09:00"
+    },
+    {
+     "title": "【明日のテンバガー株】キオクシア！行って来い！ビープラッツ！セキュアヴェイル！ウインテスト！S高！ハピネット！ベイカレント！JT！高値更新！スリー・ディー・マトリックス！逆高！【20261019】 Peq (cT5JNpQZcw)",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1jdTljdDRyWXZ6bDQtT29la0FpdEswZEttOXpCdzA2X09qVDJuREdlYkZjbXF6LUZmM05ERjhlY25NY0ptZGVvUkhCME1LbkQ2VGJMMzAtRVFMQkdPdWNuT1RFYjExdw?oc=5",
+     "source": "Unisba Media",
+     "published": "2026-10-26T11:10+09:00"
+    },
+    {
+     "title": "(株)セキュアヴェイル【3042】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGYUx3N21YUzVySW9QM2Q3aGxGNWtHdi1kSUVoTWpNN3hwRjJqa3FSY2xoazZ1VG92ZDZVQ2JJZEVkN0ZsV3JWNUI0MUt1S0Y0LVl1dTZQUDZ3NnNIdXZ1N3lOT2QyRGNpdEE1TEJJa2tTRnoxNEE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-25T19:02+09:00"
+    },
+    {
+     "title": "【明日のテンバガー株】全体軟調継続！ショーケース！セキュアヴェイル！テリロジーホールディングス！爆上げから爆下げ！SHOEI！高値更新！スリー・ディー・マトリックス！下落トレンド！【20261020】 Westjet Flight Cancellations (0GX1w7B5rD)",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TMU01a19RWmxYdGlZUjZHb2FBUnk5QUR4Y2ZGb2ZxTWJjdUVncGR3UGxMUERLX3VmdVVBQzdfaENQaXYyMUI2eXQ5MVJvbFg0VDVpbzRJc3hDNUNzZzN6dG0xT3kzbzFpUm1r?oc=5",
+     "source": "Unisba Media",
+     "published": "2026-10-25T14:21+09:00"
+    },
+    {
+     "title": "(株)セキュアヴェイル【3042】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aT005eW1uLV9BaTgyQjgtcDdnTE56OFZBWERBamdJanRCdDZ6OVJPMkZxeTlycjFaTHhNSU5iSHNSa0JWTXdkZ0lPWDZlcE5wS2c?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T19:02+09:00"
+    }
+   ]
+  },
+  "3929": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 1178771000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "【本日のおすすめ銘柄】ソーシャルワイヤー、セキュリティコンサル「クリップマスター・セキュリティ」の提供開始(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ0V5NTJVeG03QTNtVEk1ZlhjRFZBU3ZQTl9mYlZaNV9wZlZhYnJJOFhQWFZRT0NwUVF5SFR4MUpOaTBiVkVOc3dFOGJLYklCRU1QYS0zSG1FLUp0YWlQc1k4UzFjczI0dktJNnduU2dvZFdQV21aTXlHYXdpUWVIYjQ0UEl2cjA?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T08:50+09:00"
+    },
+    {
+     "title": "小型株戦略－不安定か／ソーシャルワイヤー、関東電化工業、ＧＭＯフィナンシャルなど",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONGctSVdmbG9RTEI4S1hVdEd2aUdUaWtWc2hnVU9WSDVteXNkY0xmNV9RakJyVng0Y2dFT3BGbGUwSF9GRHptSGtZNlA1RmpVR2RvakJGY3VLMGxucVlTUzU2c2xhT2JmWDhET010emhhQnZyVnctMmtnNlE4bHhHNXVXdldPQWZiZGtF?oc=5",
+     "source": "Moomoo",
+     "published": "2026-10-23T07:51+09:00"
+    },
+    {
+     "title": "小型株戦略－不安定か／ソーシャルワイヤー、関東電化工業、ＧＭＯフィナンシャルなど",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5xQnlMbTdwZ1c4dWZEMGotMl9pc3d1MGo5QWJFUVA1QmZUZGtMVkJCeWZDRzE2UEJUaXJCVHl3c2dDazQtSURtZldvUVhObkxTSGpUcWc4c3dERllXdUlWOW56b0hXYkVidjE5SXJhdw?oc=5",
+     "source": "TradingView",
+     "published": "2026-10-23T07:50+09:00"
+    },
+    {
+     "title": "ダイブグループ（151A）、IR説明会のアーカイブ動画・書き起こし記事を公開",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfdlJzNlVoX1gwZExWcllodWktSU5FZTNTeDh0WkhPdGs1QUtaTVRVc0tJWnBWTk1qMWN6UzFYSU9JQ01fR2s5RWIxazlHVnFmNUhhcl9zdHlNaHZadE9YaVBR?oc=5",
+     "source": "Excite エキサイト",
+     "published": "2026-10-22T12:00+09:00"
+    },
+    {
+     "title": "取材の手配から記事制作まで、広報業務を支援 アットプレスが全国対応の「取材プラン」を開始",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00QUVwMXpOTExaRDVVVzZTVlVVcnlITTg4a282bThSN2x5Yl9sdlg3RFlZSnEzQWdKOVhjMEVPczdGMjN5T3ZhT2ZoWThpUUk?oc=5",
+     "source": "アットプレス",
+     "published": "2026-10-22T10:20+09:00"
+    }
+   ]
+  },
+  "3905": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 505742000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "データセクション[3905]：主要株主及び主要株主である筆頭株主の異動に関するお知らせ 2026年10月26日(適時開示) ：日経会社情報DIGITAL",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KRmtud3RTbzdxbHktcmlBLWdHMENlUmFTVVJ1Ymg0V2FyMDNxWkZLTjZUNU9YQ2lBWk41NEFtT05LN21GeEZ5cUxYY2ZjTllYbHZ0Nm1PV2tOVG12REJMTlRBWGw4NTQydEE?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-10-26T09:30+09:00"
+    },
+    {
+     "title": "アースエレメンツ・キャピタル株式会社がデータセクション株式会社＜3905＞株式の大量保有報告書を提出",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMUZFYkRBNlYtTXVxdlF2VUFSQ1lFUDBDb1A0SFdNZ1NBNWMwYXRlZmh0eFNjWGUzblNqSlNaSWVrakphMXM4U1N5V2YxeFpoQTktSkVnUnYwazFLOXV0WTdZTWJvY2lsdWFQYzRuRkRqM0VlV3NvMHhIT0RScGpjLXBXc0xJa01YblHSAYoBQVVfeXFMTzFGRWJEQTZWLU11cXZRdlVBUkNZRVAwQ29QNEhXTWdTQTVjMGF0ZWZodHhTY1hlM25TakpTWklla2pKYTFzOFNTeVdmMXhaaEE5LUpFZ1J2MGsxSzl1dFk3WU1ib2NpbHVhUGM0bkZEajNFZVdzbzB4SE9EUnBqYy1wV3NMSWtNWG5R?oc=5",
+     "source": "ｄメニューニュース",
+     "published": "2026-10-23T15:45+09:00"
+    },
+    {
+     "title": "データセクションがプラス転換､大口案件のサービス開始",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ieWRIR21adWVlMHJuYTdQRjR0N1E4SVNHTUozVXhSdjEzcG5aUC1kWW4zT1prVEZ2ZGpTR2pwVTBnWHB0WkpQczZyS2V4bzZ1RkRBcUpuYw?oc=5",
+     "source": "四季報オンライン",
+     "published": "2026-10-23T14:00+09:00"
+    },
+    {
+     "title": "データセクション－後場買い気配 AIインフラおよびGPUコンピュートサービスを提供開始(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQlNtb05NUzM2dHdZNzJrUzRpMVBzczc1LW1RVjFrZkduZlF5aHktaHRSMDRDczM3cEhxOG5iMm96OXZoM2VsdEtZTGhSMHREYVNOX1lQY1NLOF85MFZYQ2ZpbEFoUkFUaEkxaFhFb1FwNjBQVWNqRGFHb2FNOUh3YTczVU5wQkE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T12:37+09:00"
+    },
+    {
+     "title": "データセクション(株)【3905】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ORUNYWURYYkpWaWJHbmUySG9ZNWxGU2RYSUJ0bFp1Tlh2N2lVNG5PdXNraHRmZkl6LVc0ckV3ekIyYk9iOWg5NVRLSnRhVXptNE9KQ21hVkNDbHVWa0I3by1SQWIxZDVzSEFvTk5UNFY0LW1WWFE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-20T16:00+09:00"
+    }
+   ]
+  },
+  "5250": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 44220000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "ＧＭＯプライム・ストラテジー(株)【5250】：株つぶやき",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE50Mk1lNTE3V2d5UFBvNnRLVG9yNmlyYXJBUEtrNUZ5a1J4b2MwbXFETHNhUThhb3hsMVBvVm5zWVpDWGpleTdYU1lmTmFSZEdNeHVSaUhvZVY?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-25T10:36+09:00"
+    },
+    {
+     "title": "前日に動いた銘柄 part2 GRCS、ブロードバンドセキュリティ、GMOプライム・ストラテジーなど(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVZ1YUhzb3hWdzhmV3ZTendNZ0ZiZWZfazhwdzg4RTcxMlZFQlpHOTdhV1hoWVl5VUU4WlhPYzdoNHNqWVBNWlJGVXFPYm1CWGNSUkR0Z0JuVEtsXy05dTdRMFBoektrTEQtQ1dVU19xdVdkNFd4Z3JnU0tndzBpSU9vdGxGc00?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T07:32+09:00"
+    },
+    {
+     "title": "前日に動いた銘柄 part2 GRCS、ブロードバンドセキュリティ、GMOプライム・ストラテジーなど",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KT0p1b29oM2tlMDQ2RVF4bGFPRFdvZkhMWTNoNm5PbTNfUzhlUzVMc2VGSXdmZXcyc0NjLXJCU05taDNyeXYzUER4SGtTV0VhckE?oc=5",
+     "source": "株探",
+     "published": "2026-10-23T07:32+09:00"
+    },
+    {
+     "title": "前日に動いた銘柄 part2 GRCS、ブロードバンドセキュリティ、GMOプライム・ストラテジーなど",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbGhENE1aY3o5U0FleG5QSmZnZmFDZjI4Y25UM2ZQWFN4bUhrcDdneVVwYldnYkkwLVNlRWxYZkZDUmlrN1FRVzg4R1EwcVNkWlk1N2VzM2w2Y3ZWWmJ6d1N0WVdDMnk1WG00NkVhV1ZMY0RpRWlKQ0VabGxwWjVOMWRHdmdhQzDSAYwBQVVfeXFMTzRrdG1tYlQzcVdGRExNeENDVEZtLWE0WVRZLTR4MTBTQ1k1VzdzZlExQzdlbnl4a25GbkJoZ2h1dUJ4cnVHSGFvWEp1RGl5ZDVmNVdmV29QeHJhYjBTU1lONVZISjJ5QTN2cU9VS1ZkM0ZlUF81cmVpQUJ0emx0S3Mxak0zX1huQjVqMWg?oc=5",
+     "source": "ｄメニューニュース",
+     "published": "2026-10-23T07:32+09:00"
+    },
+    {
+     "title": "世界中のWebサイトを動かす「PHP・WordPress」の守り手はこの会社だった！GMOプライム・ストラテジー（5250）が脆弱性ニュースの\"本命中の本命\"と言われる理由と、急騰後に見るべき唯一の数字｜日本個別株デューデリジェンスセンター",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTd05tYnQ4V1dvWU9aOHFnbGVDNHVSRXFEOEI5ZWkyTEppVXZnWEdTaUZKSmNuWndSdlJ1SGd4U3dDQ0hUalpwZEIzXzhYcjh0bEZWSzM3bnFxRzA?oc=5",
+     "source": "note",
+     "published": "2026-10-22T18:22+09:00"
+    }
+   ]
+  },
+  "6203": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 6762000000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "豊和工業－ストップ高 防衛費の対象経費を拡大へ経済安保など政府検討 米国に配慮＝日経(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcFR0REZYc3NqREp3UGh0YkhyTW41SktSZEtZN0drVHFBanc2YUduY3hOa0NMb20wOVExeWIzREdDTE8tUTBVMTFLMng3N0RDRl9nRi1vNHBxVURjZ0twWTd1aGt4cmp4V0hMMEJNaXJ0NFROWmhnQVAtVXJWNkJaZElOdmtBTXM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T14:32+09:00"
+    },
+    {
+     "title": "動いた株・出来た株（前場）part3：セキュアヴェイル、豊和工業など17社(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMjB5RzlPcnBDUTFaeWFIVHJaZEoyR0tROFhXR2JvYnhnMVV4aU0wd2dDb1VZcG9rcG9uc1hQWjFBOExHUnlFZzNRUi1rSVpoY3REQW1SUUQ1YmxWMUJQVDlXTDMyWDlMYy1oUUJ2Sm5VWFVKb2NaVVZWZ1pzanFTWDhCSUhFVGc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T13:55+09:00"
+    },
+    {
+     "title": "豊和工業(株)【6203】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tTmU3MjF2T01oSVRNdWJQSl85ZEMyZGRYNV9BdjdZY2ZMbTRodVVPZXBLaU5saXp6eGFuMnZUNUxMeUJ5S3pWcG1oa1ZWUGdkSDVMSWowMGRMZlFzUWF0SHlReXF0Rk52WTRsdW9jWUtIX1p4clE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-25T19:02+09:00"
+    },
+    {
+     "title": "豊和工業(株)【6203】：板気配",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9iR01ZLUpTOUROSFZ6MnFFNXpzazlQNE5SeEtpRFpraWJISDI1TUQ1ZjhwRG5RbC00STZzVkMwRWdqN2lTOXJBckx2bC1Id2xCY1ZWWkRuWHRsM0R6Ui1R?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T16:00+09:00"
+    },
+    {
+     "title": "豊和工業(株)【6203】：株主優待",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KZU10SkxneUJBT0U3UjV2V2NnSkVJbDRPakRjOEYzbjNDdFNfQWFwcjJITzNGVG90R0hGYVdmTENSelE4czFUUVVpTDVqaHUwWUVwSXExbVB3cWlHLXVN?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T16:00+09:00"
+    }
+   ]
+  },
+  "7477": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 0.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "東京市場サマリー：日経平均は続落 菊池製作が上昇、ファナック好決算発表でフィジカルAI関連株に資金流入 ムラキは急伸、イクヨが1株3000円でTOB上場は維持 商社株が軒並み上昇原油高で業績押し上げ期待",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wb0pRdnFhZ0E4MWlOZzJiUkJ3WF9SeVNKV3VOWVJ6SFJsNzBQYkhOdEExS1FjQi16TGpreFJ3Z1I4OEpoOG9zZDVWN1hxN3NlaEpMTGdrOHNfQW5SNmhWVE1xY0VDaVA1ZkRBa0QxTzZuUF83NEM0RTBtcUhxZ0U?oc=5",
+     "source": "Moomoo",
+     "published": "2026-10-26T15:53+09:00"
+    },
+    {
+     "title": "後場コメント No.3 パルＧＨＤ、ムラキ、新都ＨＤ、持田薬、豊和工、フジッコ(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeFNfYlVZUjNlVVdCU3BaTWVGWUhoZ3loRUgxZW9tZ25PV2xPMXhyUFJxOFJ5b1d5LVBLcndta01NWjktZUpnelU3N1M2c2hVTC0yU2M5RnJEUGo3UE8tWUk4LVpNcFg0bjBkU0ZqWFZBVXpUVEJrS08wdlRKZi1DbzBYOUlGUEU?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T15:35+09:00"
+    },
+    {
+     "title": "ムラキは後場Ｓ高カイ気配、イクヨが１株３０００円のＴＯＢ実施の意向と開示",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uMHVsb09iS0VlZ1JGTDRINUxZNWdibzJxWTg4MTF2Y2NXaEVSb01DNThSSUV2VXA5Z19JSlc1NmVtUDZ1VkFMdjlMWEZfQWl0bUlRa25Ed0lENXpvYU56ZnVR?oc=5",
+     "source": "株探",
+     "published": "2026-10-26T14:57+09:00"
+    },
+    {
+     "title": "ムラキは後場Ｓ高カイ気配、イクヨが１株３０００円のＴＯＢ実施の意向と開示◇",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55OUY4ZU9lWURDd1JaTU1TVVdnRDhxRTR6VmpQVzZ0VDlxX2JFd3RCMWVzbDdXN0Q5czRvT3RTdS15SzhNaHJQcjB6aDZDRzVPNk5iWWZ0a2Ywc2RSMS1r?oc=5",
+     "source": "ライブドアニュース",
+     "published": "2026-10-26T14:57+09:00"
+    },
+    {
+     "title": "ムラキ－急騰 イクヨが1株3000円でTOB 上場は維持",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XbXZ0TW0zX2VuTnJGTDZBVXBSeXRWTi1LSUlpWkdtdGE5Yk1pMUt5SWFTbEFPOENqLV9GUmlmdVI3eDZVd0lkMld4cFNGY2VIUF9aeW1wWE5Md1FZMmFtNGJBTktUOEtIYnRSRl9QdFo?oc=5",
+     "source": "TradingView",
+     "published": "2026-10-26T14:19+09:00"
+    }
+   ]
+  },
+  "4073": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 1330721000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "東証グロース（前引け）＝値下がり優勢、Ｓワイヤー、ジィ・シィがS高(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaG1DdlR0ejFyTnYtOGpyWHc0T0ZVRXFnR05UM3pCazdUbnJfRExiZjYtOTJ2OENWajFmUkJhazhXd3pyYWxOSGw5Y2VUM3pXMDk1OWFFbW1xMGVhbWFpODZDQl9WVzFDNi1DTTZPdVpRakZSZnBkZzVocjBDYk9iZ1JqcmlKc0E?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T11:33+09:00"
+    },
+    {
+     "title": "(株)ジィ・シィ企画【4073】：板気配",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9mMVRrNzVNUGF2QkJqWHpQeUd3c2pNWlR2NDNQNlByWXMtZjVZVlhuemJBMzR3N2hROFYzV3g0bDJ3cGkxMk5GR2JocHF1WlduTjBwNjEzVENaT1FHQUpj?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T16:00+09:00"
+    },
+    {
+     "title": "東証グロース（前引け）＝値下がり優勢、リネットＪ、ジィ・シィがS高(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWUwtTU5yOFpldWFOcXh1Xy13SGdMdEdlYVJ4b3VMWUZuR0JYRVZlTTJQNmZsaTQzTlRzNXZpRlpZVU9UalhxdTZnRW5WUGxQZkNTRmMzb2xxcmJXeHdpQ2pBaUUxVFI1UkVPd2ZxeEpHYXdFUkR6UUdON2VZdE9ac2Y5YVhvZHM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T11:33+09:00"
+    },
+    {
+     "title": "東証グロース（前引け）＝値下がり優勢、ジィ・シィがS高(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzR4UXF1Y1BwdkdUZ2RNNzN1aXVodENmTU02LTY3LS1KaWNjRGp2YTAtZlJ5N1ZybC1mWWUxeW02SlRnMXM4a1RhVlZkTVFjdnd3QVBYbmlPVTBSdTJyNGtaeE9fdms5YXBCNzRpTTMxeVUwUXdtczg1UkpUM1F3Tk9MNlVTY0k?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-22T11:33+09:00"
+    },
+    {
+     "title": "(株)ジィ・シィ企画【4073】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3dHBYeERCMFRjajExWnFjMnRZWkxsMEZSQklyOFFtTlYyZDZkUmsyMDFWNU1oNDQxZzgtVldiUng1Rkl0VXh3TjVGeGFNOW91NlZWMlNmSmM3TG1sV3hxeW84Y2tVME1vcWpGX212UkJraUJfRFE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-12T11:49+09:00"
+    }
+   ]
+  },
+  "3909": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 588666000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "東証スタンダード（大引け）＝値上がり優勢、セキュアヴェ、ショーケースがS高(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMzFYX24yQ01ZNzAzUFZFWm5BNUIyVU03d3lOX3dmSXRMc3NlSkVTaGZXUmplNzQ4T2xpazBSc0I3aVpYck9DWVpRUHlfMWRFNWVHdHJqUDk3cHBYMDlnVEdnNzlDSGt5Qk5LVGFRdVZiTVVDWUtISUNnTHFyckM1NC14ZWtId3c?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T15:32+09:00"
+    },
+    {
+     "title": "【明日のテンバガー株】全体軟調継続！ショーケース！セキュアヴェイル！テリロジーホールディングス！爆上げから爆下げ！SHOEI！高値更新！スリー・ディー・マトリックス！下落トレンド！【20261020】 Westjet Flight Cancellations (0GX1w7B5rD)",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TMU01a19RWmxYdGlZUjZHb2FBUnk5QUR4Y2ZGb2ZxTWJjdUVncGR3UGxMUERLX3VmdVVBQzdfaENQaXYyMUI2eXQ5MVJvbFg0VDVpbzRJc3hDNUNzZzN6dG0xT3kzbzFpUm1r?oc=5",
+     "source": "Unisba Media",
+     "published": "2026-10-25T14:21+09:00"
+    },
+    {
+     "title": "冷蔵スーパーマーケット用陳列ケースの世界市場（2026年～2032年）、市場規模（密閉型ショーケース、開放型ショーケース）・分析レポートを発表",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1cGVBX2FzQjIxU2JSSmI3enNjTHJ5OU1vaTdiaGtnYkhGVkVqSXdNRWxNSDNTak1QRFV1aFZuQ3JXOEZfdmRBNjFpQkhncDA?oc=5",
+     "source": "アットプレス",
+     "published": "2026-10-24T11:30+09:00"
+    },
+    {
+     "title": "(株)ショーケース【3909】：株主優待",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JYm1kTTh5RHNUcGJuQ2wtb19WQ0F2RnRpV3RKTURGUjJQWDgtVkJMNW5TY2VYY29TSHJsN01EQk1wNWd0R21BUXRndFNNZEx1ODc5bXFMQTBPeEM0OEln?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T16:00+09:00"
+    },
+    {
+     "title": "ショーケース (3909) : 今後の予想・売買予想・AI株価診断 [Showcase]",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rQ2lNQ0oxMUhncjhzS1R6QTBXN3RDMnVkbWtGblBVUnJ2MkRISkZsMlRfenVWYS0yR0h1YUU2Mm1vMmxJb1l0ODd3N0d1cWc?oc=5",
+     "source": "みんかぶ",
+     "published": "2026-10-23T15:30+09:00"
+    }
+   ]
+  },
+  "338A": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 122500000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "(株)ＺｅｎｍｕＴｅｃｈ【338A】：板気配",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5henJmY3Zka1V6RkxuVGRscXZIT2NrMWZ4Mm80RXlWeFBmOVhFbDBoNlE1cXhpNjBNS3p2VWxZb3JPUVBMSjR5UmhfRGgyUjQwc1BfWkM4dm1neHRXSHF3?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T16:00+09:00"
+    },
+    {
+     "title": "(株)ＺｅｎｍｕＴｅｃｈ【338A】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYbG43STZlUExsNmZGcG9IQTJxSWpSRFItR3JEZjR2aGp3SEtid0RsVTFaYWFJWk1nOFpyM0dVb0V3dS1KaGNTUU9aRllad2o4SnpxNm9iVUI2UXMzQUxRLUtNV0tCMUFXQVYtZnRPX3FUcjYzNUE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-09T16:00+09:00"
+    },
+    {
+     "title": "岡積　正夫が株式会社ZenmuTech＜338A＞株式の変更報告書を提出（保有減少）",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX3BURk5FTWlUYWg1T3ItT1VPd0tDM2MyTlRkUGYtSGN5aDJFQXl1UE1Lb3dlc2VGdWozeUxxWWtTcUxLRlNJWHJzRlZoQWFBUmJ0RFJibmQ2ZGpVak1fcnYxd00yOTZXQUQwVk9vcjIwVGFOZDJDajRDX1hwdElqWkdYNHrSAYoBQVVfeXFMT2lBaFRDR1ViNHY2eGtEQzVMbV9qMHNEcFJZNVNNN0tNbU82aFMxMUVSWWNjemdVTnJVUmJtdGQwcFVlR0tpRTBoYldSNG91bUh5dUs5bDJFSlUwTjRkM0oyU0Y0UGNiT251R3U5eTlOdzRXbFhSd0ZWV1dEMEtGSHV3U2xrdldpWUhB?oc=5",
+     "source": "ｄメニューニュース",
+     "published": "2026-10-09T16:00+09:00"
+    },
+    {
+     "title": "～AI時代のPCセキュリティに革新を～ CTC DISCOVER 2026に協賛しソリューション展示",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15Q1VqTHJZQ2lrYU03MTdOOGxJYlFGQi02Q0JGQ1NLVGxrN2VKX1Jnd2F1QzdqUm9yTnloUGRwdHNyNzRCbGdBZ1BMbkJZeFBXbnQ0S3dJY3V1RTJUZXo1VGFvblY4TWc2UGc?oc=5",
+     "source": "PR TIMES",
+     "published": "2026-10-07T16:00+09:00"
+    },
+    {
+     "title": "なぜ10万円以下で買えるこの銘柄が？ ZenmuTechと組んだ医療AI組合「HAIP」に加盟する、セグエグループ（3968）の隠れた実力｜日本個別株デューデリジェンスセンター",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Xc1ZtUk51SWxMMFRhb05SbG9IdDVXdGNqVkhQTXpxM0hWaG9YeWJzTXVaNnpZbU5rWEhBa0d1NTR6LS1ZSUFTYkQ4U09JX2tsRzRNc1BNT2FfUXM?oc=5",
+     "source": "note",
+     "published": "2026-09-11T16:00+09:00"
+    }
+   ]
+  },
+  "3753": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 418592000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "アピリッツとフライトソリューションズが協業 EC-Rider Primo向け分析支援を提供",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sVTR6VUdrOE05ZUhqcXJlMWVHdzYyU0ZLRkdCOTFobFFjM0FMU1ZMNzJnUEFCZ1FhX2NFNHIza1FWZ2xra3RSOWJEaGg1M2pJcW5Qel83d0p5WUlyc1E?oc=5",
+     "source": "Dellows News",
+     "published": "2026-10-23T04:51+09:00"
+    },
+    {
+     "title": "フライトソリューションズ、京セラの法人向けタブレットにTapion搭載",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5lbGlrVjktbXBSUEd0WmJqLS1RSkpibTlhbWFYY3NIcHNzUDRHWGg5UkphWmNRUi1BZHBZRXVscU1vZ0NTdFE?oc=5",
+     "source": "Dellows News",
+     "published": "2026-10-20T15:45+09:00"
+    },
+    {
+     "title": "株式会社フライトソリューションズ | 導入事例 | 法人のお客さま",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Bb1d1SHdQRE5KRnBoN3ZZeXdqYWpkR1hLS3owendaamVLUUhWZTRaNHJPdTdBa0Z0U0xGLW1PRm1IX0xYWHF4eHJINXdndTdQY09OOF90ZXhDTjcyS2ZQTA?oc=5",
+     "source": "ソフトバンク",
+     "published": "2026-10-19T14:31+09:00"
+    },
+    {
+     "title": "フライトソリューションズが京セラと協力し、タブレット版Tapionの新モデルをリリース",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDdS1iNk92NVZjakNzLUh4aEEzTXVOcE1PMEdkR1FBbTQwc3hwQkFHVmRVekZ2elk3cXZHa2VidnlPT2NMUWZlT3psTU41MDA5ZVZxYWdCanNTdmJtWFYzM1A5U2xYSkRHR2RxYy0ycWt3aUMwN2c?oc=5",
+     "source": "ニュースメディアVOIX",
+     "published": "2026-10-14T17:52+09:00"
+    },
+    {
+     "title": "京セラと技術連携、タブレット版Tapionの新モデルを展開",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9XN2o2bjJTYTZObGlVVjdqTXZsbUhtM1dqcHFpLUp3VUR1d0dMampHT05Eb0hXY2RhYm9YRUVOcTJtOVNBVHlzU1luOTN4dFU?oc=5",
+     "source": "アットプレス",
+     "published": "2026-10-14T16:00+09:00"
+    }
+   ]
+  },
+  "3444": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 420121000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "(株)菊池製作所【3444】：今の株価の理由は？値動きの背景をAIが解説",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzQ0wzTTM0YnZkanJrQXJlLVJzZ1h5QVVDRmZ3R3JkTlBEZU5VRjNBX2xpNGx6RDJ3RTZqdHZLRW0weXNXb1BjOHVwVjIzTDRuRExxR0U0d1g1YzBGR3A0?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T15:59+09:00"
+    },
+    {
+     "title": "(株)菊池製作所【3444】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvYXFGSk1vZi1JY2FFWGladkRLZHAtTXUzUk81NUg1cTlGZlZjbWNiVEtYbGlTbm90WFJSamQwVkVXYlZXVFVrclkwVGtJLTNuOVFRajhLZ2xNTllGaVIwdEFPX1JVUmRwWkJvcXNFTUVoMDE5?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-10T05:16+09:00"
+    },
+    {
+     "title": "１４日の動意株＞菊池製作所、政府研究開発プロジェクトで助成金受領(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZEVnTGNpY2xCYkVkOE00eUFMZ2FJN0VKeTBsRGw1NnJ5UG9NVVJvM19wX1dFeHRyOHBBeDZzNHcwMk9Hc0JFS1JWeEYtanFuR2I5QXYtd2lsX1N2bXF4b2szSi1JSS1mdnA4enZiRVFNU1JrMzRYSVVKNjAtLVBXMWx1MS1lRDQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-09-15T16:00+09:00"
+    },
+    {
+     "title": "動いた株・出来た株（前場）part3：北川鉄、菊池製作所など15社(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMEl5bm9nMllTRndmd2V0VTVxUmg1RGpvY1Qwd0N4a0ZPNk1feDZTeEFkc2hDbnNEaWhQcDJ1ZVdZWDJrdFEzX0xWV1dkVFJSaE1qNmZDU01VT0ZmalhTYjN1VTlycDBXUmdXU282WnhTb1ZqQm5LQlNYV2tYSlFmdU5USWZrbEk?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-09-15T16:00+09:00"
+    },
+    {
+     "title": "みんかぶ・個人投資家の予想から＞＝「買い予想数上昇」５位に菊池製作 投稿日時： 2026/09/14 11:19[みんかぶ]",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzcHNSQzV4X3YyWHpWZTJhZWdRVGN5RXFFTktiVTlpVHRCVk4tNERWX0hVdEtLNWFaaFJ4LXY3MkhPVDY5dlE?oc=5",
+     "source": "みんかぶ",
+     "published": "2026-09-14T16:00+09:00"
+    }
+   ]
+  },
+  "6999": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 45413000000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "KOA、メディパル、GMOなど",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNVh5V0dvNF8tX3hzbWxpQi1jMWw2UmRJb0hjUFJTaUdGd3dSUy1KdjBfT2I2WkZvMGcwdnRwaUlFdWtoakdRa1V0SkJHYURxMFo1cDVoSXZFYUpiNjlrU0E2Sm1jRmo3VXRsMEFDaEF0U2lQb0V1UkZIaWFnNVRUR3BoWVVQUlnSAYwBQVVfeXFMUEVQQlVpTDFHQi1LNWRkZGZHWHdrT1hqa1ZDZ1JhYjVHNW9PWGNHcnJybFZPZGNtVnBOV21QREc1ZzJxckRzVVhMS1BnQmFZN2kxam91TGNtVFBjcVRZSG1PcWlvRVllcVljQWt5YUFHN2k5YkhVSW1IZmpmeEx0V0ttNy1VSDB6Zkt0N2o?oc=5",
+     "source": "ｄメニューニュース",
+     "published": "2026-10-26T15:55+09:00"
+    },
+    {
+     "title": "決算プラス・インパクト銘柄・引け後 … ファナック、ＫＯＡ、東京製鉄 (10月23日発表分)(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS2pZUGhhNUpPMW5YQ1RaNTVyTXNBTmhMUWRsaEFpa0VSTmlhcXYwQUQwT1c2TVJHVGwwb2swdFRWNEU4NlZBQUJpZXMtMUpPYnBKUDZxTUVwYzRzQUpnSmJGeU9keEUwSkVTdjFtOGFMczRkM04xSGRRUGdlR01jeDFxdzFUb0U?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T15:48+09:00"
+    },
+    {
+     "title": "話題株ピックアップ【夕刊】（1）：ＫＯＡ、テラドローン、三井海洋(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMUNnMkxJMTZMbi1DR0kwVFQ3Rkd5RmlKcWJtMkhpYmdZd2J2dGhpaW4wVjFNelM5LVNuYWNaNWdfbVNjNzJGWnY2cWVMZGNtb1hLYWgzZHZ6Vk42TG1xeTlJUVFJbHFEX1M3QV9DOEprMTRjbDlDRkI1T3F2cnEwV1Z5MEF1T3M?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T15:43+09:00"
+    },
+    {
+     "title": "動いた株・出来た株（前場）part1：KOA、メディパルなど17社(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcHpBcnYtQ0V5TXZDem9TdTczOXREcElEa29pT0VaUkgzWEVWRGpWakJJVTVET2M1RE0tUHZ1N19EUl91VHhYQVVRbnJqVEYwbkZjUXgzdy1Hd3lCUXMyc0tORUhzQ3R1MXB2UEJnbDNydjRkc0RtMm1DM080UzJERGp3bkoxOVU?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-26T13:54+09:00"
+    },
+    {
+     "title": "KOA株価一時15.7%高 27年3月期2度目の上方修正、AI向け堅調",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YX0ZkQzJRWFIwZXFmYnAtdE5lMEJ1OGJYRmMzNTh3NmVQT0tmOWlwVHlJak5mUDRuMTNmZ1llaVRjaFh2aVFXYkFfdjdYRkRpWmJVc2YyM3JJOGF4YVg4T1FTVVUzYk1ENmNVWA?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-10-26T13:06+09:00"
+    }
+   ]
+  },
+  "278A": {
+   "metrics": {
+    "per": null,
+    "pbr": null,
+    "market_cap": null,
+    "roe": null,
+    "debt": 175457000.0,
+    "net_cash_ratio": null
+   },
+   "news": [
+    {
+     "title": "Ｔｅｒｒａ Ｄｒｏｎｅ(株)【278A】：板気配",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0tZE1QYkdZdEpOR3VnYWpWU1Q5T2NBOFJrMVg3OERheUNadjJhYUFBb3BLYU12OEljQzJIY1U5S0pEMmpDZ05mMXMyVndCM2tNM2JiSWZsSjVRVFpHTW5J?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T16:00+09:00"
+    },
+    {
+     "title": "Ｔｅｒｒａ Ｄｒｏｎｅ(株)【278A】：現物信用売買内訳時系列",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwUTh1WGZsWDVzOHJrZnNFd0hpTmx6NE91cmxHdHRDVnVXLTdKNXV3NTJxZE94bHVmaHdJUzN1UjhsT0xGUW10aUt5cGRrdWVHR2VrT3hMX2dDeEI0Q0xJ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T16:00+09:00"
+    },
+    {
+     "title": "Ｔｅｒｒａ Ｄｒｏｎｅ(株)【278A】：今の株価の理由は？値動きの背景をAIが解説",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZalhnOW0yTVg5N281c2toVnJzWGZIb0s1SURHNEloRUYwZENOTklySmlUNHZKREVSM0IyT0hVS0tWd3M4RnV3cnBwc3ZlWjhpbU54bXVVckZwLVVpbThr?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-23T15:55+09:00"
+    },
+    {
+     "title": "テラドローンの株価が上昇した理由は？急騰した3つの理由と将来性を徹底解説！",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mX1FnOExxVXpPYVFUZzU0di1rTXBybkdyNFpLNmNMRjRvVnBSV1RVZXhORTF1bUpDYUVuY3pCMjV2YlJHNVczbXBhZkczQXdNSkxnMF9HZWhDSms?oc=5",
+     "source": "かぶリッジ",
+     "published": "2026-10-22T16:00+09:00"
+    },
+    {
+     "title": "【注目銘柄】Ｔｅｒｒａ Ｄｒｏｎｅ、防衛ドローン量産で成長期待、株価は短期調整・中長期の再評価を探る",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ES0J2OVpOeVAwckEwVlphZjBQcWtSQ1BjUVYwSGQtLUpYMEduWlNwc2VCWXNVWUJ5VGpoQlg5bXREbnNCN3hTNTdnVmFaMWN0M3BJeA?oc=5",
+     "source": "https://kabu-ir.com/",
+     "published": "2026-10-14T16:00+09:00"
+    }
+   ]
+  }
+ }
+}
