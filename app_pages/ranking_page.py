@@ -1,4 +1,4 @@
-"""値上がり上位10社を業種ごとに見るページ。"""
+"""値上がり上位の会社を業種ごとに見るページ。"""
 
 from datetime import datetime
 
@@ -69,8 +69,8 @@ def snapshot_label(s: dict) -> str:
     return f"{taken:%m/%d %H:%M}　{ranking.TIMINGS.get(s['timing'], s['timing'])}"
 
 
-st.title("値上がり上位10社")
-st.caption("東証の全上場株から、前の日の終値より上がった割合が大きい順に10社。株価は約20分遅れです。")
+st.title(f"値上がり上位{ranking.TOP_N}社")
+st.caption(f"東証の全上場株から、前の日の終値より上がった割合が大きい順に{ranking.TOP_N}社。株価は約20分遅れです。")
 
 with st.expander("最新の情報を取りに行く", icon=":material/refresh:"):
     st.write("全社（約3,700社）の株価を集めるので、4〜5分かかります。")
@@ -81,7 +81,7 @@ with st.expander("最新の情報を取りに行く", icon=":material/refresh:")
     )
     if st.button("今すぐ取得する", icon=":material/download:", type="primary", width="stretch"):
         with st.spinner("株価を集めています…"):
-            top = ranking.fetch_top_gainers(min_trading_value=min_value)
+            top = ranking.fetch_top_gainers(top_n=ranking.TOP_N, min_trading_value=min_value)
             ranking.save_snapshot(top, guess_timing(datetime.now(ranking.JST)))
         st.success("取得しました")
 
@@ -95,14 +95,14 @@ chosen = st.selectbox(
     range(len(snapshots)),
     format_func=lambda i: snapshot_label(snapshots[i]),
 )
-# 記録には上位50社まで入っているので、先頭の10社だけを使う
-df = pd.DataFrame(snapshots[chosen]["rows"]).head(10)
+# 記録には多めに入っているので、先頭の TOP_N 社だけを使う
+df = pd.DataFrame(snapshots[chosen]["rows"]).head(ranking.TOP_N)
 df.insert(0, "rank", range(1, len(df) + 1))
 
 # 業種ごとのまとめ（上位に多い業種が分かるように）
 counts = df["sector"].value_counts()
 st.subheader("業種の内訳")
-st.bar_chart(counts, horizontal=True, x_label="", y_label="社数", height=70 + 40 * len(counts), alt="上位10社の業種ごとの社数")
+st.bar_chart(counts, horizontal=True, x_label="", y_label="社数", height=70 + 40 * len(counts), alt="上位の会社の業種ごとの社数")
 
 st.subheader("業種ごとの一覧")
 # 一番順位の高い会社がいる業種から順に並べる

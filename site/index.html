@@ -217,6 +217,7 @@
   const FILTERS = [
     { v: 0, label: "除かない" }, { v: 1e7, label: "1千万円" }, { v: 1e8, label: "1億円" }, { v: 1e9, label: "10億円" },
   ];
+  const COUNTS = [10, 50, 100];   // 何社まで見せるか
 
   // ---- 状態 ----
   let manifest = null;
@@ -228,6 +229,8 @@
   if (nowHour < 9 && nowHour >= 5) tab = "morning";
   let snapIndex = 0, morningIndex = 0;
   let filter = remember.get("filter", 0);
+  let count = remember.get("count", 100);
+  if (!COUNTS.includes(count)) count = 100;
 
   async function load(file) {
     if (!cache[file]) cache[file] = await getJSON(file);
@@ -270,12 +273,17 @@
       FILTERS.map(f => h("button", { type: "button", "aria-pressed": f.v === filter,
         onclick: () => { filter = f.v; remember.set("filter", f.v); render(); } }, f.label))));
 
-    const rows = snap.rows.filter(r => (r.trading_value ?? 0) >= filter).slice(0, 10);
+    frag.append(h("div", { class: "field", style: "margin-bottom:6px" }, "何社まで見るか"));
+    frag.append(h("div", { class: "chips", style: "grid-template-columns:repeat(3,1fr)", role: "group", "aria-label": "何社まで見るか" },
+      COUNTS.map(c => h("button", { type: "button", "aria-pressed": c === count,
+        onclick: () => { count = c; remember.set("count", c); render(); } }, `${c}社`))));
+
+    const rows = snap.rows.filter(r => (r.trading_value ?? 0) >= filter).slice(0, count);
     if (!rows.length) { frag.append(h("p", { class: "empty" }, "この条件に当てはまる会社がありません。")); return frag; }
 
     const title = `${TIMING[snap.timing] || snap.timing}　上位${rows.length}社　${when(snap.taken_at)}`;
     frag.append(h("h2", {}, title));
-    if (rows.length < 10) frag.append(h("p", { class: "sub" }, "この回の記録では、条件に当てはまる会社が10社に足りませんでした。"));
+    if (rows.length < count) frag.append(h("p", { class: "sub" }, `この回の記録では、条件に当てはまる会社が${count}社に足りませんでした（前の記録は少ない社数で残しているため）。`));
 
     // 業種の内訳（多い順）
     const counts = {};

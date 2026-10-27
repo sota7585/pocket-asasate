@@ -24,7 +24,9 @@ SNAPSHOT_DIR = DATA_DIR / "snapshots"
 JPX_PAGE = "https://www.jpx.co.jp/markets/statistics-equities/misc/01.html"
 JST = ZoneInfo("Asia/Tokyo")
 
-KEEP_ROWS = 50   # 記録に残す社数（ページで売買代金で絞っても10社そろうように多めに残す）
+TOP_N = 100      # アプリに出す社数
+KEEP_ROWS = 400  # 記録に残す社数（アプリで売買代金で絞っても100社そろうように多めに残す）
+KEEP_DAYS = 60   # 記録を残す日数（それより古い記録は消して、置き場所がいっぱいにならないようにする）
 # ページの「売買代金で絞る」の選択肢（円）。0 は「除かない」
 TRADING_VALUE_STEPS = [0, 10_000_000, 100_000_000, 1_000_000_000]
 
@@ -133,28 +135,61 @@ def _download_prices(tickers: list[str], chunk: int = 300, retries: int = 4) -> 
 
 
 def detail_targets(df: pd.DataFrame) -> pd.DataFrame:
-    """詳しい情報を集める会社：絞り方（売買代金）ごとの上位10社を合わせたもの。"""
-    picked = [df[df["trading_value"] >= v].head(10) for v in TRADING_VALUE_STEPS]
+    """詳しい情報を集める会社：絞り方（売買代金）ごとの上位 TOP_N 社を合わせたもの。"""
+    picked = [df[df["trading_value"] >= v].head(TOP_N) for v in TRADING_VALUE_STEPS]
     return pd.concat(picked).drop_duplicates("code")
 
 
 def save_snapshot(df: pd.DataFrame, timing: str, details: dict | None = None) -> Path:
     """取得した結果を、あとから見返せるように保存する。
 
-    rows は値上がり率の高い順（最大 KEEP_ROWS 社）。上位10社は rows の先頭10件。
+    rows は値上がり率の高い順（最大 KEEP_ROWS 社）。上位 N 社は rows の先頭 N 件。
     details は会社コードごとの指標とニュース（あれば）。
     """
     SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
     now = datetime.now(JST)
     path = SNAPSHOT_DIR / f"{now:%Y-%m-%d_%H%M}_{timing}.json"
+    # 記録が大きくなりすぎないよう、数字の桁を減らし、余白なしで書く
+    rows = df[["code", "name", "sector", "market", "price", "change", "change_pct", "trading_value"]].copy()
+    rows["change_pct"] = rows["change_pct"].round(2)
+    rows["trading_value"] = rows["trading_value"].round(-4)
     payload = {
         "taken_at": now.isoformat(timespec="minutes"),
         "timing": timing,
-        "rows": df.to_dict(orient="records"),
-        "details": details or {},
+        "rows": rows.to_dict(orient="records"),
+        "details": _compact_details(details or {}),
     }
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return path
+
+
+def _compact_details(details: dict) -> dict:
+    out = {}
+    for code, d in details.items():
+        m = d.get("metrics")
+        if m:
+            m = {k: (round(v, 3) if isinstance(v, float) else v) for k, v in m.items()}
+        news = [{"title": n["title"][:80], "link": n["link"], "source": n.get("source", ""),
+                 "published": n.get("published")} for n in d.get("news", [])]
+        out[code] = {"metrics": m, "news": news}
+    return out
+
+
+def prune_snapshots(keep_days: int = KEEP_DAYS) -> int:
+    """古い記録（keep_days 日より前）を消す。消した数を返す。"""
+    if not SNAPSHOT_DIR.exists():
+        return 0
+    limit = (datetime.now(JST).date().toordinal() - keep_days)
+    removed = 0
+    for f in SNAPSHOT_DIR.glob("*.json"):
+        try:
+            day = datetime.strptime(f.name[:10], "%Y-%m-%d").date().toordinal()
+        except ValueError:
+            continue
+        if day < limit:
+            f.unlink()
+            removed += 1
+    return removed
 
 
 def list_snapshots() -> list[dict]:
