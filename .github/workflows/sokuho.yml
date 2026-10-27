@@ -32,7 +32,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -70,7 +70,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add data
+          git add -A data   # 古い記録を消した分も反映する
           git diff --cached --quiet || git commit -m "記録 ${{ steps.timing.outputs.value }}"
           git pull --rebase
           git push
@@ -86,4 +86,4 @@ jobs:
 
       - name: アプリを公開する
         id: deploy
-        uses: actions/deploy-pages@v4
+        uses: ac
