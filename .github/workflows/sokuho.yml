@@ -86,4 +86,4 @@ jobs:
 
       - name: アプリを公開する
         id: deploy
-        uses: ac
+        uses: actions/deploy-pages@v4
