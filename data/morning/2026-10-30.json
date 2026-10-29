@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-10-30T07:33+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 52342.55859375,
+   "change": -132.54296875,
+   "change_pct": -0.25258258641411846,
+   "date": "2026-10-29"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7720.39013671875,
+   "change": -23.58984375,
+   "change_pct": -0.304621703691077,
+   "date": "2026-10-29"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 26184.724609375,
+   "change": -365.125,
+   "change_pct": -1.3752431948656718,
+   "date": "2026-10-29"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 11518.19921875,
+   "change": -165.80078125,
+   "change_pct": -1.4190412636939431,
+   "date": "2026-10-29"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 157.68499755859375,
+   "change": -0.3079986572265625,
+   "change_pct": -0.19494450045484113,
+   "date": "2026-10-29"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 102.8499984741211,
+   "change": 0.06999969482421875,
+   "change_pct": 0.06810633941971567,
+   "date": "2026-10-29"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 4030.300048828125,
+   "change": -21.300048828125,
+   "change_pct": -0.5257194272565657,
+   "date": "2026-10-29"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.988999843597412,
+   "change": -0.0560002326965332,
+   "change_pct": -1.110014506435264,
+   "date": "2026-10-29"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 17.200000762939453,
+   "change": 0.29000091552734375,
+   "change_pct": 1.7149669907993825,
+   "date": "2026-10-29"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 63954.19140625,
+  "futures": 63955.0,
+  "diff": 0.80859375,
+  "diff_pct": 0.0012643326922301412
+ },
+ "previous_top": {
+  "taken_at": "2026-10-29T16:57+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "3779",
+    "name": "ジェイ・エスコムホールディングス",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 155.0,
+    "change": 50.0,
+    "change_pct": 47.62,
+    "trading_value": 1290280000.0
+   },
+   {
+    "code": "5341",
+    "name": "ＡＳＡＨＩ　ＥＩＴＯホールディングス",
+    "sector": "ガラス・土石製品",
+    "market": "スタンダード",
+    "price": 179.0,
+    "change": 50.0,
+    "change_pct": 38.76,
+    "trading_value": 845170000.0
+   },
+   {
+    "code": "2673",
+    "name": "夢みつけ隊",
+    "sector": "小売業",
+    "market": "スタンダード",
+    "price": 113.0,
+    "change": 18.0,
+    "change_pct": 18.95,
+    "trading_value": 135440000.0
+   },
+   {
+    "code": "4228",
+    "name": "積水化成品工業",
+    "sector": "化学",
+    "market": "プライム",
+    "price": 688.0,
+    "change": 100.0,
+    "change_pct": 17.01,
+    "trading_value": 255940000.0
+   },
+   {
+    "code": "6574",
+    "name": "コンヴァノ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 1120.0,
+    "change": 150.0,
+    "change_pct": 15.46,
+    "trading_value": 292770000.0
+   },
+   {
+    "code": "4224",
+    "name": "ロンシール工業",
+    "sector": "化学",
+    "market": "スタンダード",
+    "price": 2467.0,
+    "change": 318.0,
+    "change_pct": 14.8,
+    "trading_value": 200070000.0
+   },
+   {
+    "code": "2459",
+    "name": "アウンコンサルティング",
+    "sector": "サービス業",
+    "market": "スタンダード",
+    "price": 148.0,
+    "change": 16.0,
+    "change_pct": 12.12,
+    "trading_value": 225540000.0
+   },
+   {
+    "code": "3843",
+    "name": "フリービット",
+    "sector": "情報・通信業",
+    "market": "プライム",
+    "price": 1950.0,
+    "change": 205.0,
+    "change_pct": 11.75,
+    "trading_value": 935220000.0
+   },
+   {
+    "code": "7360",
+    "name": "オンデック",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 1215.0,
+    "change": 124.0,
+    "change_pct": 11.37,
+    "trading_value": 118100000.0
+   },
+   {
+    "code": "8143",
+    "name": "ラピーヌ",
+    "sector": "繊維製品",
+    "market": "スタンダード",
+    "price": 157.0,
+    "change": 16.0,
+    "change_pct": 11.35,
+    "trading_value": 149670000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-10-29_1657_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "サンディスク、好決算も時間外で下落 投資家の厳しい視線にさらされる＝米国株個別(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUXFQU3Z0RTVMa0NYLXVyN1VZZng0QnBsTmlqX1hmMjQyTl9mU0Y5UnpqTnRVd1NuOENSMHlZeXphNmpXdXRpNVMxcC1YZU00Q1JxX1BOdjJxQzlQQk9raEc3bUFEYXg0d000VHZuUEZ1czUzRkxWaENPb3pmMWszd3RhUjhFcUk?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-30T06:31+09:00"
+    },
+    {
+     "title": "米国株式市場は反落、一部企業決算受けAI投資への懸念再燃（29日）(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeTRheGI5VHdLQkpWRHI4ajA3c2pZeExwZEU0dUlJMDRvU09tLUJjNFk3TXhnZHRKOVhVdWZYX2hScEQwN19PLTRDajlhdzFtcXZPcnhPTXJ0dElQU3VnX2Mxc2kyTkNsQ3VjeXpzN3l4aHhjZkVLZjFDdTgybWtneHFsQVRHWjA?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-30T06:17+09:00"
+    },
+    {
+     "title": "米国株式市場＝反落、アルファベット決算受けＡＩ投資に警戒(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU1E0aVFrOWlsa3FxMHlmX2kyMUhWMkhXaENxUUdsS2h4M1dtWU4xQmdaNF9Jam83emNaYVY2RE9qXzVObWZOV00zczNUN0dZQ0hHNGFORzdGVUt5UEdOZkV4eWowQ0ozYlp1S0c5UjlrejBjYnZMMDBCTXpBTzRweXZIc1hLOGc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-30T05:25+09:00"
+    },
+    {
+     "title": "上海総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-10-30T05:11+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "マストテック、収益見通しが予想下回り株価3%下落 執筆",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tMTFPbW5rWWFXVVBVX2lWRnZKWEZRaFZBNng5Nl9aZjg4Qm5iQmRYcVREa3o4REdoSnA2S3Z6ZTM2MWRhQnFLd1BOaGFsX3U2MWFsMWxtU2pFZThvUzBHSzRjMFk?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-10-30T06:51+09:00"
+    },
+    {
+     "title": "エクセリクシス、第3四半期は予想超えも株価は見通しを受け小幅安 執筆",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WGR6SjRhaERSeWJDMUdqdV9yNGd6aWNfTnBGTXpuMmpuN2FBU2NCaW9NQ0xyWFI5cnhHNmdxNVlTWFI5RmthY3dUQy1mY2o5SlpNSFZKRjBpM1B5cWFpMVpwZmx0blBoRVRB?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-10-30T06:12+09:00"
+    },
+    {
+     "title": "【株価見通し】強気相場には売買代金の増加が必要",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FaE1kaGM0eHNDaG4yOUpPNmRzSk5YbTlObHFOdkY0YXJSNVRqNHpJb0FISlNXNFhKb00wby1sQnVQUlVLMzBZRE9kVHNKWmt4Z1dqRTRJNkp1T1FNZTBPRw?oc=5",
+     "source": "テレ東BIZ",
+     "published": "2026-10-30T05:45+09:00"
+    },
+    {
+     "title": "Redditの株価、好決算にもかかわらず弱い見通しで急落 執筆",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBLaFpodmZEMFBqUlNtbUkxTmRQTldQZVVnakJBOGRwUW9MSndKQUUzMk01eW1MQnN6cFpHYzNWSTVFdTdzbXl6WTJ3TXM3QTFtRENOcGt3VkZpS3U2b0hJU3dCUWFEekFHWmZFcmlHZ2E?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-10-30T05:28+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "【厳選18社】決算前に仕込む､利回り4%以上の｢上方修正予備軍｣",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84azZEV1ZuNXE3M2JyZk5BYXFYTGhNOFk2MGFxcDR0cVNRMXJId015dmxoeU4xOVYwX2F2bGRtRlhJTzlyMnplZVUwTEZFV0dicXpsQXZVQQ?oc=5",
+     "source": "四季報オンライン",
+     "published": "2026-10-30T07:00+09:00"
+    },
+    {
+     "title": "サンディスク、2027年度第1四半期決算が予想を上回るも株価下落 執筆",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tQXAzUzdfMlRENGFDZVNvSU5lcV9UalByZG95U2F6MEdVWl9kR01TcmFLTHJRVHJlTEliTE5KUEtZMkpsa2NMRlZ2QnJublZzcGFScGE3MnVnTmZGQ1JhYkxuWFhfNDM1bmtKd25qWQ?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-10-30T06:46+09:00"
+    },
+    {
+     "title": "キオクシア、今日の決算どうなる？純利益46倍でも株価「一時7割安」のワケ ｜Seizo Trend",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50NXdQRzF0ck5WRmhUX2xzWmpYVE96RFBaVUQta1NVWUFLZjJpYmM5NkxnMlE1WG0wYWc0dG1GSW92b2YybVNPaVEyVGxESHc?oc=5",
+     "source": "ビジネス+IT",
+     "published": "2026-10-30T06:20+09:00"
+    },
+    {
+     "title": "米トゥイリオ、第4四半期の成長見通しが失望を誘い株価15%下落",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NZGtZVXNnUkxORWU2RUFkWVd6TlFsMnZDTW5rMFdnaV85WkpJM2RJYl9BMEdNSDJkMEhDS1hEM2t6TGxYODMxbXlEMkRIaXl4WV9GMUVrYzRIdGR2OHVXM2hXTUMwcTJ1d2ZHUEdqOWZVSFdS?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-10-30T06:05+09:00"
+    }
+   ]
+  }
+ ]
+}
