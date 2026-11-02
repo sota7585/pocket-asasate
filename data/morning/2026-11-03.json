@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-03T07:35+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 51983.98046875,
+   "change": 213.671875,
+   "change_pct": 0.41273054150925415,
+   "date": "2026-11-02"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7541.39990234375,
+   "change": -38.669921875,
+   "change_pct": -0.5101525813317354,
+   "date": "2026-11-02"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 25164.31640625,
+   "change": -272.68359375,
+   "change_pct": -1.071995886897037,
+   "date": "2026-11-02"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 10328.3291015625,
+   "change": -360.470703125,
+   "change_pct": -3.372415142127727,
+   "date": "2026-11-02"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 157.86599731445312,
+   "change": 0.0619964599609375,
+   "change_pct": 0.039287001359422646,
+   "date": "2026-11-02"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 96.26000213623047,
+   "change": -7.8600006103515625,
+   "change_pct": -7.548982330976339,
+   "date": "2026-11-02"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3956.60009765625,
+   "change": 57.7001953125,
+   "change_pct": 1.4799096349668917,
+   "date": "2026-11-02"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.894000053405762,
+   "change": -0.034999847412109375,
+   "change_pct": -0.7100800997440038,
+   "date": "2026-11-02"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 21.149999618530273,
+   "change": 1.7299995422363281,
+   "change_pct": 8.908339523376952,
+   "date": "2026-11-02"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 63290.109375,
+  "futures": 62835.0,
+  "diff": -455.109375,
+  "diff_pct": -0.7190845133533186
+ },
+ "previous_top": {
+  "taken_at": "2026-11-02T17:24+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "2345",
+    "name": "ＨＯＤＬ１",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 112.0,
+    "change": 30.0,
+    "change_pct": 36.59,
+    "trading_value": 410310000.0
+   },
+   {
+    "code": "7537",
+    "name": "丸文",
+    "sector": "卸売業",
+    "market": "プライム",
+    "price": 2180.0,
+    "change": 400.0,
+    "change_pct": 22.47,
+    "trading_value": 1295790000.0
+   },
+   {
+    "code": "2901",
+    "name": "ウェルディッシュ",
+    "sector": "食料品",
+    "market": "スタンダード",
+    "price": 84.0,
+    "change": 15.0,
+    "change_pct": 21.74,
+    "trading_value": 425710000.0
+   },
+   {
+    "code": "6196",
+    "name": "ストライクグループ",
+    "sector": "サービス業",
+    "market": "プライム",
+    "price": 1713.0,
+    "change": 300.0,
+    "change_pct": 21.23,
+    "trading_value": 1363720000.0
+   },
+   {
+    "code": "6557",
+    "name": "ＡＩＡＩグループ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 905.0,
+    "change": 150.0,
+    "change_pct": 19.87,
+    "trading_value": 1030250000.0
+   },
+   {
+    "code": "6262",
+    "name": "ＰＥＧＡＳＵＳ",
+    "sector": "機械",
+    "market": "スタンダード",
+    "price": 673.0,
+    "change": 100.0,
+    "change_pct": 17.45,
+    "trading_value": 108820000.0
+   },
+   {
+    "code": "6629",
+    "name": "テクノホライゾン",
+    "sector": "電気機器",
+    "market": "スタンダード",
+    "price": 1047.0,
+    "change": 150.0,
+    "change_pct": 16.72,
+    "trading_value": 1006900000.0
+   },
+   {
+    "code": "6072",
+    "name": "地盤ネットホールディングス",
+    "sector": "サービス業",
+    "market": "スタンダード",
+    "price": 1107.0,
+    "change": 150.0,
+    "change_pct": 15.67,
+    "trading_value": 36530000.0
+   },
+   {
+    "code": "3542",
+    "name": "ベガコーポレーション",
+    "sector": "小売業",
+    "market": "グロース",
+    "price": 1770.0,
+    "change": 235.0,
+    "change_pct": 15.31,
+    "trading_value": 414000000.0
+   },
+   {
+    "code": "9658",
+    "name": "ビジネスブレイン太田昭和",
+    "sector": "情報・通信業",
+    "market": "プライム",
+    "price": 1506.0,
+    "change": 192.0,
+    "change_pct": 14.61,
+    "trading_value": 2614420000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-02_1724_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "2日の米国市場ダイジェスト：米国株式市場はまちまち、原油安を好感もAI巨大投資懸念が存続(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZG44clo4d3RpVXVQQnNEYjVILXVOT2E4QktjUGVQcmRqcWhXVWxuSmRUY3V4N1B3VjN4eTlrMXZwT0VQRTlBcU9GUVRPTEV0V1VzdW9jcVlvZG1pbjliY0dVNTBNT0FFLUN3OFYxaGVxWVg0al92Z3ZPc3R5cXh0QW45Y1ppZnM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-03T07:14+09:00"
+    },
+    {
+     "title": "米国株式市場はまちまち、原油安を好感もAI巨大投資懸念が存続（2日）(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUXpHS2VCOV9NbG0ySjlsbU1iZlFjN2V6dmtZLThDdy11bTB2QmxJVHE4VkNtWHdxYS1VRUVjQXZlTlRmSnp2NDRwRERSaWp2MjNweW5BcGpRLXN4MTIwX0VscmxPMk1QYkNtLVZFRE9IQTNCNzBIc0oxeldkR19NampWMHBobk0?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-03T06:32+09:00"
+    },
+    {
+     "title": "ムンバイSENSEX30の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GWlc1MGhLWWxDLUt3eFRVYlNTTnFVNmdlUHF0cVZfMTBBamFwWDdjRC1UNzdGYm5tcjRxNEtCSkJMYXcyc2pPZ24xX2RuZ2F5ZHdzRg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-03T06:27+09:00"
+    },
+    {
+     "title": "米国株式市場＝Ｓ＆Ｐ下落、四半期決算発表控えアップル軟調(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcldYYlpoMGdpcXdzRE1SYndJaWxPY0RxXzkydmhpRGRNNzYzdEV6VVFYTG5GR2dhRDdQcW45Q1lDLXozNHlrUXRuU3RYVUNrNDdrQzF3cG8wWEttamJIelNldW1UQ05kYlpnOFNiRVR1UTFrMlRNaE5aNGlidlkwcmpfS1lGbG8?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-03T06:08+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "キオクシア株急落 失望売り促す「保守的」見通し、株主還元も期待薄",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UTjNzTkF0RUowZGxiSEFqVjVZSGN3OExrR1kwdHZySV9OYzZhWG90YlZ4ZHFhNFpwbXpIWE56QkgydzJnWWUyLTI0SFd1LVVGbGtsaGFkcjNma0ZIT3IxVUpPeHdZNEo2T0oxZQ?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-11-03T04:30+09:00"
+    },
+    {
+     "title": "日本の株式市場日経平均、キオクシア急落で下落、東京エレクトロンは好調な見通しで上昇",
+     "link": "https://news.google.com/rss/articles/CBMipwRBVV95cUxPVE0waFZjMzJRcDRfVzZxNVhXUkcxeWl2YXV2aHlYZDB4R201eUJTOU1uUzFfTldvVWZxczVITnk0c2x5Mm01OEQxMHZUT09ycU1xbExNZWZEbTE4Ym1ScEhMQU1NLVgyY04wbEZMWVFyRHZFanItS0JMVlZYQjd1Qk1pZDRId2dleFhwVXJTTENNdjRYeE5QdTd4T2xQZkZsR1JfVkNUcUhiN2ZobTJHdEVjVGxVaUVpNG1zVnZCRlpHMFpIWUgyZ3hPYU80MVJrWmtxOHdmU2xqWWtnbHgyQk03UGt1c3BBeDQyam01MjNxSmFBU2NrSlFHMHItZWNpR3MwU2FpX0ZiNDJTNkNxWVFsYm13Y0hQYkQzTVJzVm5abzRnV09yRU5EQUcwWFRPSDBVeHNSMnNkbVV0MVZmeHhOS1QwNk1MamlNN1lXSGFrSXd2MFZZbmYyN1VkWUpXaWFCMUZWMEdiMS1sUkM3ZEhoek9tMTdVemMyaEZFV1Q0TVBPUS0wVjFhQXNoMmlmSFpTZFR3YUViLVpadXNCR3cySUcxRjFHVXFMX0txQm5acDFqT0h1cXZXLVM5dXdxMExmaGdYTnpFOU56ZlVkeE5hWkc3cVpOamNuVnlyUzYxOUViVnlRN3M2UkZ1dDdnN090TWRsbF9JRm9LaGJGOUNhNlMtZDVPZW5EYTdXOWM0b1RlQmhKYkhqUkZvSHFZOEYxeTRlUQ?oc=5",
+     "source": "アラブニュース",
+     "published": "2026-11-03T02:36+09:00"
+    },
+    {
+     "title": "UBSがカーターズの目標株価を$33に引き下げ、売上見通しの軟調を理由に 執筆",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HUEpFZnhFUzRZT29XdnlLWGw4QWJjcG5jMEhXby10T042VDA0d0daNTJLY0JyNkpvVDN6WVFKejYzZzdjdWNGaTB2MXQ1WE04NzFkTHVJSWxkNm1DNGNKdnZad191Y3JqUzd2Ykt6VXRfTHlJ?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-03T00:09+09:00"
+    },
+    {
+     "title": "チェック・ポイントQ3 2026決算、慎重な見通しで株価下落 執筆",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yOE55WkpzeUpjT0lkSlF6NkRqMXZubUt2RnE3WlJEYXdGOUZSRzB3V3ZoSVNrQTRhZTlkaVlfYWpEWmVhVjJQY3NUVS1YNWlXOHh6cVJ1LW01eUFaek5qVXlKM1g3RnpNMmVMRHlrYw?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-02T23:44+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "米半導体検査装置のエア・テスト・システムズ、売上高見通しを1.5億ドルに引き上げ 好決算で株価15%急騰",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5acUFWVXdJaUlfU2JFMjZWZDNtOS1FWTEzOUdibDQtWWtWV1BHaWpzYzVaM1NMeWYtWlNHMnV1Wjk0c011UkI1Z29TZ04yVnBRRjhoTGdEai1xMmlNcFlSeDRoTXgwc1F6aVNKUnFjTDcyYVFz?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-03T07:25+09:00"
+    },
+    {
+     "title": "アップル決算好調もテーナス新COO初決算で株価下落",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5XdmQ5WGt2M2JqNEdoQ1RScU5xRnhta2VrTHdtaWcxNFRLSHJ4MGZiWGduZE1zWVZ3Znpob3JscXpQb0tub0FaWmh0ODVaZl9QMlNaMlRCcEtiTGxjalcxcDZvcjlDZlN6QUxmME9zLU1zQQ?oc=5",
+     "source": "BeInCrypto",
+     "published": "2026-11-03T07:18+09:00"
+    },
+    {
+     "title": "Upstart Sinks 7% on BofA Price Target Cut to $30 Ahead of Tuesday’s Q3 Report",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY2pDTHdhcmNZRXNGZmRrYVF3TFhhRi1XanRiUzV5YlpuRTd6OHcwTWlzNlNwOVVTRXZpZ2RKajJGY1RaOURsaFZOeHR5bTlrTFVaQVFzUU5ORjY0SjNrLU1pMU1xM2E3Ym5SVjRscndwVmtkT0pPQ3V4dm5Yc1RPS2l2anNHWU52N2hWaU5BNUNPWTlEekVWMVJOS1RWUUdNVFZaQjd4bw?oc=5",
+     "source": "TIKR.com",
+     "published": "2026-11-03T07:01+09:00"
+    },
+    {
+     "title": "ロク、Q3決算は市場予想超え 広告収入23%増、1株160ドルのフォックスによる買収が迫る",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10NXdGUmdzUGMzQVJ6eURRenRINGRfOHl0VjZ0bjZWcEItNTI3bFphUVhON2xEemtlZURVTWQ3SkEwMGZkUXdEaDJYdVB4S0Zqd0swMVlLWWo1dlpla0M5RXVkaGVKclRwNnRtZkFaclZBbzRW?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-03T06:55+09:00"
+    }
+   ]
+  }
+ ]
+}
