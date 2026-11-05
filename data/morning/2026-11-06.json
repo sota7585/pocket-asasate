@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-06T07:42+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 51523.05859375,
+   "change": -1833.0625,
+   "change_pct": -3.4355242892923132,
+   "date": "2026-11-05"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7353.72998046875,
+   "change": -334.89013671875,
+   "change_pct": -4.35565981430297,
+   "date": "2026-11-05"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 24314.998046875,
+   "change": -1421.51171875,
+   "change_pct": -5.5233274896064,
+   "date": "2026-11-05"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 9011.1376953125,
+   "change": -1257.5126953125,
+   "change_pct": -12.246134082630522,
+   "date": "2026-11-05"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 157.64500427246094,
+   "change": -0.8239898681640625,
+   "change_pct": -0.519969141365817,
+   "date": "2026-11-05"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 91.19999694824219,
+   "change": 3.0799942016601562,
+   "change_pct": 3.495227083137631,
+   "date": "2026-11-05"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 4097.89990234375,
+   "change": 24.89990234375,
+   "change_pct": 0.6113405927755888,
+   "date": "2026-11-05"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.836999893188477,
+   "change": -0.057000160217285156,
+   "change_pct": -1.1646947199687618,
+   "date": "2026-11-05"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 28.18000030517578,
+   "change": 11.569999694824219,
+   "change_pct": 69.65682883607872,
+   "date": "2026-11-05"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 62188.62890625,
+  "futures": 57180.0,
+  "diff": -5008.62890625,
+  "diff_pct": -8.053930428021749
+ },
+ "previous_top": {
+  "taken_at": "2026-11-05T17:18+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "4582",
+    "name": "シンバイオ製薬",
+    "sector": "医薬品",
+    "market": "グロース",
+    "price": 72.0,
+    "change": 30.0,
+    "change_pct": 71.43,
+    "trading_value": 3591190000.0
+   },
+   {
+    "code": "2667",
+    "name": "イメージ　ワン",
+    "sector": "卸売業",
+    "market": "スタンダード",
+    "price": 93.0,
+    "change": 30.0,
+    "change_pct": 47.62,
+    "trading_value": 632970000.0
+   },
+   {
+    "code": "5857",
+    "name": "ＡＲＥホールディングス",
+    "sector": "非鉄金属",
+    "market": "プライム",
+    "price": 3770.0,
+    "change": 700.0,
+    "change_pct": 22.8,
+    "trading_value": 8492300000.0
+   },
+   {
+    "code": "3668",
+    "name": "コロプラ",
+    "sector": "情報・通信業",
+    "market": "プライム",
+    "price": 458.0,
+    "change": 75.0,
+    "change_pct": 19.58,
+    "trading_value": 1932850000.0
+   },
+   {
+    "code": "3401",
+    "name": "帝人",
+    "sector": "繊維製品",
+    "market": "プライム",
+    "price": 1873.0,
+    "change": 268.0,
+    "change_pct": 16.7,
+    "trading_value": 7462780000.0
+   },
+   {
+    "code": "7203",
+    "name": "トヨタ自動車",
+    "sector": "輸送用機器",
+    "market": "プライム",
+    "price": 3533.0,
+    "change": 505.0,
+    "change_pct": 16.68,
+    "trading_value": 371809740000.0
+   },
+   {
+    "code": "2345",
+    "name": "ＨＯＤＬ１",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 135.0,
+    "change": 17.0,
+    "change_pct": 14.41,
+    "trading_value": 734050000.0
+   },
+   {
+    "code": "4565",
+    "name": "ネクセラファーマ",
+    "sector": "医薬品",
+    "market": "プライム",
+    "price": 1729.0,
+    "change": 209.0,
+    "change_pct": 13.75,
+    "trading_value": 15858560000.0
+   },
+   {
+    "code": "7211",
+    "name": "三菱自動車工業",
+    "sector": "輸送用機器",
+    "market": "プライム",
+    "price": 381.3999938964844,
+    "change": 44.899993896484375,
+    "change_pct": 13.34,
+    "trading_value": 11679990000.0
+   },
+   {
+    "code": "3150",
+    "name": "グリムス",
+    "sector": "電気・ガス業",
+    "market": "プライム",
+    "price": 2626.0,
+    "change": 306.0,
+    "change_pct": 13.19,
+    "trading_value": 722150000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-05_1718_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "【米国株動向】AI半導体市場における設計と製造の優位性考察：今後5年間を見据えた銘柄選択の視点、ブロードコム［AVGO］VS TSMC［TSM］",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vWEJxNUR6SF9vdWFqb0RoSlh5N2l4UUlwdkJ0RHBiempuNkVpWmJaUkFJSDlQWUsxdVNwem9GbTJhbFhCQ0lMMUpvR3ZGUEVDNV9PUtIBV0FVX3lxTFBkcTdHWmlvenFvZmNVSXdkeHk1TG1GSm5lYVh2RDMzMlNVTlFLaW51QXBQRlhsS1pLQVFsb25va3hIc28tQ3pRSUVMT1RjUDB5cW5KZzdsVQ?oc=5",
+     "source": "マネクリ",
+     "published": "2026-11-06T07:00+09:00"
+    },
+    {
+     "title": "米国株式市場＝ナスダック19カ月ぶり大幅安で調整入り、ＡＩ規制を懸念(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaXJ3UkJVblBLcGl6eWFqY2lLckNIazhaQV9vM0FtNnRPaGUyS0c1X3hSczJ4ZFZ1WkVaWUNMWFdIejNmQ01uX2doaTJ3RFNscEpVSG1qQkctc3IzUVNGazUzZEFxbnJSZk4tNDliN2p2RzNBcld6TmNTdVRaN1AxSy1jXzdCWjQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-06T06:32+09:00"
+    },
+    {
+     "title": "ナスダック総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jWHl5QS1xWVVoVkRPVE12M1Y3cE8zYlJpaG5RenlCQVV3ZXdGc1hJcnY1aXhBdE55UVRRYlYzRGM3NlV6cGpXUHlJdmlJdWhtTlpr?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-06T06:18+09:00"
+    },
+    {
+     "title": "上海総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-06T04:48+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "アトラシアン、購読成長見通しの低下で株価16%急落",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tdjRoN1ZKaVo3enFDLW1qY25HS3BJS0NTU3BqR0hOY3pvUXVjbk5mYkdkazdIZE9IN19RYWpUdmxiU2VuZXZOdGlUVHJfdEJMMUZleFF1cEhvQTdPei04bVM2Sk9sV0RlaDZSY3FDNWI?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-06T06:16+09:00"
+    },
+    {
+     "title": "アカマイ、第4四半期の見通しが予想を下回り株価下落",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iUkRjaDRwSzYyaTNLVUZKd2hESDdrb083RFNFSHdoZkxFNUdLZUdUZjVNU3FHWHdoRl9NNXp4NzFKZ2FnYWp5Z1NXV0l0NzhLOXhlZUctZ2g3blZHTnNxZUJvQkNFVS1tUDZn?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-06T06:15+09:00"
+    },
+    {
+     "title": "【株価見通し】日経平均はボトムに接近か?",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tYThkbkpPQkNoMUtZM2F3Wm1zQjBjZE1CenlvMHhscFNUWFdwSkg4YU9XRzR1ZE02TUFWV2FjQ1ByT0dJblNUYVN1WkdkSjZrU2hXbVpfLUJIbk1UWXJrZQ?oc=5",
+     "source": "テレ東BIZ",
+     "published": "2026-11-06T05:45+09:00"
+    },
+    {
+     "title": "米中間選挙後の政治日程を読む▼アメリカで 盛り上がる予測市場 日本参入なるか?｜Newsモーニングサテライト（モーサテ）",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MaU1LQTlsUE5WVHNOSlk3LXNteHpwMEh3LU52WDlBYUUyQUY1TDYxVzl4dzlaT1hpQkl6VU13SHp3WU4yOVFmbFpuU05sOHdTLUNoZkhxR3hBalJn?oc=5",
+     "source": "テレ東BIZ",
+     "published": "2026-11-06T05:45+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "米クラウドフレア、第3四半期好決算と通期見通し引き上げで株価15%急騰",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LblVyaDdyNnJBOXRTbVI1NTgzZDVQSTVWRjhqaHBOZ2pHOTU0dEtfTWpBT3RWWExuclVwbUFUWlVhQkdGSU1iazl5WXlBZlJiNVo2UlN5Q2hlWGRqXzRuLTNQVDBKZ0dVZVl1OHpLakswVWNf?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-06T07:35+09:00"
+    },
+    {
+     "title": "エヌビディア、1カ月で1.4兆ドル消失 中間選挙がAI相場を揺さぶる、11月17日決算を控え",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LTElvRUZTcll6Nl9JZmhlSU4xXzhfc0VBOUJHQ1BiN285a24xbGNXcUJvLWY5YzlUV3A2Z19MYWR1NUxkVHRFNVAyWWpZUlNyaHAwaFhwQlFMM2tyVV8wVE1jaU1mZ1ZCU1RXVVVmMzFmQ1R5?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-06T07:25+09:00"
+    },
+    {
+     "title": "Airbnb、3年超ぶり最高の増収率を記録 通年見通しを引き上げ、120億ドルの自社株買いを追加",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JR3kwcFlhdEpfUVFFM3ZkWDVrWWpNZUY2NnFPLXNhdmFGTnNybHBBZEc2blJRWDlxamRTcGNYNk5pZl9pNWxkNVpRN0tGekRzQW9nRFREWU5TakpSTEVNUVAwdkVwaU8xaEQtRExfZjF2Umwz?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-06T07:25+09:00"
+    },
+    {
+     "title": "株式市場調査＆投資家分析ツール - TIKR",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTXc0alRRWDBxYm5IQ1pEMm5ZNFVhaDIxTGg5bFZlMDdwZXF4Q04tQmJnLTY4dU9TRkxHRWxhWGhHVVdaMUd3MUxRRFBxYjF0aFpXdllPX0o0SGc2N0dnZjNMSGREcWVxeHI5NGpGcXNqRnZfNDNVMEUyVUVqMmVjQ1JUQXlibFNhcUlpWHptY3FJYTlrd2c?oc=5",
+     "source": "TIKR.com",
+     "published": "2026-11-06T07:24+09:00"
+    }
+   ]
+  }
+ ]
+}
