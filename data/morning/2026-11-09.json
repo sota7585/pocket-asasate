@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-09T07:30+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 51285.73046875,
+   "change": -237.328125,
+   "change_pct": -0.46062507055586455,
+   "date": "2026-11-06"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7376.85986328125,
+   "change": 23.1298828125,
+   "change_pct": 0.3145326640212831,
+   "date": "2026-11-06"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 24579.4296875,
+   "change": 264.4296875,
+   "change_pct": 1.0875167077935455,
+   "date": "2026-11-06"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 9390.25,
+   "change": 379.1103515625,
+   "change_pct": 4.207129912011043,
+   "date": "2026-11-06"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 158.3769989013672,
+   "change": 0.878997802734375,
+   "change_pct": 0.5581009261088399,
+   "date": "2026-11-08"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 90.83000183105469,
+   "change": 0.31000518798828125,
+   "change_pct": 0.3424714974423537,
+   "date": "2026-11-06"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 4074.89990234375,
+   "change": -38.60009765625,
+   "change_pct": -0.9383760217880122,
+   "date": "2026-11-06"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.859000205993652,
+   "change": 0.02200031280517578,
+   "change_pct": 0.4548338493072235,
+   "date": "2026-11-06"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 25.639999389648438,
+   "change": -2.5400009155273438,
+   "change_pct": -9.013487892194327,
+   "date": "2026-11-06"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 57434.76953125,
+  "futures": 58235.0,
+  "diff": 800.23046875,
+  "diff_pct": 1.3932857662371179
+ },
+ "previous_top": {
+  "taken_at": "2026-11-06T17:10+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "4475",
+    "name": "ＨＥＮＮＧＥ",
+    "sector": "情報・通信業",
+    "market": "プライム",
+    "price": 2211.0,
+    "change": 400.0,
+    "change_pct": 22.09,
+    "trading_value": 4642220000.0
+   },
+   {
+    "code": "2388",
+    "name": "ウェッジホールディングス",
+    "sector": "その他金融業",
+    "market": "グロース",
+    "price": 10.0,
+    "change": 1.0,
+    "change_pct": 11.11,
+    "trading_value": 10100000.0
+   },
+   {
+    "code": "3920",
+    "name": "アイビーシー",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 1328.0,
+    "change": 101.0,
+    "change_pct": 8.23,
+    "trading_value": 121250000.0
+   },
+   {
+    "code": "3185",
+    "name": "夢展望",
+    "sector": "小売業",
+    "market": "グロース",
+    "price": 79.0,
+    "change": 6.0,
+    "change_pct": 8.22,
+    "trading_value": 733400000.0
+   },
+   {
+    "code": "4635",
+    "name": "東京インキ",
+    "sector": "化学",
+    "market": "スタンダード",
+    "price": 2076.0,
+    "change": 157.0,
+    "change_pct": 8.18,
+    "trading_value": 950600000.0
+   },
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 29.0,
+    "change": 2.0,
+    "change_pct": 7.41,
+    "trading_value": 65400000.0
+   },
+   {
+    "code": "3252",
+    "name": "地主",
+    "sector": "不動産業",
+    "market": "プライム",
+    "price": 2924.0,
+    "change": 200.0,
+    "change_pct": 7.34,
+    "trading_value": 2666690000.0
+   },
+   {
+    "code": "3905",
+    "name": "データセクション",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 1583.0,
+    "change": 101.0,
+    "change_pct": 6.82,
+    "trading_value": 49076800000.0
+   },
+   {
+    "code": "3667",
+    "name": "ｅｎｉｓｈ",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 18.0,
+    "change": 1.0,
+    "change_pct": 5.88,
+    "trading_value": 17200000.0
+   },
+   {
+    "code": "5721",
+    "name": "エスクリプトエナジー",
+    "sector": "非鉄金属",
+    "market": "スタンダード",
+    "price": 38.0,
+    "change": 2.0,
+    "change_pct": 5.56,
+    "trading_value": 306930000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-06_1710_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "NY市場動向(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMzk0SHhZSnZxS3RyTkpfcG5KSWpDbTZSN2RDdXJFMDZoSXREOEg5eWZOUU5PYlFmTHBtSDNkRVk0VUxJZ0dDczg2UzBCNWhNUjNWMkhrbWVSeDh0YzdpNDdCVktFbkJlR0EwSjIyalZScGVhM1VLYjc4Y1R6NDE1YjFybzBnS1k?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T07:22+09:00"
+    },
+    {
+     "title": "米国市場データ ＮＹダウは237ドル安と続落 （11月6日）(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRlN4MnpHcndYc2gtTTR4a3A3TDlXcTV2eDhfRjRKTV9fcXVQQmNWcElBa3IxWVI3U0xQaW1GN1dlaW1jVlRldlprcUgzQzZRN2ZLZk1CWWdlSXA5VFhQZy12aTN5VkloOWVhRW1yN29KdlVUVXJseEduS283Ul9lbG5jRVdqQzg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T07:20+09:00"
+    },
+    {
+     "title": "6日の米国市場ダイジェスト：米国株式市場はまちまち、AIリスク警戒感が緩和(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUmx1QkJ4c2ZGVHFfUHptMkE4UVNPblpHYTQyNHJNdlVJSWx5Tm01WHJ0azkwQzktcmJhOFVkeG5fWkdPQ3dISHdLV3JLRVBwYWplMGJmQ09KS3JDcDlYaUxKYkZHR1dMRHRMQ01NX1FSRzhiX3hkMHFXSEpoZVBLYVdOY0F4THc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T07:08+09:00"
+    },
+    {
+     "title": "楽天・シュワブ・高配当株式・米国ファンド(四半期決算型)【9I312249】：基準価格・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Wb19jSmJMakhqVC12TVZISkRwTlZQcV9iaG5hT3kxRzFHUEs3MmgxYzlRbXZNU2hRN1BqN1JwY01GSjgtUnVSekozbnI4YkVyMzczVw?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T06:42+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "〔株式・今日の見通し〕上昇スタート＝大幅下落の反動で（9日）(時事通信)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOV3NjUDBRZjZkaUJWaURIb19PcE9LMHpSNS1yLTI0VWVLNEI3S0F6MmxJWkZtNVU1cW92UlI3VURNZERXT1RyRzVPNUtlMzVEN3FPd2V4REVEZjI3QTNSb1VCdmpDeGhhbjFSZGtSMktzdXV5aDRWOWptQ1g2TG9rZUFHUTdPSmM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T07:16+09:00"
+    },
+    {
+     "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T06:55+09:00"
+    },
+    {
+     "title": "上海総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T06:50+09:00"
+    },
+    {
+     "title": "1万見据えていたのに5000も危うい状況…信じられない韓国証券業界の手遅れレポート",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15Y3pobFhOajhIRWhjQ3A4ZFltMzNPYmM5cFBnRklOenVHTEt1RXlYbU51bFlwLS1pUk1aazVJVFJUYXktS2pzd2t3QkVrQlJLWnZwWVBBZDdsV19wdURtakFwLVVQTk3SAWxBVV95cUxNZzN3aGRIOVMyUlFOMTVFaGVVSzk0UjVIZ3BmZnNvZUdRMlpBdFpEZ043VHV1a1FPbUR6WXk1am81OVBvVlhRZmtPUXZXeFc5Sk92NHZIR2FoS0c3Q3hFTVlkQkpUc3RlcWpfZng?oc=5",
+     "source": "Infoseek",
+     "published": "2026-11-09T06:41+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "日経平均が7000円下落で大セール？利回り上昇の高配当株18",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zU2MwZmZsTlhwRVBZYlBPTWMtdklmU1ZwRHZ2VjF1Xy1nWk1SWnl3eGZqZ3M4bUJ6azNTc3hvMTE5cVFLaDBNaENBV1dVTFAwOHVTQnl1WQ?oc=5",
+     "source": "四季報オンライン",
+     "published": "2026-11-09T07:00+09:00"
+    },
+    {
+     "title": "米ヒムズ＆ハーズ、空売り比率23%に上昇 第3四半期決算を控え試練",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OM3FvRjBQQTN5a0NpTVNmWFRTV0tCb3VraWZMVUtNX2RSVURTdDRUODNVTXFwbVluRHNDWXhoQVNaN3pPb3BkbnZqcjRJWktHcWQydmNQazdFU3I0a19KZEg2MGU3NEpYVTktd1V0ekVqYy1s?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-09T06:25+09:00"
+    },
+    {
+     "title": "本日の決算発表予定 … ＪＸ金属、古河電、コクサイエレなど 175社 (11月9日)(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVnVnbmZoN3Z1VEtPcmR5aXpVbXc3cUdTQkM1VElyaGFuVUxLcURHNWZyV1doQmU0bU9KXzBWcFprZnJmcUFHNnZvbVQ2RG9jOU53UjFtZ2ZVQ09qb2FESlJDajgwZFl4aDZ0NkZ0TWpxZmNuQ0doMTl4em9obXloYklwZWdUNDA?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-09T06:00+09:00"
+    },
+    {
+     "title": "キオクシア株、5営業日で41％安 ウラに東芝の「爆売り」1124万株",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJM0p4MmVrNXl6QUZuTlhWUTVUdHQ4SFo3am94NVQtS0xsRmx1MHVTbXh0anVranAxcGgtbjl1eF9IYUhSS1hDQy1WZXZ3MDg?oc=5",
+     "source": "現代ビジネス",
+     "published": "2026-11-09T05:04+09:00"
+    }
+   ]
+  }
+ ]
+}
