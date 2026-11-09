@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-10T07:39+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 52389.75,
+   "change": 1104.01953125,
+   "change_pct": 2.1526836434994534,
+   "date": "2026-11-09"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7549.93994140625,
+   "change": 173.080078125,
+   "change_pct": 2.3462568265193218,
+   "date": "2026-11-09"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 25253.138671875,
+   "change": 673.708984375,
+   "change_pct": 2.7409463642584786,
+   "date": "2026-11-09"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 10033.9326171875,
+   "change": 643.6826171875,
+   "change_pct": 6.854797446154248,
+   "date": "2026-11-09"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 157.91200256347656,
+   "change": 0.41400146484375,
+   "change_pct": 0.2628614090057546,
+   "date": "2026-11-09"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 86.37999725341797,
+   "change": -4.450004577636719,
+   "change_pct": -4.899267299271671,
+   "date": "2026-11-09"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 4149.5,
+   "change": 74.60009765625,
+   "change_pct": 1.8307222126693778,
+   "date": "2026-11-09"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.863999843597412,
+   "change": 0.004999637603759766,
+   "change_pct": 0.1028943690430939,
+   "date": "2026-11-09"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 19.920000076293945,
+   "change": -5.719999313354492,
+   "change_pct": -22.30889020872524,
+   "date": "2026-11-09"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 57434.76953125,
+  "futures": 60970.0,
+  "diff": 3535.23046875,
+  "diff_pct": 6.155209636257863
+ },
+ "previous_top": {
+  "taken_at": "2026-11-09T17:16+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "2667",
+    "name": "イメージ　ワン",
+    "sector": "卸売業",
+    "market": "スタンダード",
+    "price": 100.0,
+    "change": 30.0,
+    "change_pct": 42.86,
+    "trading_value": 672020000.0
+   },
+   {
+    "code": "2134",
+    "name": "北浜キャピタルパートナーズ",
+    "sector": "サービス業",
+    "market": "スタンダード",
+    "price": 17.0,
+    "change": 5.0,
+    "change_pct": 41.67,
+    "trading_value": 406420000.0
+   },
+   {
+    "code": "3664",
+    "name": "ＷＩＺＥ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 14.0,
+    "change": 3.0,
+    "change_pct": 27.27,
+    "trading_value": 723300000.0
+   },
+   {
+    "code": "6777",
+    "name": "ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ",
+    "sector": "電気機器",
+    "market": "スタンダード",
+    "price": 16190.0,
+    "change": 3000.0,
+    "change_pct": 22.74,
+    "trading_value": 602270000.0
+   },
+   {
+    "code": "2681",
+    "name": "セカンドリテイリング",
+    "sector": "小売業",
+    "market": "プライム",
+    "price": 2250.0,
+    "change": 400.0,
+    "change_pct": 21.62,
+    "trading_value": 1460480000.0
+   },
+   {
+    "code": "6062",
+    "name": "チャーム・ケア・コーポレーション",
+    "sector": "サービス業",
+    "market": "プライム",
+    "price": 1721.0,
+    "change": 300.0,
+    "change_pct": 21.11,
+    "trading_value": 82950000.0
+   },
+   {
+    "code": "7603",
+    "name": "ジーイエット",
+    "sector": "小売業",
+    "market": "スタンダード",
+    "price": 24.0,
+    "change": 4.0,
+    "change_pct": 20.0,
+    "trading_value": 73150000.0
+   },
+   {
+    "code": "4994",
+    "name": "大成ラミックグループ",
+    "sector": "化学",
+    "market": "スタンダード",
+    "price": 3070.0,
+    "change": 504.0,
+    "change_pct": 19.64,
+    "trading_value": 235470000.0
+   },
+   {
+    "code": "3909",
+    "name": "ショーケース",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 614.0,
+    "change": 100.0,
+    "change_pct": 19.46,
+    "trading_value": 132500000.0
+   },
+   {
+    "code": "7760",
+    "name": "ＩＭＶ",
+    "sector": "精密機器",
+    "market": "スタンダード",
+    "price": 1876.0,
+    "change": 293.0,
+    "change_pct": 18.51,
+    "trading_value": 811180000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-09_1716_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "米国株式市場は大幅上昇、対イラン和平合意期待で原油安を好感（9日）(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSUYyZldKekJBR1ZLSmxuMjhCaU9jc2xRRlVZWmVLdlR3YzIwcUZBaWxXN1RjTXFWdVJIc0E0UUtRNzI3VU1BQ0xuS1NWZDUydzRWa19va3BUS09SalVhOHg0R1VYSXFyWkxEcVUyams2ejRDdE5CWTI4aVh2bVBZTU5tYmhvdUU?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-10T07:32+09:00"
+    },
+    {
+     "title": "韓国 総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nRTBma2x0VFVrNHVDeVBNREtxYVBsTURHRWczNzY5dlFiUDBxOENLZUdwZkNNQjBJc0FMT2Rrcm52MVdzRGVkVXQwT1VFV3ZqbmZr?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-10T07:06+09:00"
+    },
+    {
+     "title": "米国株式市場＝急伸、原油安でインフレ懸念後退 エヌビディアは下落(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2VRUXR0OVhwb3JDNGhtc3Y5VXZVY2V3ZmFwUEVpRFhDRG12Zm9MWGQtT2R3b2FtdkVoNHdFOGlmVzVOUmNZazl1aUZRVjBaY0ctNFFUQ19OTmtkT2hLTTBGYjB3WGRsTVNwUTRtNWhxODhIMTZ4d1lLUXY3SHNPYzhBbGgtWEE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-10T06:22+09:00"
+    },
+    {
+     "title": "シェール開発のダイヤモンドバック・エナジー、生産地集中が強み",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1BWMk9FelRhaml5Zk5ONkdjT0tnWFpndUgtbi1oZXVuR29HUC1tbm1qOEstT0xUaDFRT3VmdnpZaU5lNUE1M0VBRXNuOHBIcTZsUThtdXl6RWh5LTBoUl9jX3AxRnUxazhhaVd5REFUSkhzOXdsVzhnZmVoMnVkMTIwTHAtZE5nODM0OFhhVjZtcExZRldJVS1wU1QteXhiNEtr?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-11-10T05:00+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "サンミナ、決算好調と強気見通しで株価急騰",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1hXzZzTGZmOEU4Y2h6OXp3XzlEUVRKQWo0SFNQUzJDZFB0ZjBNYnhsYklKUmhQcjNqVU1jdURaaEdLaTNFcVRwM0NnclFfYjF4YUxnQ21rN0ZUTmx6ZE02b0FJdEI?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-10T06:21+09:00"
+    },
+    {
+     "title": "株価急落、売る/売らないを決める前にすべきこと…相場予想より先に確かめたい、投資の目的と使う時期",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZMnF5WmxfSm5uODV2NldJRjBYbThCZzI0OEdqY0h2WU9wQWN2bjlaOXd4T0NIcjdOaGhleGFGMktNN0c5NUQ2Nm9pdHpRWDlSMkx0Q2pR?oc=5",
+     "source": "JBpress",
+     "published": "2026-11-10T06:00+09:00"
+    },
+    {
+     "title": "【株価見通し】企業業績は株価の遅行指標",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tYVRTRGE2SnlGcThzS1R5Wk1uc0ppeGZMQXdCUWphbkJOY2RJazZXdFFXSVZlWFhyemFTMnZvVy1Oek1fNnFUR25aY1Yzbjd5ams4bzU3R1JIbGpFaEhwOA?oc=5",
+     "source": "テレ東BIZ",
+     "published": "2026-11-10T05:45+09:00"
+    },
+    {
+     "title": "ミズホ、自社株買い見通しを受けリンカーン・ナショナルの目標株価を引き上げ",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40ZHJhSUl3ekFEU0E5MkZycHNEa3FrSm5Ea0dYUlotTjV4Qm5CYkQ1X2ZzLWhINU5MWFgyMUg4dWxvd2tuOXpzTVhnSUhIMzhnZDJwUFAyazZNX1AtNUljWDU2bHBhOXAzbG9yVnZmWE5yYzlU?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-09T20:59+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "カセラ・ウェイスト・システムズ、決算と売上高が予想を下回り株価8%下落",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MeVFscFBlQXg5OWlZbG1PejgteC02SWloYWNVUmZDS1NnWGN1VC1fcG1NSzA2eGthS1NxeGZROUhHcmZtY2ZSNnBPT2dEb2hoQ2c5MFBPM1Q0RktIMFJxZTlyWEM?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-10T07:35+09:00"
+    },
+    {
+     "title": "オント・イノベーション、第3四半期の好決算と見通しを受け株価急騰",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oYW1xZnRJbnZsSnJSSFk3UU1PSXFyQXBST1lLcE9ReUdLMzV6bGRjeGhfSGtMV3VUQmVVaTRhNHVhMW1UNkVMQXUtUzkzS29zZk96d0JZR3J2YVkwQnkyWUhTM0o?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-10T07:15+09:00"
+    },
+    {
+     "title": "Could IREN Actually Climb 117%? Or Is Cantor Fitzgerald Totally Wrong?",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQTlMSXRmLUN0emQtU1FLSkU4R3BlM3o1S2hnUjA3WU9Pd2Y2R3RTUVpkQWFhdHlaeDE3UWNTN1o5dEJDT2NPUV9NbjNiSzJmM1p5YVdGaGNLN1RLZzQ4QWoyTnpUbzJCMUt1VEo2bmZoMjJRYlloUVpoZk4zZVlOOTk0NjdkcXpWS2Q4czF2XzhUQXlVaDFwSFJsdE9iUQ?oc=5",
+     "source": "TIKR.com",
+     "published": "2026-11-10T07:10+09:00"
+    },
+    {
+     "title": "本日の決算発表予定 … ＳＢＧ、フジクラ、川重など 255社 (11月10日)(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORTR5aU9OQ3FaYTg4S3dqM0J2MGt3azFSNFRrXzJCRk1kS3FmRlNiVS1OS2dJS0VhOWRjekJLMlVCUFRud2pKOFpnOEFPRVItM0o0dnd5M01DaEZacmt3bFpFWTRZbmRTN0VNU1R0eFhORnZjQWRITlhLM3U5OFN2ME9FLXlwLW8?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-10T06:00+09:00"
+    }
+   ]
+  }
+ ]
+}
