@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-12T07:45+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 52486.48828125,
+   "change": 254.59765625,
+   "change_pct": 0.487437182923145,
+   "date": "2026-11-11"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7619.3798828125,
+   "change": 98.44970703125,
+   "change_pct": 1.3090097199449646,
+   "date": "2026-11-11"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 25466.189453125,
+   "change": 400.3203125,
+   "change_pct": 1.5970733360735068,
+   "date": "2026-11-11"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 10564.111328125,
+   "change": 565.78125,
+   "change_pct": 5.658757468288167,
+   "date": "2026-11-11"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.6649932861328,
+   "change": 1.6819915771484375,
+   "change_pct": 1.0646661722802264,
+   "date": "2026-11-11"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 86.41999816894531,
+   "change": 0.37999725341796875,
+   "change_pct": 0.4416518472507347,
+   "date": "2026-11-11"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3994.300048828125,
+   "change": -35.89990234375,
+   "change_pct": -0.8907722390625095,
+   "date": "2026-11-11"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.998000144958496,
+   "change": 0.015000343322753906,
+   "change_pct": 0.3010303816955773,
+   "date": "2026-11-11"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 17.489999771118164,
+   "change": -1.9699993133544922,
+   "change_pct": -10.123326855273984,
+   "date": "2026-11-11"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 60459.578125,
+  "futures": 62015.0,
+  "diff": 1555.421875,
+  "diff_pct": 2.572664122439239
+ },
+ "previous_top": {
+  "taken_at": "2026-11-11T17:12+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "7603",
+    "name": "ジーイエット",
+    "sector": "小売業",
+    "market": "スタンダード",
+    "price": 41.0,
+    "change": 15.0,
+    "change_pct": 57.69,
+    "trading_value": 1600770000.0
+   },
+   {
+    "code": "5129",
+    "name": "ＦＩＸＥＲ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 286.0,
+    "change": 80.0,
+    "change_pct": 38.83,
+    "trading_value": 1927500000.0
+   },
+   {
+    "code": "6794",
+    "name": "フォスター電機",
+    "sector": "電気機器",
+    "market": "プライム",
+    "price": 3915.0,
+    "change": 700.0,
+    "change_pct": 21.77,
+    "trading_value": 3289380000.0
+   },
+   {
+    "code": "1810",
+    "name": "松井建設",
+    "sector": "建設業",
+    "market": "スタンダード",
+    "price": 1705.0,
+    "change": 300.0,
+    "change_pct": 21.35,
+    "trading_value": 166920000.0
+   },
+   {
+    "code": "7694",
+    "name": "いつも",
+    "sector": "小売業",
+    "market": "グロース",
+    "price": 610.0,
+    "change": 100.0,
+    "change_pct": 19.61,
+    "trading_value": 41480000.0
+   },
+   {
+    "code": "6989",
+    "name": "北陸電気工業",
+    "sector": "電気機器",
+    "market": "スタンダード",
+    "price": 3135.0,
+    "change": 500.0,
+    "change_pct": 18.98,
+    "trading_value": 13480000.0
+   },
+   {
+    "code": "3131",
+    "name": "シンデン・ハイテックス",
+    "sector": "卸売業",
+    "market": "スタンダード",
+    "price": 6310.0,
+    "change": 1000.0,
+    "change_pct": 18.83,
+    "trading_value": 33440000.0
+   },
+   {
+    "code": "1960",
+    "name": "サンテック",
+    "sector": "建設業",
+    "market": "スタンダード",
+    "price": 1846.0,
+    "change": 291.0,
+    "change_pct": 18.71,
+    "trading_value": 584260000.0
+   },
+   {
+    "code": "6418",
+    "name": "日本金銭機械",
+    "sector": "機械",
+    "market": "プライム",
+    "price": 1465.0,
+    "change": 223.0,
+    "change_pct": 17.95,
+    "trading_value": 2232950000.0
+   },
+   {
+    "code": "9880",
+    "name": "イノテック",
+    "sector": "電気機器",
+    "market": "プライム",
+    "price": 3375.0,
+    "change": 501.0,
+    "change_pct": 17.43,
+    "trading_value": 1056710000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-11_1712_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "米国株式市場は反発、ハイテクが回復（11日）(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPampxak1ZUTk4VndkaU1tZVIwcTFzNE8yVk51RW5PZVZ5eWV3eVAySDNYMVVscXFnQTZKUmhUcWtJd1c1cWlBVEZEd1lOQnUtRHNleXJuS1VVUHJ0YTA2ckdyUzl0cmN4MVFEel9maDgyZF8tUFEtRlNtOHdUbmpQQ25zX1Q4eWM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-12T07:11+09:00"
+    },
+    {
+     "title": "米国株式市場＝反発、コアウィーブ決算受けＡＩ投資巡る懸念後退(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDh4UHp0NmRNbFZldGFXSzN3N05hbm5pNnQ3aEpNenJhaUkxVkF2amhBMEIzdGNoOVJ4R2VyUXBCQXpmU29WS0hnS3dMSnZ6dDlZZ01zUll2cWtLazA0VDdkOHpSSWxsd0Q0RFdtTDBJU3JrTHBTa1JLdC1PVHBOUEFScWdhdmM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-12T07:11+09:00"
+    },
+    {
+     "title": "上海総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-12T06:39+09:00"
+    },
+    {
+     "title": "【米国市況】ナスダック100が反発、AIトレード持ち直す－ドル全面高",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY2ttb0taMzh2bkVJaWxqQzZJMmlmbUd0OFE0UGRMdmg3eTY5ci1KT2pOZFdtaFROX0x2MDM2ZEl2dW5HQ0g5ZTV6QmptZVRsSzdtclhzTENNVmFDXzVkMEowRnpTS2xRQlVBNWFBRG9RVmo2TnEzSXRfcFFheXpRT2ZSM25tRmFjV1F2eVJB?oc=5",
+     "source": "Bloomberg.com",
+     "published": "2026-11-12T06:38+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "【本日の東京株式市場見通し】米半導体株６％超高と円安が追い風、日経平均６万２０００円台回復を試す",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQUUJmMHEzYnpHYVZzeDZCU3djdFdFWGxMMGtkdndZWGJ5OHRvSHFlRjUtX1QtcWVKLTJGMEsyY2Nhd2dIR2tOVGFfdHcxMktMX1M2bA?oc=5",
+     "source": "https://kabu-ir.com/",
+     "published": "2026-11-12T07:22+09:00"
+    },
+    {
+     "title": "〔株式・今日の見通し〕続伸＝米ハイテク株上昇を引き継ぐ（12日）(時事通信)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWEpSMWdpd3IwYVVycnpkQjhaYkxoUC1pOHZTR0ZQQm5XZF9LNlFzN1VEWHo5V1lHTDBLQVZ6dlczOXVKY3hwb3BtNVN2bm9PelIwaXpUeVZydC1UeVplSE1JdHhNbG9hYkhjdlpjd3pXV2N2a1dYSnlnRW1PLTRSeW12NHN1Mzg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-12T07:16+09:00"
+    },
+    {
+     "title": "AEVEXの株価、通期業績見通し引き上げで10%急騰",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NbmVjVE41ZnR3VFpiSXpDNzNTbUJPT2JxTWd0c2p0bnZwS3BDVVZCN0VqOXJVTFd4enM1dVZjYndQYnpTTlNfT2JPRGppeGJ4VHllNVFoaTlmZVdSMW9nWkY4X0U?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-12T07:04+09:00"
+    },
+    {
+     "title": "テトラ・テック、好決算と強気見通しで株価11%急騰",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tbG5qbGJmVnp4S1ZDbnpRQ0ZnUW9pR3E1Q3RfT0lTdWFHTjB1TnBXekd6M2NnMzFwU1B0UmVsVGszR041dUtIOFlFbkFFMWN4dEhRa1ZvOW9CTDFkM3ZDRnhsRnVDX2M1ZmJj?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-12T06:59+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "【森永乳業】営業利益390億円へ上方修正、株価10％急騰、追い風の理由は筋トレブーム？",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mbmJ2UDhxNmpSMDNRbmlJQWtHY255X1EyTEtIR0lHZGktb2RaR01iTWFUZ2RncUdKclZRcklfd241cGFzYTJ1MW5HUzBQZk85T1hIZ0h0d29Uc044VzhhNGZ3?oc=5",
+     "source": "Infoseek",
+     "published": "2026-11-12T07:30+09:00"
+    },
+    {
+     "title": "ダウ平均は反発 ナスダックは大幅高 コアウィーブの決算に安心感＝米国株概況",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZdE1TNEdYeGxPc0JPQ2FKVlNGbVlZVWlfR2d3WlFldkRLZzZYdXMxWHoyaHpPUElFTDhaTEpGcDBNWmw3Y3lYd3Z4eGs5bnZDTlE?oc=5",
+     "source": "株探",
+     "published": "2026-11-12T06:32+09:00"
+    },
+    {
+     "title": "13 Big Funds Sold Applied Materials. Should You Follow Them Before Earnings?",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU0dKTDRhbUdDSFNNSUlSSHFlcFhqQUNJWUJfcTNfclp4WTFXSnZnZFhPcUhxa3kwYnBFTXU0ZFhkV1RSSTBQV2FBMFNyM3pHeTJaYnNJUEtQMkNYWnRYVVZtWEh0NVZZNlhDZmVYbjhQOVVZbHZVSXRZWUx4M0V2TGM1Y1U2M2g1NkNSSjY2RG85VlBSZDluQTdtdzJmVHkzUHJBR0pwSQ?oc=5",
+     "source": "TIKR.com",
+     "published": "2026-11-12T05:42+09:00"
+    },
+    {
+     "title": "米ウォルマート株が小幅安、BofA・バークレイズ・ベアードが11月19日決算発表前に目標株価を引き上げ",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBETHZoSWEtVkVUcFJ0dG1TbzBVOGVFeEdlVnRzc2d4c0xMSTByckFXcFEwSDdUZ0pHZ0FZMUVSYWl4cFA0TEJPUXpDWU1Dc0FBUGVBWVN3bjFkX2tZLVNwWjFWTmFfWHI0YUw0a2pfUDlYQUJK?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-12T04:05+09:00"
+    }
+   ]
+  }
+ ]
+}
