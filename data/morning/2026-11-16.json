@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-16T07:32+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 52347.55078125,
+   "change": 50.4609375,
+   "change_pct": 0.0964889970948013,
+   "date": "2026-11-13"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7561.669921875,
+   "change": -30.72998046875,
+   "change_pct": -0.40474660007389085,
+   "date": "2026-11-13"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 25136.26953125,
+   "change": -229.8203125,
+   "change_pct": -0.9060139497874764,
+   "date": "2026-11-13"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 10146.3203125,
+   "change": -360.349609375,
+   "change_pct": -3.4297223768755547,
+   "date": "2026-11-13"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.63600158691406,
+   "change": -0.2389984130859375,
+   "change_pct": -0.14949079786453767,
+   "date": "2026-11-15"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 88.55999755859375,
+   "change": -0.18000030517578125,
+   "change_pct": -0.20284010537402475,
+   "date": "2026-11-13"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3886.300048828125,
+   "change": 1.0,
+   "change_pct": 0.025738037923273005,
+   "date": "2026-11-13"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 5.1539998054504395,
+   "change": 0.05099964141845703,
+   "change_pct": 0.9994050515209407,
+   "date": "2026-11-13"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 19.299999237060547,
+   "change": 0.5999984741210938,
+   "change_pct": 3.2085478590471395,
+   "date": "2026-11-13"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 61142.3515625,
+  "futures": 61065.0,
+  "diff": -77.3515625,
+  "diff_pct": -0.1265106109321512
+ },
+ "previous_top": {
+  "taken_at": "2026-11-13T17:14+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "336A",
+    "name": "ダイナミックマッププラットフォーム",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 1320.0,
+    "change": 237.0,
+    "change_pct": 21.88,
+    "trading_value": 5006500000.0
+   },
+   {
+    "code": "1853",
+    "name": "森組",
+    "sector": "建設業",
+    "market": "スタンダード",
+    "price": 446.0,
+    "change": 80.0,
+    "change_pct": 21.86,
+    "trading_value": 22120000.0
+   },
+   {
+    "code": "4255",
+    "name": "ＴＨＥＣＯＯ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 4175.0,
+    "change": 700.0,
+    "change_pct": 20.14,
+    "trading_value": 74320000.0
+   },
+   {
+    "code": "4918",
+    "name": "アイビー化粧品",
+    "sector": "化学",
+    "market": "スタンダード",
+    "price": 478.0,
+    "change": 80.0,
+    "change_pct": 20.1,
+    "trading_value": 86570000.0
+   },
+   {
+    "code": "4222",
+    "name": "児玉化学工業",
+    "sector": "化学",
+    "market": "スタンダード",
+    "price": 616.0,
+    "change": 100.0,
+    "change_pct": 19.38,
+    "trading_value": 72440000.0
+   },
+   {
+    "code": "7235",
+    "name": "東京ラヂエーター製造",
+    "sector": "輸送用機器",
+    "market": "スタンダード",
+    "price": 1789.0,
+    "change": 289.0,
+    "change_pct": 19.27,
+    "trading_value": 466570000.0
+   },
+   {
+    "code": "7522",
+    "name": "ワタミ",
+    "sector": "小売業",
+    "market": "プライム",
+    "price": 1008.0,
+    "change": 150.0,
+    "change_pct": 17.48,
+    "trading_value": 177610000.0
+   },
+   {
+    "code": "3474",
+    "name": "Ｇ－ＦＡＣＴＯＲＹ",
+    "sector": "不動産業",
+    "market": "グロース",
+    "price": 681.0,
+    "change": 100.0,
+    "change_pct": 17.21,
+    "trading_value": 98200000.0
+   },
+   {
+    "code": "150A",
+    "name": "ＪＳＨ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 715.0,
+    "change": 100.0,
+    "change_pct": 16.26,
+    "trading_value": 8940000.0
+   },
+   {
+    "code": "7717",
+    "name": "ブイ・テクノロジー",
+    "sector": "精密機器",
+    "market": "プライム",
+    "price": 5160.0,
+    "change": 700.0,
+    "change_pct": 15.7,
+    "trading_value": 730140000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-13_1714_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "AIだけじゃない米国株、世界最大の経済支える多彩な顔ぶれ",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MY3htcG1TWVEyaHhxa1RvSk44TlY3Ynh5aVdmYXA4eXFhdFlFSGpiR0dLMmZ6anZoVk03VTgxM1ZxTjVGeWhGR3hjRjM2UVpEOXZRVVExMUloM0l6WG9aTDRxMzZiblZZdGI5dA?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-11-16T07:00+09:00"
+    },
+    {
+     "title": "ネットフリックス【NFLX】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ua3BLaDNMYlFsRkg5LTJHNHdHZnpXclh3bkRjNU1jX3Ntb2tDWXRrTVZKMTd2U3BWdUhPb2pDVjZaSW9Wb010cm9hZlFFWFU?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T05:50+09:00"
+    },
+    {
+     "title": "ARMホールディングス【ARM】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aVzJsOGRNMzZINmJzSk1nYmJDcnlpZEhIVGI0ZkNKb1lWOWxtQkR1WXJldlNhZ3FiVXZYdGVndkNLWnZWZER1R192aTZRdw?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T05:22+09:00"
+    },
+    {
+     "title": "任天堂(株)【NTDOY】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBLVE5pQ1pqMmFpWnk3NHJ1aHQ2aGtFUFRMQUYxQnpXTzY0Q215ZktHZXhvRmlkQW0waEh2MG1JOFFKT19kdTdlWVExUGhZcS1H?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T05:21+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "アライアンス･バーンスタイン･米国成長株投信Dコース毎月決算型(為替ヘッジなし)予想分配金提示型の基準価額・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zckZSdHVvbExXV2xBc3Qtdk51MGlVVU9UNHZWeVRPMnRTNFJ6RTlfMjByUlZ6UEc4WGhvVURYd2RIRW5Oa0hXeXVMd0xETDdqamdPZw?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T07:15+09:00"
+    },
+    {
+     "title": "〔株式・今日の見通し〕もみ合い＝業績良好も半導体が重し（16日）(時事通信)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS1B1a1d0RUNEQUxhQnV0eXFMVnFGaXhSUFkxcXRmVS1KeEdSZWdoQlRyd21hSjVzWk9hU3ZMMGdkdFphYzBPYTZ2eGNvbS1jdjVNeVRQZmpTcExUdDFEeUZxUjZlVlU5RUE2ZzlEQkNwMDBvMGNCd3FySk43cUNZcVlwTXc1TFE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T07:10+09:00"
+    },
+    {
+     "title": "上海総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T07:02+09:00"
+    },
+    {
+     "title": "WCM 世界成長株厳選ファンド(予想分配金提示型)【6831221A】：基準価格・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1VWFBOSC1uZ1dCcHpsd1B2VVEtUXFMMDZHbms0ZEQtSzhOend1LWxLZ1VZU0VOQ2FNRFZFdWpTVzFlU1dMcExuWEZFbi1VUXZ5Z3hwTA?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T06:50+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "米パロアルト・ネットワークス、弱気相場入り－ウォール街は11%の決算変動に警戒",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsWF9qX3ZHbS1EUkpkbUdUdXBkaE5NSzhlRUtvb0JOaEh4RUVZdjBhRkNJaHFNeHpac29hN0h6REZvVnFrbkZWQnZLdWRHTGkxWUVvdDQ1dUZwZmtGRlhHM1JjSjkyTlNWM3FLakJxU0tJb3RB?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-16T06:55+09:00"
+    },
+    {
+     "title": "小野薬品【4528】中間決算で株価14％安　オプジーボの後継？ 注目の新薬「評価項目が未達」の開発実態に迫る",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQT201dWZaU2haT0d1NVZlQWFIM0ZCb3kzSTZtd1hDb1hYRFJCX3ZPVk9fVGlpM2tjX05xR2JFdzZ5Q25jNDIxOVAtbzN4S1FFc2ZlQTBkdXRUcUFZanB3VTJIS3BJQ20wbnZ0SE94ZlNzeHNIQi1MREs3X3lBOENCSjV4MXpCRFdaUGhyQWdpVmp4ejcyTm8ydWQyWHpVclZMOWdIQ2x0TG4tcnNUMGFsMUZPSEpZNWhJeFZOSmlEQ25uU0FlSkc3VlNhakNMbWvSAX9BVV95cUxNcUpabVd0RllxeWpka2tVZXVVYUxzeDZPODlUNUd6Tkd3bHRaNHhuSC1OWGlGbmZ0Y2wyaU1DaXp3elBHSFFxejl2WkdIRE5iNktsamxtVmVuU0tyQXpvblVlNkhmaFBrajhhY0hnRHZpV3RsWWpoZzJHbmU0Mjhn?oc=5",
+     "source": "ｄメニューニュース",
+     "published": "2026-11-16T06:07+09:00"
+    },
+    {
+     "title": "本日の決算発表予定 … データセク、フェローテク、電通グループなど 51社 (11月16日)(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc2VQcDVJNjRYWFRpY1d6S2I5T1lob19sWUFmX0tCaWJaeHRLMl9IbWNadUZkVEJpOXR3dDUzWW43cnlkQjhsa0Z1LUFOYUJWV3JpbkN5U3JQeVNsRjBZbHJnbGRIWjNzREg1bnEyRWpPMDFXS2llVFVpTmphQS1STWY0Y2xYUjQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-16T06:00+09:00"
+    },
+    {
+     "title": "小野薬品【4528】中間決算で株価14％安 オプジーボの後継？ 注目の新薬「評価項目が未達」の開発実態に迫る",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZdmloTjhtZXF2M1ZXa3lWMVJJckQtZm9VcVc4alVqaEUzanY0THgyeUUwem9NWFRJdDA0MURPeE1iMGFBNVpZd1JKM2tZWWNiY0k4?oc=5",
+     "source": "Finasee",
+     "published": "2026-11-16T06:00+09:00"
+    }
+   ]
+  }
+ ]
+}
