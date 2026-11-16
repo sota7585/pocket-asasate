@@ -1,0 +1,290 @@
+{
+ "created_at": "2026-11-17T07:41+09:00",
+ "us_market": [
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7416.58984375,
+   "change": -145.080078125,
+   "change_pct": -1.9186248490601354,
+   "date": "2026-11-16"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 24509.7578125,
+   "change": -626.51171875,
+   "change_pct": -2.492461015231817,
+   "date": "2026-11-16"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 9610.65234375,
+   "change": -535.66796875,
+   "change_pct": -5.279430889739123,
+   "date": "2026-11-16"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.4040069580078,
+   "change": -0.4709930419921875,
+   "change_pct": -0.29460080812646616,
+   "date": "2026-11-16"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 85.05999755859375,
+   "change": -3.5,
+   "change_pct": -3.9521229635132937,
+   "date": "2026-11-16"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3859.0,
+   "change": -27.300048828125,
+   "change_pct": -0.7024688903358611,
+   "date": "2026-11-16"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 5.120999813079834,
+   "change": -0.03299999237060547,
+   "change_pct": -0.6402792707851379,
+   "date": "2026-11-16"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 22.90999984741211,
+   "change": 3.6100006103515625,
+   "change_pct": 18.704667114284177,
+   "date": "2026-11-16"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 61142.3515625,
+  "futures": 59045.0,
+  "diff": -2097.3515625,
+  "diff_pct": -3.4302762469907266
+ },
+ "previous_top": {
+  "taken_at": "2026-11-16T18:34+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 61.0,
+    "change": 30.0,
+    "change_pct": 96.77,
+    "trading_value": 652680000.0
+   },
+   {
+    "code": "7522",
+    "name": "ワタミ",
+    "sector": "小売業",
+    "market": "プライム",
+    "price": 1283.0,
+    "change": 275.0,
+    "change_pct": 27.28,
+    "trading_value": 3205190000.0
+   },
+   {
+    "code": "1438",
+    "name": "岐阜造園",
+    "sector": "建設業",
+    "market": "スタンダード",
+    "price": 2600.0,
+    "change": 500.0,
+    "change_pct": 23.81,
+    "trading_value": 8060000.0
+   },
+   {
+    "code": "6317",
+    "name": "北川鉄工所",
+    "sector": "機械",
+    "market": "スタンダード",
+    "price": 2785.0,
+    "change": 500.0,
+    "change_pct": 21.88,
+    "trading_value": 611860000.0
+   },
+   {
+    "code": "6538",
+    "name": "ディスラプターズ",
+    "sector": "サービス業",
+    "market": "スタンダード",
+    "price": 269.0,
+    "change": 47.0,
+    "change_pct": 21.17,
+    "trading_value": 287370000.0
+   },
+   {
+    "code": "5138",
+    "name": "Ｒｅｂａｓｅ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 493.0,
+    "change": 80.0,
+    "change_pct": 19.37,
+    "trading_value": 11090000.0
+   },
+   {
+    "code": "7681",
+    "name": "レオクラン",
+    "sector": "卸売業",
+    "market": "スタンダード",
+    "price": 936.0,
+    "change": 150.0,
+    "change_pct": 19.08,
+    "trading_value": 3930000.0
+   },
+   {
+    "code": "6837",
+    "name": "京写",
+    "sector": "電気機器",
+    "market": "スタンダード",
+    "price": 500.0,
+    "change": 80.0,
+    "change_pct": 19.05,
+    "trading_value": 27750000.0
+   },
+   {
+    "code": "9344",
+    "name": "アクシスコンサルティング",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 1611.0,
+    "change": 257.0,
+    "change_pct": 18.98,
+    "trading_value": 231660000.0
+   },
+   {
+    "code": "472A",
+    "name": "ミラティブ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 502.0,
+    "change": 80.0,
+    "change_pct": 18.96,
+    "trading_value": 201850000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-16_1834_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "〔株式・今日の見通し〕続落か＝米国株安を引き継ぐ（17日）(時事通信)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRHp5VTEtN0YycE5Kdm9kVUdnWjhCMzgzbW9jZGdRZzRvRDh6UGp2Vkl5d2NVeE9tNmRUN1BOZi1HWjg2LUtjUkpFTDJQNGRCdFBaRUhVOU9PTEMyVHMxT0ViOXprOEZCWGZrSllyNlZHbFlZNkh3LXdTTnQwWEI0ZW5qY0ZyUVU?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-17T07:18+09:00"
+    },
+    {
+     "title": "米国株式市場は下落、AI規制強化や銀行が重し（16日）(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSjFDM2lqc2xjOVQ4YjVoc0xVRGxPRWM3ZmRmSWVvbmdOaVFRVThxTXFwelF6Zm4zTVFIcVU0aEpYSnYtaThFTVNRMklGdEUtZGsyc0hlRDhiSS1iNDVnSnVrMVNYYnFsUG5IaDgxT0xpbUV1UWN2NzdiNGJ5UldqcmpfNktSMlE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-17T07:15+09:00"
+    },
+    {
+     "title": "TOPIXの指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DeFBMbTJZUmR2akJBZlhCYU12WGMyZ3U3TEVkTm5JOUZHenE2eWRfanNXb0Zvc3NYWFRZSTZSbWdvTDllbjcwejhfSGN3b0ZiUzJxXw?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-17T06:47+09:00"
+    },
+    {
+     "title": "米国株式市場＝大幅安、ＡＩ懸念で エヌビディア決算に注目(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOTdsRldLUmNtX3Z4a25acHh2NEV5TXdtUXg4aGFGVXdQYVhKYnpna0lWVEE1UFRUa0VKLUxnNWRDWEl5VFo3eGk0TG5ESmVGaF92MUJJQ0JPaTd0RlZOWVZ1T1BkRGw0V08tRkZwRm44RHFIcm1VeXFzMDJvZnBfWFhYcU9MSzQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-17T06:38+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "AECOMが決算予想を上回り、株価が急騰",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jSFNIWTlyM08wS1BHTzd4UnhhZEl4b2xjekZCSU5SeU1zQ0tUMUxHZkZBU1JPME55TDNPYkVMQy1SZV92WHAwaUtrS2JsY2NvdUlNZG9rN2Z1QUJYbFF3NlM3VEI?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-17T06:16+09:00"
+    },
+    {
+     "title": "日本株のバリュエーションは回復するか｜Newsモーニングサテライト（モーサテ）",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1ODh3aVRYWDJLTzk4XzFwMEh0bFZEM2Y1X2ZOQXlYUUxRdmZRbW5VOE1aTzdNLTdZYXNtY3E4NzJoLU5vVkIzaFdKQWNITVVkako5MjJyV0VMUXpQ?oc=5",
+     "source": "テレ東BIZ",
+     "published": "2026-11-17T05:45+09:00"
+    },
+    {
+     "title": "【見通し】株式明日の戦略ー週明けからAI関連が大幅安、エヌビディアの決算発表を前に警戒感が強まる",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5vSm1aVjhPMklpNndjdzB5T1lHVVR3b3dlenc1RXB2ek1wamRxa2NMM0pLMFRfVzN4ampybzRqOE9ZMHU5MWlNUUlwTjM0aWpEc1ZrWkZ6NXBlVDVKTUJIZlhjNA?oc=5",
+     "source": "外為どっとコム",
+     "published": "2026-11-17T03:50+09:00"
+    },
+    {
+     "title": "XPengの株価が上昇、売上高がアナリスト予想を上回り第4四半期の納車台数も好調な見通し",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNclhoWVJla0g0aHkwZXU4NEtvXzdMMnpqeHh6NC10M3J2ZGxzRnoySXdDY2dIR05GUThKemQ1UkE1QW43enRxZlpHNnJOcHV5UjQ3VV82QjZSLWI0REg2Rzcydzg?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-16T20:33+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "ダウ、ナスダックとも大幅安 エヌビディア決算とアンソロピック上場への反応に警戒＝米国株概況",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1rUmt0Y1Q3QThYbzZlTV9QaERNOElOV0twNW5MRnRRNGhNOERlOEtDRktlQ3d1SGMtZEtINzYtT3pBZEZkNkE?oc=5",
+     "source": "みんかぶ",
+     "published": "2026-11-17T06:33+09:00"
+    },
+    {
+     "title": "フアン氏辞任で激震…どうなるエヌビディア決算、好業績でも株価急落？ 注目の4大焦点 ｜Seizo Trend",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pRXBDUVBOODNUTTB4VjM5b3hSWTF4c0puMTdMUmhfSjRqQWdibFlWQlpCbFZ4Rk05Z3FGVVlzNVM0T1hwV0lhNkI1STM0SFU?oc=5",
+     "source": "ビジネス+IT",
+     "published": "2026-11-17T06:20+09:00"
+    },
+    {
+     "title": "エヌビディア決算迫る 黄仁勲CEO不在で株価下落に歯止めか",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92NEMxRHdXSElvZ0hqZW9zb0t3MlNnN0FYbnNBd3RoWFJCZ2ktdU1mX0VKMGFOYjNPSktPZHpkM0JJU2ZpRk1RdkNTeklkLXFtbDYwMjF5d09nWGVxX3cyaE4xLTRlQjlEVkJiU2RLQnI?oc=5",
+     "source": "BeInCrypto",
+     "published": "2026-11-17T05:10+09:00"
+    },
+    {
+     "title": "ディズニー決算が迫る中、エヌビディアの混乱がウォール街の注目を奪う",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZcEZzZ0ZUcThEWFVJNXEyRmtZSEpUeDVfMm1UUDFla05pNGtPMWNBU19HYndRWGxtYkJaLVJSQ3JXdnFET3FxOVRUdUk1ekZMOEk4M05RQVZjRDNqa29VUGlGQVhULTJpMjdaRXlWWDhOU1ZU?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-17T04:25+09:00"
+    }
+   ]
+  }
+ ]
+}
