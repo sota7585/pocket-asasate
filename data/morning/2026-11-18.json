@@ -1,0 +1,295 @@
+{
+ "created_at": "2026-11-18T07:48+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 50759.421875,
+   "change": -848.75,
+   "change_pct": -1.6446038857097167,
+   "date": "2026-11-17"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7340.52978515625,
+   "change": -76.06005859375,
+   "change_pct": -1.0255395026037006,
+   "date": "2026-11-17"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 24328.3828125,
+   "change": -181.376953125,
+   "change_pct": -0.7400193019410195,
+   "date": "2026-11-17"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 9642.8779296875,
+   "change": 32.2275390625,
+   "change_pct": 0.33533150986262417,
+   "date": "2026-11-17"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.38900756835938,
+   "change": -0.3909912109375,
+   "change_pct": -0.2447059794246087,
+   "date": "2026-11-17"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 85.61000061035156,
+   "change": -0.1100006103515625,
+   "change_pct": -0.12832548855002957,
+   "date": "2026-11-17"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3851.89990234375,
+   "change": -1.10009765625,
+   "change_pct": -0.028551717006231048,
+   "date": "2026-11-17"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 5.102999687194824,
+   "change": -0.018000125885009766,
+   "change_pct": -0.35149631989899177,
+   "date": "2026-11-17"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 25.459999084472656,
+   "change": 2.549999237060547,
+   "change_pct": 11.130507437993685,
+   "date": "2026-11-17"
+  }
+ ],
+ "outlook": null,
+ "previous_top": {
+  "taken_at": "2026-11-17T17:15+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "2388",
+    "name": "ウェッジホールディングス",
+    "sector": "その他金融業",
+    "market": "グロース",
+    "price": 16.0,
+    "change": 7.0,
+    "change_pct": 77.78,
+    "trading_value": 415380000.0
+   },
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 87.0,
+    "change": 26.0,
+    "change_pct": 42.62,
+    "trading_value": 1497150000.0
+   },
+   {
+    "code": "4586",
+    "name": "メドレックス",
+    "sector": "医薬品",
+    "market": "スタンダード",
+    "price": 50.0,
+    "change": 11.0,
+    "change_pct": 28.21,
+    "trading_value": 491600000.0
+   },
+   {
+    "code": "4888",
+    "name": "ステラファーマ",
+    "sector": "医薬品",
+    "market": "グロース",
+    "price": 432.0,
+    "change": 80.0,
+    "change_pct": 22.73,
+    "trading_value": 2247220000.0
+   },
+   {
+    "code": "2334",
+    "name": "イオレ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 505.0,
+    "change": 80.0,
+    "change_pct": 18.82,
+    "trading_value": 1226700000.0
+   },
+   {
+    "code": "4582",
+    "name": "シンバイオ製薬",
+    "sector": "医薬品",
+    "market": "グロース",
+    "price": 75.0,
+    "change": 11.0,
+    "change_pct": 17.19,
+    "trading_value": 1676920000.0
+   },
+   {
+    "code": "7030",
+    "name": "スプリックス",
+    "sector": "サービス業",
+    "market": "スタンダード",
+    "price": 1329.0,
+    "change": 187.0,
+    "change_pct": 16.37,
+    "trading_value": 365340000.0
+   },
+   {
+    "code": "5138",
+    "name": "Ｒｅｂａｓｅ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 573.0,
+    "change": 80.0,
+    "change_pct": 16.23,
+    "trading_value": 19140000.0
+   },
+   {
+    "code": "4547",
+    "name": "キッセイ薬品工業",
+    "sector": "医薬品",
+    "market": "プライム",
+    "price": 4400.0,
+    "change": 490.0,
+    "change_pct": 12.53,
+    "trading_value": 2394480000.0
+   },
+   {
+    "code": "8918",
+    "name": "ランド",
+    "sector": "不動産業",
+    "market": "スタンダード",
+    "price": 9.0,
+    "change": 1.0,
+    "change_pct": 12.5,
+    "trading_value": 968210000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-17_1715_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "米国株式市場は続落、サイバー攻撃憶測やエヌビディアが重し（17日）(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZXdWQ0dscWxXcEJsclh0WmU1aHFQeUptYkdJTVJVY3VKT0ZwcGVfU0RCMkVURmJMLWxsaVNJYlBWemdIaFA3OXBCTy1MVkhnQ1pqSG9fSTNncUx0X0pyMWZpdDZPN1Z1NXhGcUFyMXlXU3ZvS2JpMzFOQkIwc1gxYlRNM2lTTnM?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-18T07:20+09:00"
+    },
+    {
+     "title": "米国株式市場＝続落、エヌビディア決算・アンソロピック上場控え(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUG10Q0hBMnUta2N5MEgwYWNzblh6bWhDeU5oX2QtRnUyNklCTF9oVmRLNU8yN2RSTzVTNHAxbDVsMmIzakxxZzFxNWlaME5YX2hLWkJIbDVlMi1mSVhCWDQ0TlktODVMRGRYRmpaVkdJaGxhOHpHYzNHNXJPUk1uaVYyQnJLLUU?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-18T06:13+09:00"
+    },
+    {
+     "title": "フェローテックが期末配当倍増！米企業買収のピジョンは高値更新/日経平均続落【今日の注目株＆日本株市場見通し】「デイリーZAi」11月17日号(ダイヤモンド・ザイ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc0toZk9kWG1jNllfSjFTbVA0dV9Vb3JGSE1QeXU5RUlIdDAzd2xVRWlMNVVCbHVWMmlvTENSRGVmeFdiUjRETGplZFhIUUZvSDFiXzJ3RElGYTVyRTFtdVFhRGVfeEVwSjBYNk5RRXItVHpNWmNUVHR3eXo5Nm9NRk40SlIxbDg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-17T20:10+09:00"
+    },
+    {
+     "title": "【↓】日経平均 大引け｜ 大幅続落、半導体株中心にリスク回避の売り継続 (11月17日)(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN0YyUTA5cGFpanhZcUZiSkQ5d3lobmcyVlNxQVlGNi1aWXJXcGFPenpUV2hLc29KMVZtYzBNZThrdkhEb1NqTWdZUGtHdi0wampGU3BsWFpMeF8tclVwb3BqdDhla0tia0RCRkRkVkQ5SS1SWmNaU0tpTENBVGtCYUxhNUxGSDg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-17T18:23+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "NVIDIA株、時間外で一時3%超高、第3四半期は売上高2倍で市場予想超え",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Bay0xaG5lS3NsX2h5amdMYUdLWGgzTlplLVVDQkdJZ2pmT1dpcExmWjQ5U2lfVVNMMWtUNnNsYW1fRGUxTkU2dW1LVzAyMFlUbVVXRko5ZS0zSWIxaXVuN1d6ckY?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-18T07:17+09:00"
+    },
+    {
+     "title": "ドルビー・ラボラトリーズ、弱い第1四半期見通しで株価下落",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LUUZfZTh6bVBYYWRaMl9KWHdDblY3NnZIcXJUdGFoUXlkTURoY2RxQWlMa0VYUTJqTjlhNnBkeDZWaWhlY0NacjQycHhCNldWZ0RSRVZXTFVWSUR4V3lNSVZXNHM?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-18T06:32+09:00"
+    },
+    {
+     "title": "ラ・ジー・ボーイ、予想上回る決算も弱い見通しで株価下落",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1rZ2pBVVQ1MDI3QV9oRlUzZDlURjdUNnVwUW5KV0J1TndJTkVqd1o0OWxVYVFsTjZadU5Gd1V2NjhSVlg4NWxrbHU1di04RzJrU3ZWSFpjaVk0bnlBNVJBaG1uNy0?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-18T06:30+09:00"
+    },
+    {
+     "title": "【見通し】株式明日の戦略ー売りが続いて59000円割れ、エヌビディアの決算は反転材料となるか",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0LWVWcXFXYjVCYVg4UElZS1NTQXRRZlAwX0RiZ3FJcEt2WEJMc3hRUS1lTUFFeFhzM3NqMkFGeWdBZDFsVlRQel81cFVxV0VjbzQ5X2NkQmpNbkF1SUg4RUtHTQ?oc=5",
+     "source": "外為どっとコム",
+     "published": "2026-11-18T03:45+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "〔株式・今日の見通し〕小反発＝米エヌビディア決算受け安心感（18日）(時事通信)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRnZKdzh4b3BYNTVsTkx6cnBMV05xRC0xd3lsbnVHejZTeElRLXhDVGtPVzlBRDZPZzZMQjJxRjhDT2pUNUsxSWg5dEJvNzBzVDhkVUVwS0VYdWdpUDZqVnluUVBRUFZzX1lrQTVzSkRZaDA5MUg1MVBtU0ZMZXpnNC0zZGJTR0E?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-18T07:29+09:00"
+    },
+    {
+     "title": "エヌビディア、ジェンスン・フアン退任後初の決算 第3四半期売上高1,158億ドル突破、第4四半期見通しも予想上回る",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96STVpSkRyZy1kM0lKbTNvbUVJbnh0WUpRR2JGTW1OUEdMRDZEVUdkelZqZFR0UFBNU0FGaXpJeTdCbjJOWFcwM0NFVnFSdVNEUEJvNjBfS2h0UlBaYmdrN0JsbmMwX210R0lfdkpMUVlFWnZX?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-18T07:25+09:00"
+    },
+    {
+     "title": "エヌビディア、決算会見始まる ２８年度の売上高は７５％増に上方修正＝米国株個別(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQm1Wb1RIQURTY0RKdmh6TlhYeWZEWXppc21HSGFCQVozS0ZUakpsdjAtRGt6cHoyRGpiMWpoY2RLbU5EdGp1MXJ0YmxOYVRYQUhrb2NETmlJZWU2S3N5cWFYQzR5TklXLU1OcU1CbHM0akR6cDlaUmQ2MWR4dE9DOTZybGhRODg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-18T07:20+09:00"
+    },
+    {
+     "title": "エヌビディアの四半期決算発表を控え、米国株式市場は安値で取引を終えた",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORVFfalZOWER4MnFIZ2VQVG14YVM5MjVYZy0zZFJFb0xFZVM4MjlhZW9BQ0pFdXdHY2lQaC0tenBobEZwekcwdTgzc0tUa1VfZmlrZm5FdzNRX19BLW01ZVFTYk5KcHRibXdTMzh5dHhGd1NsTE5zY3BYTjBzVzFHMzdhTnpaNlpoaU53OXUzdzZHXzJ1WlNTSFliTnhORzd4Y3U5aQ?oc=5",
+     "source": "Moomoo",
+     "published": "2026-11-18T06:57+09:00"
+    }
+   ]
+  }
+ ]
+}
