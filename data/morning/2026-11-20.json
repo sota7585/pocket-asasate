@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-20T07:43+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 49097.05859375,
+   "change": -1101.11328125,
+   "change_pct": -2.19353263300488,
+   "date": "2026-11-19"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7175.830078125,
+   "change": -147.7998046875,
+   "change_pct": -2.0181222570294644,
+   "date": "2026-11-19"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 23879.19921875,
+   "change": -550.681640625,
+   "change_pct": -2.2541315031164966,
+   "date": "2026-11-19"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 9419.72265625,
+   "change": -233.0771484375,
+   "change_pct": -2.414606675301767,
+   "date": "2026-11-19"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.65199279785156,
+   "change": 0.1479949951171875,
+   "change_pct": 0.09278450518852566,
+   "date": "2026-11-19"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 83.16000366210938,
+   "change": -0.09999847412109375,
+   "change_pct": -0.12010385726086703,
+   "date": "2026-11-19"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3627.89990234375,
+   "change": -114.0,
+   "change_pct": -3.0465806936362916,
+   "date": "2026-11-19"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 5.052000045776367,
+   "change": -0.01399993896484375,
+   "change_pct": -0.2763509476314985,
+   "date": "2026-11-19"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 28.440000534057617,
+   "change": 3.8800010681152344,
+   "change_pct": 15.798050295138122,
+   "date": "2026-11-19"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 59024.28125,
+  "futures": 57835.0,
+  "diff": -1189.28125,
+  "diff_pct": -2.0149017062363606
+ },
+ "previous_top": {
+  "taken_at": "2026-11-19T17:20+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "4586",
+    "name": "メドレックス",
+    "sector": "医薬品",
+    "market": "スタンダード",
+    "price": 77.0,
+    "change": 30.0,
+    "change_pct": 63.83,
+    "trading_value": 1877290000.0
+   },
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 139.0,
+    "change": 39.0,
+    "change_pct": 39.0,
+    "trading_value": 3102920000.0
+   },
+   {
+    "code": "130A",
+    "name": "Ｖｅｒｉｔａｓ　Ｉｎ　Ｓｉｌｉｃｏ",
+    "sector": "医薬品",
+    "market": "グロース",
+    "price": 365.0,
+    "change": 80.0,
+    "change_pct": 28.07,
+    "trading_value": 792820000.0
+   },
+   {
+    "code": "4598",
+    "name": "Ｄｅｌｔａ－Ｆｌｙ　Ｐｈａｒｍａ",
+    "sector": "医薬品",
+    "market": "グロース",
+    "price": 74.0,
+    "change": 16.0,
+    "change_pct": 27.59,
+    "trading_value": 1120220000.0
+   },
+   {
+    "code": "6177",
+    "name": "ＡｐｐＢａｎｋ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 70.0,
+    "change": 15.0,
+    "change_pct": 27.27,
+    "trading_value": 781000000.0
+   },
+   {
+    "code": "3672",
+    "name": "オルトプラスホールディングス",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 18.0,
+    "change": 3.0,
+    "change_pct": 20.0,
+    "trading_value": 224850000.0
+   },
+   {
+    "code": "4422",
+    "name": "ＶＡＬＵＥＮＥＸ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 518.0,
+    "change": 80.0,
+    "change_pct": 18.26,
+    "trading_value": 7250000.0
+   },
+   {
+    "code": "6034",
+    "name": "ＭＲＴ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 554.0,
+    "change": 80.0,
+    "change_pct": 16.88,
+    "trading_value": 154620000.0
+   },
+   {
+    "code": "4575",
+    "name": "キャンバス",
+    "sector": "医薬品",
+    "market": "グロース",
+    "price": 774.0,
+    "change": 100.0,
+    "change_pct": 14.84,
+    "trading_value": 185450000.0
+   },
+   {
+    "code": "3909",
+    "name": "ショーケース",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 780.0,
+    "change": 100.0,
+    "change_pct": 14.71,
+    "trading_value": 3367880000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-19_1720_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "米国株式市場は下落、アンソロピック株購入資金調達で利益確定売りの思惑（19日）(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVll3M3QwVlJTZlZwTk5YS3JPQW9CaHN4TWYzbHV5NDB3cG14ZEhYNWNJM1Q0MGxudnBPbXJDZ2F4VkJRczBMVG12clBhdGgxZE10blFKdkdWMjBsQm83T252Y3NvdjJWMEdhcTVUeGVqQkhhcnJLUkczeFFWaDFuZkF1cXQ3Rm8?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-20T07:07+09:00"
+    },
+    {
+     "title": "米国株式市場＝急落、アンソロピック上場でもＡＩ熱戻らず(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSDRfQVZHbU96U0l2UmNhd2VRRTBVeVc1WnRfdXFwemN5WVhDdkN4TUJ1R2t4NnJENzFTa0pqeG9xYURMT04zcHRkZEVFTjU2UkZFVjJwMlNfaDUyYmZlTlpHYXJUWEQzdmtLa0Jad19mZnFWMnRGQTRwSEoxV0JYNFVfbzVETjg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-20T06:28+09:00"
+    },
+    {
+     "title": "【市況】 ＮＹ各市場 １時台 ダウ平均は４６８ドル安 ナスダックはプラス圏での推移",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMWdUbF9OYzlpM2E5SlZrbEJpenY1cWRoVG5KOU5YMmxFOUczWUZ3YjFZR3JYaEpIZXd4VTJHNThiNXRiT1JhOEJmczJhaTdDZVJVUFR3Y0daV2FHNlVkZg?oc=5",
+     "source": "株探",
+     "published": "2026-11-20T01:12+09:00"
+    },
+    {
+     "title": "米国株上昇、アンソロピックIPO受けAI取引再び－円は159円後半に下落",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9DR092em1jQUdmTG10d2VxeGNEOG14dm9DVDJCRGFBSjVNbEdWN19PZnI3cl9JOWNrVC1Zam9rOXhNSzFXRzRFZXNKTTRNaGcyNUI1aXUtMFhvNzE5OE1wWm0zdl81TkhITHNhbmplVmd5aGtmei1Z?oc=5",
+     "source": "Bloomberg.com",
+     "published": "2026-11-20T00:02+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "〔株式・今日の見通し〕反落＝AI投資への懸念くすぶり（20日）(時事通信)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM19RekFpVnZxZ3JLczB0Q056NWxaUmpnMUNYNGNzaEpQR1hBNU8zZnBmMVhvTTBNSWNHSVhYWkhGMTVQQ0s4dEZ0YUtnc2ttM1AzQlZBSlJZb211V2JKQTgwdHp0bGpMdXdFUVV5NnFfSmlJdEJSTURud05vNmUyd0hmSWlvY28?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-20T07:13+09:00"
+    },
+    {
+     "title": "ロス・ストアーズ、第4四半期の弱い業績見通しで株価急落",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sWms0eXNJWmRjOVBqSU4xcWRZVHJ5WTlKUzRnNzFPdWF3dVBCa0tFX3RGYjl4QThsOEI4TVh4N2xKVFo0SjctWXZTdjJrcU11cFlMMy1BRFN2Zzk2UmZsMVItQmo?oc=5",
+     "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+     "published": "2026-11-20T06:11+09:00"
+    },
+    {
+     "title": "日経平均、27年3月末に7万7000円 三菱UFJアセットマネジメントの上辻氏",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IRTZzYldZN0xMQXRuMTB1Sk5qVDRxcjRWY0tPSS0yYmFSRFlRQzNnZXYyQVFEZ0R1c0g0LUYzLXV2STFXcGlBYlVpMXVaM0tkOXZOeXhDLTlEU01NTHBPLUdzNzR5VXF5ZDQ3RQ?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-11-20T04:00+09:00"
+    },
+    {
+     "title": "【見通し】株式明日の戦略ー主力株が貢献して連日の上昇、アンソロピックの上場で流れは変わるか",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5GZHR1YVdJYkFFdmtDZHZXYjU5TjFEY2Fuem9EOFYtQWo4dG56a1FwRGlkMGcteHBjaXFqaUZRUUQxeWtfMnFCWkhWVzB4Zm5xcnAyZEJqQXlXVUEzV1c2Mlhqcw?oc=5",
+     "source": "外為どっとコム",
+     "published": "2026-11-20T03:35+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "保守的？中間決算が好調でも通期予想を｢据え置き｣の3銘柄",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE84aG90TmRFTFlmNzd5N1RvTmY1STNVLUhuVFNEZDhZdDhhM0tKNzJKTHgtSW5VeVhybnZDZnVjcmZMYzlvM2VJUjZuWGNyZGR0N196RkNjWQ?oc=5",
+     "source": "四季報オンライン",
+     "published": "2026-11-20T07:00+09:00"
+    },
+    {
+     "title": "AI規制が注目される中でのエヌビディア決算 マーケットへの影響と今後の注目点を解説 野村證券・村山誠",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FTml5TktwbFpFeFRqejhsNXdJRUFkc3RCbmpvYWVQdjI2LTFzNGx1UHVSM2RHSG5FdWVTRGFmVGtsOElqZFFyRXlTaTk5RnkzWjc5SFZyQzVGdGFVaFpN?oc=5",
+     "source": "野村證券",
+     "published": "2026-11-20T05:45+09:00"
+    },
+    {
+     "title": "米バークレイズ、シノプシスを「オーバーウェイト」で新規カバレッジ開始、目標株価640ドル—EDA支配力とAI主導の研究開発に賭ける",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LRlVBemwySWZ2UTQ0SkNEZDVJOFBudEY2TURYcHloTi1PRi0zeGZTSHcwUDRRazhJQVFPaFF6b29HWDBhQ3EwdzBBcWh5Rnp2X2MyMWIxU2c0MDNPbWpQZl9KN3puNWktWHlfUjBybXJXOGJy?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-20T05:35+09:00"
+    },
+    {
+     "title": "米アドビ株が下落、アンソロピックのナスダック上場控え資金シフト シティが「売り」に格下げ",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kRmtkQTMtcHVLeEE2OC12WmxtbzJla0VrMnQ0NnlZNk5XMF9XbHAydUd6ZkZSR091MHNlWVFtWlptNi0tS1gySE1DandoRU9Zc0xlRHRXMGo1b2RJM0xMV3Vzb3BsYkZtS1VTRW5CTGpnczF5?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-20T04:25+09:00"
+    }
+   ]
+  }
+ ]
+}
