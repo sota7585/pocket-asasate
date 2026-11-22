@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-23T07:38+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 48147.328125,
+   "change": -949.73046875,
+   "change_pct": -1.9343938230770075,
+   "date": "2026-11-20"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 6910.39013671875,
+   "change": -265.43994140625,
+   "change_pct": -3.6990834302978337,
+   "date": "2026-11-20"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 22617.73046875,
+   "change": -1261.46875,
+   "change_pct": -5.282709601959734,
+   "date": "2026-11-20"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 8408.58984375,
+   "change": -1011.1298828125,
+   "change_pct": -10.734182249194024,
+   "date": "2026-11-20"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 158.53900146484375,
+   "change": -1.167999267578125,
+   "change_pct": -0.7313388030716461,
+   "date": "2026-11-22"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 83.41000366210938,
+   "change": 0.20000457763671875,
+   "change_pct": 0.2403612304257896,
+   "date": "2026-11-20"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3515.39990234375,
+   "change": -170.10009765625,
+   "change_pct": -4.615387265126847,
+   "date": "2026-11-20"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.9120001792907715,
+   "change": -0.1399998664855957,
+   "change_pct": -2.771177062887009,
+   "date": "2026-11-20"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 35.88999938964844,
+   "change": 7.44999885559082,
+   "change_pct": 26.195494780913453,
+   "date": "2026-11-20"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 56436.6484375,
+  "futures": 54555.0,
+  "diff": -1881.6484375,
+  "diff_pct": -3.334089620123004
+ },
+ "previous_top": {
+  "taken_at": "2026-11-20T17:15+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "4586",
+    "name": "メドレックス",
+    "sector": "医薬品",
+    "market": "スタンダード",
+    "price": 107.0,
+    "change": 30.0,
+    "change_pct": 38.96,
+    "trading_value": 5173570000.0
+   },
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 185.0,
+    "change": 46.0,
+    "change_pct": 33.09,
+    "trading_value": 4323250000.0
+   },
+   {
+    "code": "9258",
+    "name": "ＣＳ－Ｃ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 244.0,
+    "change": 38.0,
+    "change_pct": 18.45,
+    "trading_value": 4050000.0
+   },
+   {
+    "code": "3416",
+    "name": "ピクスタ",
+    "sector": "小売業",
+    "market": "スタンダード",
+    "price": 966.0,
+    "change": 150.0,
+    "change_pct": 18.38,
+    "trading_value": 385050000.0
+   },
+   {
+    "code": "5240",
+    "name": "ｍｏｎｏＡＩ　ｔｅｃｈｎｏｌｏｇｙ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 133.0,
+    "change": 17.0,
+    "change_pct": 14.66,
+    "trading_value": 488310000.0
+   },
+   {
+    "code": "5133",
+    "name": "テリロジーホールディングス",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 414.0,
+    "change": 37.0,
+    "change_pct": 9.81,
+    "trading_value": 1606780000.0
+   },
+   {
+    "code": "3664",
+    "name": "ＷＩＺＥ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 15.0,
+    "change": 1.0,
+    "change_pct": 7.14,
+    "trading_value": 479230000.0
+   },
+   {
+    "code": "446A",
+    "name": "ノースサンド",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 2389.0,
+    "change": 154.0,
+    "change_pct": 6.89,
+    "trading_value": 4540530000.0
+   },
+   {
+    "code": "6573",
+    "name": "ＣＲＡＶＩＡ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 17.0,
+    "change": 1.0,
+    "change_pct": 6.25,
+    "trading_value": 85860000.0
+   },
+   {
+    "code": "3815",
+    "name": "メディア工房",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 434.0,
+    "change": 25.0,
+    "change_pct": 6.11,
+    "trading_value": 16840000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-20_1715_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "上海総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T07:36+09:00"
+    },
+    {
+     "title": "S＆P 500の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CYUlyUG83cXdIaU84Q1g4dlhEbjJvNlJROFBNYWFKUzJYTmVTRXY1aVo5Sld6emQ1MzcwR29jUWg4Y2FqTlR1d2FZd2hhMU9uX0I0?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T07:24+09:00"
+    },
+    {
+     "title": "米10年国債の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlcloxVUhJSC1fSjRmRk96VF9LY1Qtd3ljcG9JdlplMXVjQUlCZGNYQWRjVWlEcjQ3SHNkY2pqREVaZmdKSDJjRFZhSUJNdVJHMlE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T07:24+09:00"
+    },
+    {
+     "title": "NYダウの指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T07:18+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "ミニストップ(株)【9946】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3MDRPWGJFemhwbGNBcnJkNjh4NTBNTDc0Zy1NcWh2ZklIdVlJUVFkV2Q5Z0lEc29Pb0pFblBiNVdFRnZtMGNqZXNkR2diZEhTaFE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T06:07+09:00"
+    },
+    {
+     "title": "次世代通信関連 世界株式戦略ファンド(予想分配金提示型)【64311215】：基準価格・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14SVJjbk1Wb0h3VW1pUUMzbFVMOVJRZlRnMm45bzQ2VndhWTNSeFZrelRnLXJRZHlGLUpFZENEb1NpUlNEdXgycXByWXd6Z0RSakhMTg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T05:54+09:00"
+    },
+    {
+     "title": "サイバーセキュリティ株式オープン(為替ヘッジなし)予想分配金提示型【03319211】：基準価格・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QOTBpb2ZrQ2pQOFhwRWVBTmRaNXJYQkt0dWt2LVozRG8yLUNiS0lVdlkyWEQ4OUt1VTQtUU11NHE2VTRnOUJYMF85eWhnVGFSaXIwTg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T05:21+09:00"
+    },
+    {
+     "title": "(株)伊藤園第1種優先株式【25935】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zZ0lkNXBRXzN5VjYxVElGUHNWLWFhTFpsVzhQODhadXRCb1pnbW1NOW80Q1RpZTRRNHBxdExVbTluTFhGYlZqWkMwTDJyWWp5OE1B?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T04:24+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "サンディスク【SNDK】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yRGE0cG1GNW1GcS1aQWs1bTNUaGhRM0llaEU1UHh1S0dRVVhLNkwtdDRwWjRYbGZyaEk2cEZndDNiQmdtUkVkWVhaTVNycnc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T06:42+09:00"
+    },
+    {
+     "title": "テスラ【TSLA】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vR2owRXJLX1dwYUtHY05wNjVKVmVrTHNXdm5yRGJ0NHJzSzZTaEgxWFo0WmNBOWUxV2tXcHljUWlYaG92bll2YUNIQzJlVE0?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T04:47+09:00"
+    },
+    {
+     "title": "天昇電気工業(株)【6776】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96bERDZFFyUG9oVFd1MGotdUNuUGxuSlBjUDJicUtxVDRpRTZ4Qnl1aTZRVmdHc3JRUERqS3VjOUdmNF9LTGl1SFZYVDNTak55OUE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-23T01:30+09:00"
+    },
+    {
+     "title": "米S&P500種株価指数が調整局面入り、ウォール街は底打ちシグナルを模索",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02SWJWMlhXdHRDU045WjNkMk5DcEJDazZfanBqb0FzaXBCbS1hTkhfMXBnc0hFeV9mRFllTEUyYzNkNGdHcWdlTEVrN1J4bXRhc2tSUjczc2JjSTR3QzZnR1REdjdqc2xybTVVOGUtSHhfOHg2?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-22T22:55+09:00"
+    }
+   ]
+  }
+ ]
+}
