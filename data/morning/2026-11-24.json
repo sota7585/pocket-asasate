@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-24T14:47+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 49595.30859375,
+   "change": 1447.98046875,
+   "change_pct": 3.0073952701814566,
+   "date": "2026-11-23"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7237.169921875,
+   "change": 326.77978515625,
+   "change_pct": 4.728818180899608,
+   "date": "2026-11-23"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 24089.560546875,
+   "change": 1471.830078125,
+   "change_pct": 6.507417179449404,
+   "date": "2026-11-23"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 9588.0498046875,
+   "change": 1179.4599609375,
+   "change_pct": 14.026846152023676,
+   "date": "2026-11-23"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.17599487304688,
+   "change": 0.2449951171875,
+   "change_pct": 0.15415187569689515,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 79.43000030517578,
+   "change": -0.7399978637695312,
+   "change_pct": -0.9230358995519827,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3635.0,
+   "change": -16.39990234375,
+   "change_pct": -0.4491401320688926,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.918000221252441,
+   "change": 0.006000041961669922,
+   "change_pct": 0.12215068694350073,
+   "date": "2026-11-23"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 26.6200008392334,
+   "change": -9.269998550415039,
+   "change_pct": -25.828918105495248,
+   "date": "2026-11-23"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 58789.87109375,
+  "futures": 58825.0,
+  "diff": 35.12890625,
+  "diff_pct": 0.059753330967482476
+ },
+ "previous_top": {
+  "taken_at": "2026-11-20T17:15+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "4586",
+    "name": "メドレックス",
+    "sector": "医薬品",
+    "market": "スタンダード",
+    "price": 107.0,
+    "change": 30.0,
+    "change_pct": 38.96,
+    "trading_value": 5173570000.0
+   },
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 185.0,
+    "change": 46.0,
+    "change_pct": 33.09,
+    "trading_value": 4323250000.0
+   },
+   {
+    "code": "9258",
+    "name": "ＣＳ－Ｃ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 244.0,
+    "change": 38.0,
+    "change_pct": 18.45,
+    "trading_value": 4050000.0
+   },
+   {
+    "code": "3416",
+    "name": "ピクスタ",
+    "sector": "小売業",
+    "market": "スタンダード",
+    "price": 966.0,
+    "change": 150.0,
+    "change_pct": 18.38,
+    "trading_value": 385050000.0
+   },
+   {
+    "code": "5240",
+    "name": "ｍｏｎｏＡＩ　ｔｅｃｈｎｏｌｏｇｙ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 133.0,
+    "change": 17.0,
+    "change_pct": 14.66,
+    "trading_value": 488310000.0
+   },
+   {
+    "code": "5133",
+    "name": "テリロジーホールディングス",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 414.0,
+    "change": 37.0,
+    "change_pct": 9.81,
+    "trading_value": 1606780000.0
+   },
+   {
+    "code": "3664",
+    "name": "ＷＩＺＥ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 15.0,
+    "change": 1.0,
+    "change_pct": 7.14,
+    "trading_value": 479230000.0
+   },
+   {
+    "code": "446A",
+    "name": "ノースサンド",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 2389.0,
+    "change": 154.0,
+    "change_pct": 6.89,
+    "trading_value": 4540530000.0
+   },
+   {
+    "code": "6573",
+    "name": "ＣＲＡＶＩＡ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 17.0,
+    "change": 1.0,
+    "change_pct": 6.25,
+    "trading_value": 85860000.0
+   },
+   {
+    "code": "3815",
+    "name": "メディア工房",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 434.0,
+    "change": 25.0,
+    "change_pct": 6.11,
+    "trading_value": 16840000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-20_1715_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "3連休明けの東京市場、米株急落の“続き”に備えよ——ナンピンする前に決めておくべき「撤退ライン」と「現金比率」の黄金ルール",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3UkR0cThwU3BoS1ZqTFh1azkzTHpObDRJVjV5Wk9vU2hOUHZlMnRKN3hjWHpTMFVaRXoxRzJZMDJ1Nk9EbkItWi1hTEh1eDFOLXJZR2VjRmRWczg?oc=5",
+     "source": "note",
+     "published": "2026-11-24T14:00+09:00"
+    },
+    {
+     "title": "米国株見通し：伸び悩みか、国内景況感にらみ(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT3VwUnNEYl83X1J5X2ZMZExKamduWFotNW53a3d5NVVuMXVzbnUzeEV5OGdGOFpYbmNWVHFYUlE3Y2RrU0Fua0NpbjdWSTJtaGZhNTFKS1ZhVmNBa2w1UHNYVFNwczRVYmdMYVlSdEdSVGhYUHNOdlFpOVRzRGRaaGtFRTE5c2s?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-24T13:42+09:00"
+    },
+    {
+     "title": "日経平均株価の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-24T13:35+09:00"
+    },
+    {
+     "title": "TOPIXの指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DeFBMbTJZUmR2akJBZlhCYU12WGMyZ3U3TEVkTm5JOUZHenE2eWRfanNXb0Zvc3NYWFRZSTZSbWdvTDllbjcwejhfSGN3b0ZiUzJxXw?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-24T13:17+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "日経平均VIは大幅に上昇、株価大幅高だが警戒感は緩まず 投稿日時： 2026/11/24 14:21[フィスコ]",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9oZXlRX3BJRlVCYkFHX1FxS3lYNXVsb2JpOTJYN3RjQndjS2t1RGJpeEdCc0p6azNqZlF1eXJhUzhlektwTmc?oc=5",
+     "source": "みんかぶ",
+     "published": "2026-11-24T14:21+09:00"
+    },
+    {
+     "title": "日経平均は2157円高、韓国KOSPI大幅高で東京市場の株価支援要因に 投稿日時： 2026/11/24 13:52[フィスコ]",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iQmRNeVZoVENFeG93SlpxZ3RtSGExRHI5SDRYdGlwakEtNWF0a0trb3lzV3NCaGYtMVI5LXE2SmNraVVacnc?oc=5",
+     "source": "みんかぶ",
+     "published": "2026-11-24T13:52+09:00"
+    },
+    {
+     "title": "HPE売上高見通し、市場の強気予想に届かず－時間外で株価下落",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4VWpnOGIxTmtaOUhWNk5WaFY2Y29lUjhzQ2lGZG5EeVZIRHZ0M05tZGtES21YMkp0VUU0YWx3THFPRk9NeEYzZlJzN25mWXdlTTFRNGtjTDZMUld5a2FEWDh6cmg0NlhXNjllbHRQcE9EZ3Ja?oc=5",
+     "source": "TBS NEWS DIG",
+     "published": "2026-11-24T10:27+09:00"
+    },
+    {
+     "title": "日経平均の上げ幅が2800円突破 投稿日時： 2026/11/24 10:10[株探]",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xWFRjSVh3RThGVVNnNUs3ZGN4YUxuVHZWWUxJZG9VUHdxTFJ1TkJQTkdRQy1vNEhRUTU2SzkteTJLMlBVRHc?oc=5",
+     "source": "みんかぶ",
+     "published": "2026-11-24T10:10+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "【材料】 東洋エンジ反発、尿素ライセンスがインドネシアで計画中の尿素プラントに採用",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DR0VXY2pwMmFGcG0teHJSSlk4SC02ZjBYMVdMNFBOYmw2bnpyRlJfMkxTVjByTVcyMGdPVmlXOUxwRGJXTVJpQTlDVnBqWTlGY2Q5WURWSkxGRmJ0SnVjeQ?oc=5",
+     "source": "株探",
+     "published": "2026-11-24T13:23+09:00"
+    },
+    {
+     "title": "公益事業からAIデータセンター向け蓄電システムまで、Fluence（FLNC.US）の受注残高は89億ドルで過去最高を記録。シティグループの設定目標株価には190%の上昇余地が含まれている。",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZklCRTdMUF9xU2h0M0tOUkNuNy0tQnVLSVgxNVNKSlZKYnB1VEkwUnlXZC15M19lVElEb3F1MGxlaExZWlY1YWdMQWFrVExKV0RkNmpjUnVRdDZVdnNlelpKNk0wTi1aME5Mbkk2Mm5hRklBZ1pnWnFRMS1Qc0FOWFJlbVFSa25IREVLOVhyVWlZcjNkVnlKTS05V3BEUFQ4ZURtLTRuYllPMmRXSEE?oc=5",
+     "source": "Moomoo",
+     "published": "2026-11-24T12:56+09:00"
+    },
+    {
+     "title": "クラサスケミカル(株)【646A】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44LUVXTWV3RVAxeTNQUzUzbWNjUVdocDRmVXAxWGJsck9pWE9VeEZsWHpEU2lLcnkxakVZWVJLRWw1am5zOWMyZnFmMFlWT3BzU2c?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-24T12:38+09:00"
+    },
+    {
+     "title": "カリスマの電撃復帰で株価急騰､｢エヌビディア経済圏｣の危うさ",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0xVUxodEZUcC1qcThqZTR1SjM0OGJMYmxTX1lBaG9FNHJpeldoS3JyRWNmdVdLa241Qm01OUkwNExBV1Axc0FueFREVXJMQnRYUGtFdEhyaw?oc=5",
+     "source": "四季報オンライン",
+     "published": "2026-11-24T12:00+09:00"
+    }
+   ]
+  }
+ ]
+}
