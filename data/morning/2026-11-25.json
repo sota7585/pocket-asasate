@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-25T13:48+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 50018.69921875,
+   "change": 423.390625,
+   "change_pct": 0.8536908772321938,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7201.08984375,
+   "change": -36.080078125,
+   "change_pct": -0.49853849660134175,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 23733.53515625,
+   "change": -356.025390625,
+   "change_pct": -1.4779239742967576,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 8832.5009765625,
+   "change": -755.548828125,
+   "change_pct": -7.880109547987746,
+   "date": "2026-11-24"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.3509979248047,
+   "change": 0.3419952392578125,
+   "change_pct": 0.21507916751992706,
+   "date": "2026-11-25"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 80.76000213623047,
+   "change": 0.5900039672851562,
+   "change_pct": 0.7359411011109485,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3547.60009765625,
+   "change": -103.7998046875,
+   "change_pct": -2.8427399754508698,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.904000282287598,
+   "change": -0.01399993896484375,
+   "change_pct": -0.28466731059394457,
+   "date": "2026-11-24"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 26.360000610351562,
+   "change": -0.26000022888183594,
+   "change_pct": -0.9767100701914333,
+   "date": "2026-11-24"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 57002.44921875,
+  "futures": 57100.0,
+  "diff": 97.55078125,
+  "diff_pct": 0.17113436806135418
+ },
+ "previous_top": {
+  "taken_at": "2026-11-20T17:15+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "4586",
+    "name": "メドレックス",
+    "sector": "医薬品",
+    "market": "スタンダード",
+    "price": 107.0,
+    "change": 30.0,
+    "change_pct": 38.96,
+    "trading_value": 5173570000.0
+   },
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 185.0,
+    "change": 46.0,
+    "change_pct": 33.09,
+    "trading_value": 4323250000.0
+   },
+   {
+    "code": "9258",
+    "name": "ＣＳ－Ｃ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 244.0,
+    "change": 38.0,
+    "change_pct": 18.45,
+    "trading_value": 4050000.0
+   },
+   {
+    "code": "3416",
+    "name": "ピクスタ",
+    "sector": "小売業",
+    "market": "スタンダード",
+    "price": 966.0,
+    "change": 150.0,
+    "change_pct": 18.38,
+    "trading_value": 385050000.0
+   },
+   {
+    "code": "5240",
+    "name": "ｍｏｎｏＡＩ　ｔｅｃｈｎｏｌｏｇｙ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 133.0,
+    "change": 17.0,
+    "change_pct": 14.66,
+    "trading_value": 488310000.0
+   },
+   {
+    "code": "5133",
+    "name": "テリロジーホールディングス",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 414.0,
+    "change": 37.0,
+    "change_pct": 9.81,
+    "trading_value": 1606780000.0
+   },
+   {
+    "code": "3664",
+    "name": "ＷＩＺＥ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 15.0,
+    "change": 1.0,
+    "change_pct": 7.14,
+    "trading_value": 479230000.0
+   },
+   {
+    "code": "446A",
+    "name": "ノースサンド",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 2389.0,
+    "change": 154.0,
+    "change_pct": 6.89,
+    "trading_value": 4540530000.0
+   },
+   {
+    "code": "6573",
+    "name": "ＣＲＡＶＩＡ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 17.0,
+    "change": 1.0,
+    "change_pct": 6.25,
+    "trading_value": 85860000.0
+   },
+   {
+    "code": "3815",
+    "name": "メディア工房",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 434.0,
+    "change": 25.0,
+    "change_pct": 6.11,
+    "trading_value": 16840000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-20_1715_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "上海総合の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zMWx0VTFVaVVGaUpJMzFWU2tYRGpqazJ1M1FJVnViUVU0djVkTW16eE1Hc3RROWdoLXJaVUVydk5TakQxZXBRMWhvcUp3dWVZd3J6RFZR?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-25T11:33+09:00"
+    },
+    {
+     "title": "NYダウの指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RX1F0c3NoRW1WOGhKVzFzd0tzWTlBS0NtMVZFbUUyZm14Z1Y5VWhzMjctd201Y2RMTFhBSGx0Rmdqc0ZFY1R2VzZUUG9PVjdUaXc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-25T11:31+09:00"
+    },
+    {
+     "title": "【日本市況】日経平均1600円超安､米ハイテク株急落嫌気－円159円前半",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBta2JSaGtPQ21fZmtlZktLZ25FNzJZeDZGcDkwaTc4VzJZUU9ETEZHTW1zcGZqNW03ZXlzQVBYN0FGa3ZoeDRtamlQWTV2aUdBLWlrMV9BaVFkUHNFcGRoaEtjMnlLZjJqZ2R4QVY2VWZQYWNP?oc=5",
+     "source": "TBS NEWS DIG",
+     "published": "2026-11-25T11:04+09:00"
+    },
+    {
+     "title": "日経平均株価の指数情報・推移",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-25T10:45+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "ドル・円は159円台でもみ合い、米PCE待ちで上値重く",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kNDk4ODNpVEc0bTM3dW5saUx6a19ON2hVaWFHWkxSUVFILWpzVDQ1cEJvX0htdnB2dWNhc1R3X203TlBsUDJKNjVzbksycUxhbklzc0hURTdnYTVfbEJGOHQ1XzNCbHdxbDZSdzEyWl83bkZO?oc=5",
+     "source": "BigGo ファイナンス",
+     "published": "2026-11-25T13:25+09:00"
+    },
+    {
+     "title": "フィデリティ・グロース・オポチュニティ・ファンドDコース(毎月決算・予想分配金提示型・為替ヘッジなし)の基準価額・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmRDBqUy1NN1RvMWxlUlktYXF5c0ktZXJvQm9FS00wVDk4SlhWa0VwM280ZUdadjIzODVESVVmXzhjMzY5Y2h2cmxDT3dWVzJaWE5odg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-25T12:36+09:00"
+    },
+    {
+     "title": "イビデン株価は15%下落、ストップ高翌日の急落理由と今後の株価予想",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LeVlnaGROdDREelpKR1VuM2lBbEtPbzZwRXFwclFVeG00VnJfd3lNODNKcjVRODU2R281X194OG9XTlloTVNfSS1OeDhuYlp4UHc?oc=5",
+     "source": "EBC Financial Group",
+     "published": "2026-11-25T12:35+09:00"
+    },
+    {
+     "title": "【通貨別まとめと見通し】南アランド円：AI株急落と関税警戒によるキャリー巻き戻しで9.00円台へ急落、大台9.00円の岩盤サポート攻防へ",
+     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QTWhHRGdSLXJfVzJVSjYxS1FhdEV4UWlwWWRqX1M2eTJxWko1dlFEVDJRNi00RGJ0QTdQQzhNNkpvelhMOV9nbA?oc=5",
+     "source": "みんかぶ FX/為替",
+     "published": "2026-11-25T11:59+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "(株)Ｓｋｙｆａｌｌ【625A】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1IcWZpOW91V2JFZ05JTUdWUFMyZS11ZkxELU5nMkUyaTlBeTFIUzJDUWdQd1NkNlhqT2dXV0tWUHRscHR5R3lyNkJBbmVUd2t4SXc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-25T12:35+09:00"
+    },
+    {
+     "title": "(株)ベルテックス【623A】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YOEFXTml1MUdKdy1FM2pFTTFqb3JoZWl0RV9lZGxQYTZQWjBDZHZnVFFPQ1NxVzRYZlk1MVRaTm16c1pUTVlVRUI2Ty1OaVpmVnc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-25T12:32+09:00"
+    },
+    {
+     "title": "(株)ＫＯＭＰＥＩＴＯ【618A】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBTLVI1T3BBTU9kb3oyODZOZ3RoVWNKR29qeXFlNWpuZHZETjhrdGt5SjJUSTF1SnVqTTJwMXJrUG5EX0JIalhGOXpLUnkzRkFNSnc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-25T11:56+09:00"
+    },
+    {
+     "title": "フジクラ株が一時13%安 野村証券、判断下げ「プレミアム評価難しい」",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ReklIM0xhWFp6REJjVm1ZaG84RmpaYnZIZGJlNlNWRHp3YkN0S25wSE1PaVZPZ0cyT3dhWjNqVVIzYVpCTlp0QlhlcHA3RUxWaEMxOHhMOWpJREhJdjd5RFlhMnJJRFdyZ1RVTA?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-11-25T11:51+09:00"
+    }
+   ]
+  }
+ ]
+}
