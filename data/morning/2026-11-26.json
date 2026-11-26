@@ -1,0 +1,300 @@
+{
+ "created_at": "2026-11-26T12:59+09:00",
+ "us_market": [
+  {
+   "label": "NYダウ",
+   "symbol": "^DJI",
+   "unit": "ドル",
+   "digits": 0,
+   "value": 50182.94921875,
+   "change": 164.25,
+   "change_pct": 0.32837719206106897,
+   "date": "2026-11-25"
+  },
+  {
+   "label": "S&P500",
+   "symbol": "^GSPC",
+   "unit": "",
+   "digits": 0,
+   "value": 7182.77978515625,
+   "change": -18.31005859375,
+   "change_pct": -0.2542678815435351,
+   "date": "2026-11-25"
+  },
+  {
+   "label": "ナスダック",
+   "symbol": "^IXIC",
+   "unit": "",
+   "digits": 0,
+   "value": 23585.802734375,
+   "change": -147.736328125,
+   "change_pct": -0.6224791327410162,
+   "date": "2026-11-25"
+  },
+  {
+   "label": "半導体株指数（SOX）",
+   "symbol": "^SOX",
+   "unit": "",
+   "digits": 0,
+   "value": 8774.8623046875,
+   "change": -57.6376953125,
+   "change_pct": -0.6525637737050616,
+   "date": "2026-11-25"
+  }
+ ],
+ "others": [
+  {
+   "label": "ドル円",
+   "symbol": "USDJPY=X",
+   "unit": "円",
+   "digits": 2,
+   "value": 159.15899658203125,
+   "change": -0.102996826171875,
+   "change_pct": -0.06467131546438187,
+   "date": "2026-11-26"
+  },
+  {
+   "label": "原油（WTI）",
+   "symbol": "CL=F",
+   "unit": "ドル",
+   "digits": 2,
+   "value": 84.41000366210938,
+   "change": 2.3600006103515625,
+   "change_pct": 2.876295579005461,
+   "date": "2026-11-25"
+  },
+  {
+   "label": "金",
+   "symbol": "GC=F",
+   "unit": "ドル",
+   "digits": 1,
+   "value": 3607.0,
+   "change": 45.10009765625,
+   "change_pct": 1.2661809397443768,
+   "date": "2026-11-25"
+  },
+  {
+   "label": "米10年債利回り",
+   "symbol": "^TNX",
+   "unit": "%",
+   "digits": 2,
+   "value": 4.8480000495910645,
+   "change": -0.055999755859375,
+   "change_pct": -1.141920026121035,
+   "date": "2026-11-25"
+  },
+  {
+   "label": "恐怖指数（VIX）",
+   "symbol": "^VIX",
+   "unit": "",
+   "digits": 2,
+   "value": 28.290000915527344,
+   "change": 1.9300003051757812,
+   "change_pct": 7.321700532957776,
+   "date": "2026-11-25"
+  }
+ ],
+ "outlook": {
+  "nikkei_close": 57826.73046875,
+  "futures": 57800.0,
+  "diff": -26.73046875,
+  "diff_pct": -0.046225108238562296
+ },
+ "previous_top": {
+  "taken_at": "2026-11-20T17:15+09:00",
+  "timing": "close_pm",
+  "rows": [
+   {
+    "code": "4586",
+    "name": "メドレックス",
+    "sector": "医薬品",
+    "market": "スタンダード",
+    "price": 107.0,
+    "change": 30.0,
+    "change_pct": 38.96,
+    "trading_value": 5173570000.0
+   },
+   {
+    "code": "3624",
+    "name": "アクセルマーク",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 185.0,
+    "change": 46.0,
+    "change_pct": 33.09,
+    "trading_value": 4323250000.0
+   },
+   {
+    "code": "9258",
+    "name": "ＣＳ－Ｃ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 244.0,
+    "change": 38.0,
+    "change_pct": 18.45,
+    "trading_value": 4050000.0
+   },
+   {
+    "code": "3416",
+    "name": "ピクスタ",
+    "sector": "小売業",
+    "market": "スタンダード",
+    "price": 966.0,
+    "change": 150.0,
+    "change_pct": 18.38,
+    "trading_value": 385050000.0
+   },
+   {
+    "code": "5240",
+    "name": "ｍｏｎｏＡＩ　ｔｅｃｈｎｏｌｏｇｙ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 133.0,
+    "change": 17.0,
+    "change_pct": 14.66,
+    "trading_value": 488310000.0
+   },
+   {
+    "code": "5133",
+    "name": "テリロジーホールディングス",
+    "sector": "情報・通信業",
+    "market": "スタンダード",
+    "price": 414.0,
+    "change": 37.0,
+    "change_pct": 9.81,
+    "trading_value": 1606780000.0
+   },
+   {
+    "code": "3664",
+    "name": "ＷＩＺＥ",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 15.0,
+    "change": 1.0,
+    "change_pct": 7.14,
+    "trading_value": 479230000.0
+   },
+   {
+    "code": "446A",
+    "name": "ノースサンド",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 2389.0,
+    "change": 154.0,
+    "change_pct": 6.89,
+    "trading_value": 4540530000.0
+   },
+   {
+    "code": "6573",
+    "name": "ＣＲＡＶＩＡ",
+    "sector": "サービス業",
+    "market": "グロース",
+    "price": 17.0,
+    "change": 1.0,
+    "change_pct": 6.25,
+    "trading_value": 85860000.0
+   },
+   {
+    "code": "3815",
+    "name": "メディア工房",
+    "sector": "情報・通信業",
+    "market": "グロース",
+    "price": 434.0,
+    "change": 25.0,
+    "change_pct": 6.11,
+    "trading_value": 16840000.0
+   }
+  ],
+  "details": {},
+  "file": "2026-11-20_1715_close_pm.json"
+ },
+ "news": [
+  {
+   "label": "アメリカの市場",
+   "items": [
+    {
+     "title": "午前の日経平均は反発、ＡＩ・半導体株が先導 米休場控え伸び悩む(ロイター)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXpWMVBqeG5Bb1dpYlpwbENxQUNZbDlFUUFWem9Gdkd5M3pZcXM2eVJuaTk0YmtkMGZsS1U2SHdZc3AtR2VaWm5Jb0lpdC1VRGU1d2dYMVVZVUFtcnc2X0tzS0xpbG5KSjB3dmpFUTQzUUwzWmFhNzRYV2ZtZnZBVTNrME5qTDQ?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-26T12:04+09:00"
+    },
+    {
+     "title": "26日のインド市場見通し：方向感の乏しい展開か、強弱材料が交錯(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUTRQYlc5UjJlTDE0YzNWZG5reFh0Q2VkaFFDZENCal9wZzUyczJydXNzLTRkQWdERUZQQThWV1VNcXZhZnRiLWw3REJNTWplSXFkNlkyZXdkVlctVkE1OHZhQzRHVXk2c3ppa0kxY0tNLS02blFxNEROMElma2VSdGJVNmVZVVE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-26T11:34+09:00"
+    },
+    {
+     "title": "【市況】 本日の【業種】騰落ランキング ＝ 前引け 【上昇トップ】非鉄金属 【下落トップ】食料品 [11:31]",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8ycGxzUmQ3VTJsX25JRjFsRUUzV0NJUnlEQjF3a1ktRm5PdnJaRWRkYlRiTjNiajlXNDRDcGMtc3kyS1NFNGZEeTVsRVVxRWczSUNMVmdzdHgzdkc3bnhSbA?oc=5",
+     "source": "株探",
+     "published": "2026-11-26T11:31+09:00"
+    },
+    {
+     "title": "海外市場ビュー&米国株ピックアップ（11月26日）",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HMXFLa01leFlORzRVZ1VZanlBY1Q3NHVPMEJVUE5BbXA5WlUyUmdVamVGUjJDaW5qVVNZY1Jxb3NTQzZzWEhtcllCR25jOW9fTEVxZ2Q2bVd0eFBabWRoRFR3SXp3MUhMclFhb1c3Q1RVWk5nNzZ6cnBneUJQZw?oc=5",
+     "source": "日本経済新聞",
+     "published": "2026-11-26T10:13+09:00"
+    }
+   ]
+  },
+  {
+   "label": "日本の市場・見通し",
+   "items": [
+    {
+     "title": "日本株、11月に大底となる可能性もV字回復は見込まず 注目セクターは銀行・建設 野村證券ストラテジストが解説",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91QTk5bmo0NTJjZ3R5TTJZdjdJRHM2RTRZWlVsS0w4WXFkUkRSd3ZQOTA5S2ljWTFRb05Ra2hDRV9DdjdNTnFfcVVwVTMtZ0VYWUpKaXNxcG9uVmxKVjBj?oc=5",
+     "source": "野村證券",
+     "published": "2026-11-26T12:41+09:00"
+    },
+    {
+     "title": "金（ゴールド）週間見通し｜3,426ドルから急反発、買い戻される理由あれどなお勝る売り材料 2026年11月26日",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlemxTb29aYktIYXNqZ3JESVF0QUVyeGlYSDZoYVplNk9xZHVmMmpqbV8taTNRd2ZPb3dHUjRGQWxGVWlwSnUwSWVHQWxMMGMxdUhlUHQ5cVEyYmVNb3doR2k2Yw?oc=5",
+     "source": "外為どっとコム",
+     "published": "2026-11-26T12:13+09:00"
+    },
+    {
+     "title": "日経平均高配当利回り株ファンド【0331118B】：基準価格・投資信託情報",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HZ0xjeTRwbFVQWGhSd0dCN3VsX1VJTGdWNDNsejBlSlpHZzliQ3hnSEhkZGxIYVRsY25vc2duM1J2MHFfa3NacXNoeDhtdnE1T2paTg?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-26T10:37+09:00"
+    },
+    {
+     "title": "【材料】 セーレン：OUTPERFORM継続【今村証券アナリストレポート】",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BRHRiREduTURTTExYOU5rWGl1U1ZrZDVoM1BSTGJqZ2o3THpPMXRhdkhmamRKZVFVU3U5VXpMZmo5Vm5UQWh3eXZ4ckp5aDVFQXBvb3MzSDhzZmdLaHRZaw?oc=5",
+     "source": "株探",
+     "published": "2026-11-26T10:11+09:00"
+    }
+   ]
+  },
+  {
+   "label": "会社の発表・決算",
+   "items": [
+    {
+     "title": "新日本電工(株)【5563】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfQ296c3JOZDBjZmRLcS11TlRQMmlfeFhPLWhqNDJlTDBOTXdiRjRmcDdnWUViNUh6ZWZEQWdIU2RrUG9LSnB1LVlxd251eFRFaVE?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-26T11:42+09:00"
+    },
+    {
+     "title": "ピクスタ(株)【3416】：株価・株式情報",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EZHloSmRnRFNSUU5zbU00ZkIxU3lDckxGX0Z4cmZZbDZoRVBTSDVjVnpNX21HUjZYTkt2Rm1FZzNmdHBRVXNEM1h3ZVAzc0lfbnc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-26T11:17+09:00"
+    },
+    {
+     "title": "増益なのに株価が下がるのはなぜ？ 決算を読み直す本10選｜日本個別株デューデリジェンスセンター",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00MkVPeFFrWm1nN1FNZndYMFhRbzc5aFhjZmdhbE5Ed3g2UkVSLWhqeUJGRGFYNERDVmh3ckJrNEpnN0VxS3I0cVJ5VlJQZHQ0d3RaTDNuZ2xTS0U?oc=5",
+     "source": "note",
+     "published": "2026-11-26T11:00+09:00"
+    },
+    {
+     "title": "(株)東京衡機【7719】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yX0kyZVFxaXpPeUlpWnZ1UXVZcEh5NGROWFRLYXlZNUhzRVo5Y1BVYWpzMTBZcWN4dVlkMXFzd1ZmUE84Ym9MWDRRQ0lrbkw5QXc?oc=5",
+     "source": "Yahoo!ファイナンス",
+     "published": "2026-11-26T10:25+09:00"
+    }
+   ]
+  }
+ ]
+}
